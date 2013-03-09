@@ -109,11 +109,42 @@ task :new_post, :title do |t, args|
     post.puts "layout: post"
     post.puts "title: \"#{title.gsub(/&/,'&amp;')}\""
     post.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
+    post.puts "published: false"
     post.puts "comments: true"
     post.puts "categories: "
     post.puts "---"
   end
+  system "sublime \"#{filename}\""
 end
+
+desc "Rename files in the posts directory if the filename does not match the post date in the YAML front matter"
+task :rename_posts do
+  Dir.chdir("#{source_dir}/#{posts_dir}") do
+    Dir['*.markdown'].each do |post|
+      post_date = ""
+      File.open( post ) do |f|
+        f.grep( /^date: / ) do |line|
+          post_date = line.gsub(/date: /, "").gsub(/\s.*$/, "")
+          break
+        end
+      end
+      post_title = post.to_s.gsub(/\d{4}-\d{2}-\d{2}/, "")  # Get the post title from the currently processed post
+      new_post_name = post_date + post_title # determing the correct filename
+      is_draft = false
+      File.open( post ) do |f|
+          f.grep( /^published: false/ ) do |line|
+            is_draft = true
+            break
+          end
+      end
+      if !is_draft && post != new_post_name
+          puts "renaming #{post} to #{new_post_name}"
+          FileUtils.mv(post, new_post_name)
+      end
+    end
+  end
+end
+
 
 # usage rake new_page[my-new-page] or rake new_page[my-new-page.html] or rake new_page (defaults to "new-page.markdown")
 desc "Create a new page in #{source_dir}/(filename)/index.#{new_page_ext}"
