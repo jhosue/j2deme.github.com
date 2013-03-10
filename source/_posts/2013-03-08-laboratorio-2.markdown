@@ -12,6 +12,8 @@ Aqui les publico el laboratorio 2, como ya les comente en clase, consiste en uti
 
 En lo que respecta al formato, se considera lo ya indicado para el [laboratorio 1]({% post_url 2013-02-10-laboratorio-1 %}) e igualmente se menciona en el interior del documento.
 
+<!--more-->
+
 La fecha de entrega del laboratorio es el día __jueves 14 de marzo de 2013__, la recomendación es entregar a más tardar la fecha límite, pero recuerden que aún despues de esa fecha también se puede entregar la tarea, con su respectiva penalización.
 
 Dentro del documento les indico desde donde podrán descargar la aplicación del dado, pero igualmente se los pongo aqui: [https://github.com/j2deme/AndroidApps](https://github.com/j2deme/AndroidApps "j2deme/AndroidApps"), les recomiendo guardar este enlace puesto que ahí estare publicando los códigos de ejemplo que vayamos desarrollando en el curso, así como otros más que podran servirles de referencia.
