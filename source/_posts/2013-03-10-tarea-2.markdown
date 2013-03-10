@@ -1,0 +1,20 @@
+---
+layout: post
+title: "Tarea 2"
+date: 2013-03-10 02:25
+published: true
+comments: true
+categories: [POO]
+---
+Saludos alumnos de POO.
+
+Les pongo disponible su segunda tarea, la cual se compone de 2 partes:
+
+- Una investigación sobre ejemplos del uso de herencia en orientado a objetos
+- Una práctica de instalación de Qt y ejecución de un código de ejemplo.
+
+Para más detalles sobre la tarea la pueden descargar [aquí](http://dl.dropbox.com/u/1131727/Octopress/Tarea2.pdf).
+
+La fecha límite de entrega para esta tarea es el día __viernes 15 de Marzo de 2013__, y recuerden que hay una penalización de 10% del total por cada día de retraso en la entrega.
+
+En el documento considere casi cualquier duda que se les pudiera ocurrir, pero si tienen alguna duda en particular pueden dejar un comentario en este blog, enviarme un mail al correo de la materia: j2deme(mas)poo(arroba)gmail(punto)com o directamente conmigo en clase.
