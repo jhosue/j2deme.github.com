@@ -1,6 +1,8 @@
 ---
 layout: page
 title: Archivo
+comments: false
+sharing: false
 footer: false
 ---
 

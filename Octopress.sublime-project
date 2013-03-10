@@ -1,0 +1,18 @@
+{
+	"folders":
+	[
+		{
+			"path": ".",
+            "name": "Octopress",
+            "folder_exclude_patterns": [
+                ".pygments-cache",
+                ".sass-cache"
+            ],
+            "file_exclude_patterns": [
+                "Gemfile",
+                "Gemfile.lock",
+                ".rbenv-version"
+            ]
+		}
+	]
+}
