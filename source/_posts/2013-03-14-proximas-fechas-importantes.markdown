@@ -14,9 +14,11 @@ Escribo para comentarles sobre las fechas que deben tener en consideración, ant
 
 Como ya les comente a algunos, sino es que a la mayoría, para disminuir los porcentajes de reprobación (o casi reprobación) de la evaluación pasada, hubo que hacer algunos cambios en los puntos a calificar, y conforme a los porcentajes para este período de evaluación (POO U3 y U4; Móvil U3), tenemos que las prácticas para ambas materias tienen un valor de 50% (para más detalles los documentos estan disponibles [aquí]({% post_url 2013-01-29-instrumentaciones-y-planeaciones-ene-jun-2013 %})).
 
-Por lo tanto, y para evitar que una sola práctica equivalga al 50% de su calificación, he planeado la siguiente calendarización que espero en lo posible, se pueda cumplir punto por punto, principalmente para que ustedes no se vean sobrepasados por los trabajos que deban entregar.
+{% pullquote %}
+Por lo tanto, y {" para evitar que una sola práctica equivalga al 50% de su calificación, he planeado la siguiente calendarización "} que espero en lo posible, se pueda cumplir punto por punto, principalmente para que ustedes no se vean sobrepasados por los trabajos que deban entregar.
+{% endpullquote %}
 
-<table>
+<table class="table table-striped table-bordered">
     <thead>
         <tr>
             <th colspan="4">Calendario Entregas y Examen</th>
@@ -50,8 +52,12 @@ Por lo tanto, y para evitar que una sola práctica equivalga al 50% de su califi
         <tr>
             <td><strong>Jueves 18 Abril, 2013</strong></td>
             <td>Examen U3</td>
-            <td>Examen U4 y U5</td>
-            <td><div class="countdown">April 18, 2013 12:00:00</div></td>
+            <td>Examen U3 y U4</td>
+            <td><div class="countdown">April 18, 2013 11:59:59</div></td>
         </tr>
     </tbody>
 </table>
+
+El día de mañana viernes 15 de Marzo (en lo posible), estare publicando las especificaciones para las tarea 3 y el laboratorio 3, de POO y Móvil respectivamente. Les recomiendo que tengan mucho cuidado con la organización de su tiempo para evitar la __no__ entrega o entrega __tardía__ de los trabajos.
+
+Cualquier pregunta o comentario relacionado con las tareas o clases, no duden en dejar un comentario en la página, en el post correspondiente, a mi correo o directamente en clase.
