@@ -6,12 +6,11 @@ published: true
 comments: false
 categories: [Movil, POO]
 ---
-<p>Programación Orientada a Objetos</p>
-<ol>
-<li><strong>Por Publicar</strong></li>
-</ol>
-<p>Programación Móvil:</p>
-<ol>
-<li><a href="http://jaimedm.files.wordpress.com/2013/01/insdidactica_progrmacic3b3n_mc3b3vil_isi87c.pdf">Instrumentacion_Didactica_Programación_Móvil_ISI87C</a></li>
-<li><a href="http://jaimedm.files.wordpress.com/2013/01/planeacic3b3n_programacic3b3n_mc3b3vil_isi87c.pdf">Planeación_Programación_Móvil_ISI87C</a></li>
-</ol>
+### Programación Orientada a Objetos
+- [Instrumentación Didáctica](http://dl.dropbox.com/u/1131727/Octopress/Instrumentacion_Didactica_POO_ISI22.pdf)
+- [Planeación B](http://dl.dropbox.com/u/1131727/Octopress/Planeaci%C3%B3n_POO_B.pdf)
+- [Planeación C](http://dl.dropbox.com/u/1131727/Octopress/Planeaci%C3%B3n_POO_C.pdf)
+
+### Programación Móvil
+- [Instrumentación Didáctica](http://dl.dropbox.com/u/1131727/Octopress/Instrumentacion_Didactica_M%C3%B3vil_ISI87.pdf)
+- [Planeación C](http://dl.dropbox.com/u/1131727/Octopress/Planeaci%C3%B3n_M%C3%B3vil_C.pdf)
