@@ -2,7 +2,7 @@
 layout: post
 title: "Próximas fechas importantes"
 date: 2013-03-14 10:29
-published: false
+published: true
 comments: true
 categories: [POO, Movil]
 ---
