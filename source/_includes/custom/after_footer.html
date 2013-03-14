@@ -1,3 +1,25 @@
 {% comment %}
   Add content to be output at the bottom of each page. (You might use this for analytics scripts, for example)
 {% endcomment %}
+<script src="{{ root_url }}/javascripts/jquery-1.9.1.min.js"></script>
+<script src="{{ root_url }}/javascripts/jquery.countdown.js"></script>
+<script>
+$(function() {
+    $('.countdown').each(function(i){
+        var date = new Date($(this).text());
+        console.info(date);
+        $(this).countdown({
+            date: date,
+            render: function(data) {
+                var el = $(this.el);
+                el.empty()
+                //.append("<div>" + data.years + " <span>años</span></div>")
+                .append("<div>" + this.leadingZeros(data.days,2) + " <span>dias</span></div>")
+                .append("<div>" + this.leadingZeros(data.hours, 2) + " <span>horas</span></div>")
+                .append("<div>" + this.leadingZeros(data.min, 2) + " <span>mins</span></div>")
+                .append("<div>" + this.leadingZeros(data.sec, 2) + " <span>seg</span></div>");
+            }
+        })
+    })
+});
+</script>
