@@ -38,10 +38,10 @@ Por lo tanto, y {" para evitar que una sola práctica equivalga al 50% de su cal
             <td><div class="countdown">March 15, 2013 23:59:59</div></td>
         </tr>
         <tr>
-            <td><strong>Viernes 22 Marzo, 2013</strong></td>
+            <td><strong>Sábado 23 Marzo, 2013</strong></td>
             <td>Laboratorio 3</td>
             <td>Tarea 3</td>
-            <td><div class="countdown">March 22, 2013 23:59:59</div></td>
+            <td><div class="countdown">March 23, 2013 23:59:59</div></td>
         </tr>
         <tr>
             <td><strong>Lunes 8 Abril, 2013</strong></td>
