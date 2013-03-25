@@ -24,3 +24,5 @@ Saludos a todos, y aprovechen su tiempo adecuadamente.
 Próximamente pondre disponibles algunas bibliografías que les seran de utilidad.
 
 Recuerden que la fecha de entrega es el día __Lunes 8 de Abril de 2013__.
+
+<div class="countdown">April 8, 2013 23:59:59</div>
