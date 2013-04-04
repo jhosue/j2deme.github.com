@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Diapositivas
-date: 2013-03-09 16:42
 comments: false
 sharing: true
 footer: false
@@ -9,16 +8,17 @@ footer: false
 
 ### Programación Orientada a Objetos
 
-- [Unidad 1: Introducción al Paradigma de la Programación Orientado a Objetos](http://jaimedm.files.wordpress.com/2013/02/u1.pdf)
-- [Unidad 2: Clases y objetos](https://github.com/j2deme/POO_Cpp/tree/master/02_Clases_y_Objetos) (Código ejemplo, no diapositivas)
-- [Unidad 3: Herencia](http://jaimedm.files.wordpress.com/2013/02/u3.pdf)
-- [Unidad 4: Polimorfismo](#)
-- [Unidad 5: Excepciones](#)
-- [Unidad 6: Flujos y archivos](#)
+- [Unidad 1: Introducción al Paradigma de la Programación Orientada a Objetos](pdf/POO_U1.pdf)
+- [Unidad 2: Clases y objetos](https://github.com/j2deme/POO_Cpp/tree/master/02_Clases_y_Objetos) (Repositorio, no diapositivas)
+- [Unidad 3: Herencia](pdf/POO_U3.pdf)
+- [Unidad 4: Polimorfismo](pdf/POO_U4.pdf) (_En progreso_)
+- Unidad 5: Excepciones
+- Unidad 6: Flujos y archivos
 
 ### Programación Movil
-- [Unidad 1: Introducción a las Tecnologías de Móviles](http://jaimedm.files.wordpress.com/2013/02/u11.pdf)
-- [Unidad 2: Arquitecturas y Entornos de Desarrollo](http://jaimedm.files.wordpress.com/2013/02/u2.pdf)
-- [Unidad 3: Middleware](#)
-- [Unidad 4: Desarrollo de Aplicaciones Móviles](#)
-- [Unidad 5: Administración de datos en dispositivos móviles](#)
+- [Unidad 1: Introducción al Desarrollo de Aplicaciones para Móviles](pdf/Movil_U1.pdf)
+- [Unidad 2: Sistemas Operativos y Entornos de Desarrollo para Móviles](pdf/Movil_U2.pdf)
+- Unidad 3: Desarrollo de Sistemas para Móviles
+    - [Diseño de una Aplicación](pdf/Movil_U3-1.pdf)
+    - [Componentes Interactivos de la Interfaz](pdf/Movil_U3-2.pdf)
+- Unidad 4: Administración de Datos en Móviles

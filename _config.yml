@@ -62,13 +62,13 @@ default_asides: [asides/recent_posts.html, asides/github.html, asides/twitter.ht
 # ----------------------- #
 
 # Github repositories
-github_user: j2deme
+github_user:
 github_repo_count: 2
 github_show_profile_link: true
 github_skip_forks: true
 
 # Twitter
-twitter_user: j2deme
+twitter_user:
 twitter_tweet_count: 2
 twitter_show_replies: false
 twitter_follow_button: true
