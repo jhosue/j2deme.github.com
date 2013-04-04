@@ -11,6 +11,8 @@ Self-reliance is a vital key to living a healthy, productive life.  To be self-r
 
 While not totally comprehensive, here is a list of 50 things everyone should know how to do.
 
+<!-- more -->
+
 1. Build a Fire – Fire produces heat and light, two basic necessities for living.  At some point in your life this knowledge may be vital.
 2. Operate a Computer – Fundamental computer knowledge is essential these days.  Please, help those in need.
 3. Use Google Effectively – Google knows everything.  If you’re having trouble finding something with Google, it’s you that needs help.
