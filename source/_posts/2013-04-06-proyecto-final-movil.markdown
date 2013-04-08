@@ -17,7 +17,7 @@ A su vez, encontrarán el formato de autoevaluación por equipos, que deberan re
 
 ## Unidad 3
 
-En lo correspondiente a los criterios de evaluación de esta unidad, podrán encontrar los requisitos mínimos para el [reporte de diseño de la aplicación](#) y el [formato de autoevaluación por equipos](#) (que incluye instrucciones sobre su llenado).
+En lo correspondiente a los criterios de evaluación de esta unidad, podrán encontrar los requisitos mínimos para el [reporte de diseño de la aplicación](#) y el [formato de autoevaluación por equipos](http://dl.dropbox.com/u/1131727/Octopress/AutoevaluacionEquipos.xlsx) (que incluye instrucciones sobre su llenado).
 
 El porcentaje de evaluación destinado para el _avance del proyecto_ se considerará en la proporción en la que logren finalizar las pantallas correspondientes a cada una de las acciones necesarias para su proyecto, y si su proyecto requiere pocas pantallas, se considerará el avance en el desarrollo de los elementos para conectarse al servidor y consumir los servicios de datos (APIs) o en ambos rubros si así corresponde.
 
