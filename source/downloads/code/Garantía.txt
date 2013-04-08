@@ -1,0 +1,16 @@
+**** Compurama S.A. de C.V. ****
+       RFC: CRSACV2013AB
+********************************
+***** 8 Abril 2013 14:00   *****
+***** 00001                *****
+********************************
+Nombre del dispositivo | Número de Serie | Garantía (Meses)
+HDD Seagate 1 TB            12345667            6
+Monitor Actek 22"           45387269            12
+Trackball Logitech          84936201            6
+
+********************************
+Nombre: Jaime Jesús Delgado Meraz
+Dirección: Calle Hidalgo #15 Col.Centro
+Teléfono: 481-110-1234
+Email: j2deme@gmail.com

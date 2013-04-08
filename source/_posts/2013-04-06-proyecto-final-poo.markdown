@@ -21,4 +21,10 @@ En este documento se describe el problema a resolver mencionando brevemente su f
 
 Pueden descargar el documento del proyecto final desde [aquí](http://dl.dropbox.com/u/1131727/Octopress/ProyectoFinalPOO.pdf). Sírvanse leer cuidadosamente cada una de las partes del documento, y plantear sus dudas en los comentarios de este post (por sí alguien más tiene la misma duda), o esperen hasta clase, donde se explicara con un poco más de detalle cada uno de los puntos.
 
+### Ejemplos de documentos requeridos
+
+{% include_code Garantía de los productos Garantía.txt %}
+{% include_code Comprobante de compra Ticket.txt %}
+{% include_code Comprobante de Importación Importación.txt %}
+
 Sin más por el momento, espero esten próximos a acabar sus proyectos de vacaciones y nos vemos sin falta el día Lunes 8 de Abril 2013 en clase.

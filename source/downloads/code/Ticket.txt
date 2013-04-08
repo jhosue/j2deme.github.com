@@ -1,0 +1,19 @@
+**** Compurama S.A. de C.V. ****
+       RFC: CRSACV2013AB
+********************************
+***** 8 Abril 2013 14:00   *****
+***** 00001                *****
+********************************
+Nombre: Jaime Jesús Delgado Meraz
+Dirección: Calle Hidalgo #15 Col.Centro
+Teléfono: 481-110-1234
+Email: j2deme@gmail.com
+********************************
+Nombre del dispositivo | Cantidad | Precio Unitario | Subtotal
+HDD Seagate 1 TB            2            1,500.0       3,000.0
+Monitor Actek 22"           1              985.0         985.0
+Trackball Logitech          1              350.0         350.0
+--------------------------------------------------------------
+Total (sin IVA)                                        4,335.0
+IVA                                                      693.6
+Total                                                  5,028.6
