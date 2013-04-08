@@ -23,8 +23,8 @@ Pueden descargar el documento del proyecto final desde [aquí](http://dl.dropbox
 
 ### Ejemplos de documentos requeridos
 
-{% include_code Garantía de los productos Garantía.txt %}
-{% include_code Comprobante de compra Ticket.txt %}
-{% include_code Comprobante de Importación Importación.txt %}
+{% include_code Garantía de los productos lang:markdown Garantía.txt %}
+{% include_code Comprobante de compra lang:markdown Ticket.txt %}
+{% include_code Comprobante de Importación lang:markdown Importación.txt %}
 
 Sin más por el momento, espero esten próximos a acabar sus proyectos de vacaciones y nos vemos sin falta el día Lunes 8 de Abril 2013 en clase.
