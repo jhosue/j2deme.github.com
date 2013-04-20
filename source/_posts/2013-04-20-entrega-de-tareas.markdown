@@ -2,7 +2,7 @@
 layout: post
 title: "Entrega de Tareas"
 date: 2013-04-20 10:53
-published: false
+published: true
 comments: true
 categories: [Movil,POO]
 ---
