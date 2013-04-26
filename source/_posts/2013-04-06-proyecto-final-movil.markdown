@@ -4,7 +4,7 @@ title: "Proyecto Final Móvil"
 date: 2013-04-06 17:36
 published: true
 comments: true
-categories: [Móvil]
+categories: [Movil]
 ---
 
 Saludos alumnos de móvil.
