@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Enlaces
-date: 2013-03-09 16:03
 comments: false
 sharing: true
 footer: false

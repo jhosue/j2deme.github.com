@@ -1,7 +1,6 @@
 ---
 layout: page
 title: Libros
-date: 2013-03-09 16:31
 comments: false
 sharing: true
 footer: false
