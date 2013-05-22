@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categoria &rArr; General | Jaime Delgado Meraz]]></title>
+  <link href="http://j2deme.github.io/categorias/general/atom.xml" rel="self"/>
+  <link href="http://j2deme.github.io/"/>
+  <updated>2013-05-22T12:26:06-05:00</updated>
+  <id>http://j2deme.github.io/</id>
+  <author>
+    <name><![CDATA[Jaime Jesús Delgado Meraz]]></name>
+    <email><![CDATA[j2deme@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Bienvenidos de nuevo]]></title>
+    <link href="http://j2deme.github.io/2013/03/09/bienvenidos-de-nuevo/"/>
+    <updated>2013-03-09T17:00:00-06:00</updated>
+    <id>http://j2deme.github.io/2013/03/09/bienvenidos-de-nuevo</id>
+    <content type="html"><![CDATA[<p>Saludos alumnos.</p>
+
+<p>En primer instancia disculpen los inconvenientes que esta migración pudiera haberles causado. La idea de mover el blog a una plataforma diferente es principalmente para tener un medio de publicación más estable, esto debido a una serie de problemas de funcionamiento que se presentaron en <a href="http://jaimedm.wordpress.com">Worpress</a> y sobre todo, la poca capacidad de adaptación de la plataforma a mis necesidades específicas.</p>
+
+<!--more -->
+
+<p>Por tales motivos ahora el blog esta administrado mediante <a href="http://octopress.org">Octopress</a>, una plataforma de blogging cuyos principales punto de <em>venta</em> (considerando que es Open Source) son la estabilidad, personalización y bajo consumo de recursos, alojado en un repositorio de <a href="http://github.com">Github</a></p>
+
+<p>De cualquier manera, el cambio no debería de afectarlos negativamente, sino por el contrario, hara sus visitas a la página un poco más amigables y productivas.</p>
+
+<p>Espero que el flujo de visitas se regule a lo largo de la próxima semana, y en cualquier caso, son más que bienvenidos a hacer cualquier comentario al respecto.</p>
+
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Memoria USB encontrada]]></title>
+    <link href="http://j2deme.github.io/2013/02/06/memoria-usb-encontrada/"/>
+    <updated>2013-02-06T18:00:00-06:00</updated>
+    <id>http://j2deme.github.io/2013/02/06/memoria-usb-encontrada</id>
+    <content type="html"><![CDATA[<p><strong>08/02/2013</strong>: Afortunadamente para su dueña, la memoria ya ha sido entregada.</p>
+
+<p>Saludos a todos.</p>
+
+<p>El día de ayer, al salir del laboratorio de cómputo, iba rumbo a mi carro y me encontre tirada entre el pasto una memoria kingston de color azul como la de la imagen.</p>
+
+<p><img class="alignleft" alt="DT101 G2" src="http://www.productwiki.com/upload/images/kingston_dt101g2_4gbz.jpg" width="208" height="208" /></p>
+
+<p>Antes de que alguien se la quiera “agenciar”, la memoria tiene dueña, según un documento que encontre en la memoria, esta pertenece a <strong>Karla Krystal Pérez Melgarejo</strong> de Ing. Industrial.</p>
+
+<p>Agradecería su apoyo para ubicar a esta persona, si es que la conocen o a compartir este post en Facebook y Twitter.</p>
+
+<p>Y alguien preguntara “¿Para qué la molestia de buscar al dueño y devolverla?”, por la simple razón de que si yo perdiera alguna de mis memorias o discos duros, esperaría que alguien se tomara la molestia de devolverla.</p>
+
+<p>Aclaro, no tengo la más mínima intención de quedarme la memoria, ya que afortunadamente entre memorias usb y discos duros externos tengo cerca de 2 TB.</p>
+
+<p>Si alguien conoce a la dueña, puede informarmelo por este medio o a mi correo electrónico.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Bienvenidos Alumnos]]></title>
+    <link href="http://j2deme.github.io/2013/01/29/bienvenidos-alumnos/"/>
+    <updated>2013-01-29T17:00:00-06:00</updated>
+    <id>http://j2deme.github.io/2013/01/29/bienvenidos-alumnos</id>
+    <content type="html"><![CDATA[<p>Aqui podran encontrar información de los cursos de:</p>
+
+<ul>
+  <li><a href="categories/POO">Programación Orientada a Objetos</a></li>
+  <li><a href="categories/Movil">Programación Móvil</a></li>
+</ul>
+]]></content>
+  </entry>
+  
+</feed>

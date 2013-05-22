@@ -1,0 +1,29 @@
+.countdown div {
+  display: inline-block;
+  margin: 0 5px 1em;
+  font-size: 30px;
+  font-weight: 100;
+  line-height: 1;
+  text-align: right;
+
+  *display: inline;
+  *zoom: 1;
+}
+
+.countdown div:first-child {
+  margin-left: 0;
+}
+
+.countdown div:last-child {
+  margin-right: 0;
+}
+
+.countdown div span {
+  display: block;
+  border-top: 1px solid #cecece;
+  padding-top: 3px;
+  font-size: 12px;
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: left;
+}

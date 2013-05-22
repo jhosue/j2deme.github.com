@@ -1,0 +1,344 @@
+
+<!DOCTYPE html>
+<!--[if IEMobile 7 ]><html class="no-js iem7"><![endif]-->
+<!--[if lt IE 9]><html class="no-js lte-ie8"><![endif]-->
+<!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
+<head>
+  <meta charset="utf-8">
+  <title>Solución al problema de iostream - Jaime Delgado Meraz</title>
+  <meta name="author" content="Jaime Jesús Delgado Meraz">
+
+  
+  <meta name="description" content="Para los alumnos de POO. Algunos me mencionaron que no podían compilar los códigos que les puse en el repositorio, esto es porque como ya le mencione &hellip;">
+  
+
+  <!-- http://t.co/dKP3o1e -->
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  
+  <link rel="canonical" href="http://j2deme.github.io/2013/02/21/solucion-al-problema-de-iostream/">
+  <link href="/favicon.png" rel="icon">
+  <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
+  <link href="http://feeds.feedburner.com/JaimeDelgadoMeraz" rel="alternate" title="Jaime Delgado Meraz" type="application/atom+xml">
+  <!--Fonts from Google"s Web font directory at http://google.com/webfonts -->
+<link href="http://fonts.googleapis.com/css?family=PT+Serif:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<link href="http://fonts.googleapis.com/css?family=PT+Sans:regular,italic,bold,bolditalic" rel="stylesheet" type="text/css">
+<!--<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML">
+</script>-->
+<link href="/stylesheets/bootstrap.min.css" rel="stylesheet" type="text/css">
+<link href="/stylesheets/custom.css" rel="stylesheet" type="text/css">
+  <script src="/javascripts/modernizr-2.0.js"></script>
+  <script src="/javascripts/ender.js"></script>
+  <script src="/javascripts/octopress.js" type="text/javascript"></script>
+  
+  <script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-39058698-1']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+      var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+      ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+    })();
+  </script>
+
+
+</head>
+
+<body   >
+  <header role="banner"><hgroup>
+  <h1><a href="/">Jaime Delgado Meraz</a></h1>
+  
+    <h2>Docente de día, desarrollador de noche.</h2>
+  
+</hgroup>
+
+</header>
+  <nav role="navigation"><ul class="subscription" data-subscription="rss email">
+  <li><a href="http://feeds.feedburner.com/JaimeDelgadoMeraz" rel="subscribe-rss" title="Suscribirse vía RSS">RSS</a></li>
+  
+    <li><a href="http://feedburner.google.com/fb/a/mailverify?uri=JaimeDelgadoMeraz&amp;loc=es_ES" rel="subscribe-email" title="Suscribirse vía email">Email</a></li>
+  
+</ul>
+  
+<form action="http://google.com/search" method="get">
+  <fieldset role="search">
+    <input type="hidden" name="q" value="site:j2deme.github.io" />
+    <input class="search" type="text" name="q" results="0" placeholder="Buscar"/>
+  </fieldset>
+</form>
+  
+<ul class="main-navigation">
+  <li><a href="/">Blog</a></li>
+  <li><a href="/archivo">Archivo</a></li>
+  <li><a href="/enlaces">Enlaces</a></li>
+  <li><a href="/libros">Libros</a></li>
+  <li><a href="/diapositivas">Diapositivas</a></li>
+  <li><a href="/acerca">Acerca de</a></li>
+</ul>
+
+</nav>
+  <div id="main">
+    <div id="content">
+      <div>
+<article class="hentry" role="article">
+  
+  <header>
+    
+      <h1 class="entry-title">Solución al problema de iostream</h1>
+    
+    
+      <p class="meta">
+        
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-02-21T18:00:00-06:00" pubdate data-updated="true">21/02/2013</time>
+        
+      </p>
+    
+  </header>
+
+
+<div class="entry-content"><p>Para los alumnos de POO.</p>
+
+<p>Algunos me mencionaron que no podían compilar los códigos que les puse en el repositorio, esto es porque como ya le mencione en clase, la libreria <strong>iostream</strong>, no esta diponible por default en Windows (en ninguna de sus versiones), me puse a investigar el día de ayer, y la hice funcionar sobre Windows 7 Ultimate, pero en teoría los pasos que les voy a poner deberían de funcionar para cualquier versión de Windows.</p>
+
+<!--more-->
+
+<p>Los pasos los tome de un tutorial en inglés, disponible en <a title="Installing Cygwin" href="http://cs.calvin.edu/curriculum/cs/112/resources/installingEclipse/cygwin/" target="_blank">aqui</a>, si saben leer en inglés y lo entienden pueden revisarlo ustedes mismos, sino les traduzco las instrucciones a continuación (si tienen dudas revisen las imágenes del tutoral original):</p>
+<ol>
+	<li>Vayan a la página de Cygwin (<a title="Cygwin" href="http://www.cygwin.com/" target="_blank">http://www.cygwin.com/</a>)</li>
+	<li>Busquen la sección de &#8220;Install Cygwin&#8221; y descarguen el archivo <strong>Setup.exe</strong> y descarguenlo, o directamente <a title="Cygwin Setup" href="http://cygwin.com/setup.exe" target="_blank">aquí</a>.</li>
+	<li>Guarden el ejecutable, una vez descargado, denle click para instalarlo.</li>
+	<li>En la primera pantalla del instalador, den click en <strong>Siguiente</strong>.</li>
+	<li>En la segunda pantalla pregunta desde donde queremos instalarlo, en este caso por sera por Internet, por lo que tenemos que marcar la <strong>primera</strong> opción.</li>
+	<li>En la tercera pantalla nos pregunta donde queremos instalarlo y para que usuarios, les recomiendo no mover nada ahí, y solo dar <strong>Siguiente</strong>.</li>
+	<li>En la cuarta pantalla nos pregunta donde queremos descargar los paquetes, debe ser en la misma carpeta donde esta el instalador, ya sea en su escritorio, o en la carpeta de descargas, y damos <strong>Siguiente</strong>.</li>
+	<li>En la quinta pantalla solicita información sobre el tipo de conexión a usar, debe estar marcada la <strong>primera</strong>, conexión directa, y damos <strong>Siguiente</strong>.</li>
+	<li>En la sexta pantalla nos pide seleccionar un sitio para descargar los paquetes, seleccionen cualquiera que les guste, la diferencia solo seran unos minutos más o menos de descarga, y damos <strong>Siguiente</strong>.</li>
+	<li>Tardara un momento, y nos saldra un dialogo para escoger lo que queremos instalar, algunos paquetes ya vienen seleccionados por default, esos los deben dejar así, y buscaremos los siguientes: <strong>g++</strong>, <strong>make</strong> y <strong>gdb</strong>.</li>
+	<li>Para instalar <strong>g++</strong> damos click en el símbolo <strong>+</strong> al lado de donde dice <strong>Devel</strong>,  buscamos donde dice <strong>gcc-g++ C++ Compiler</strong> y damos donde dice <strong>Skip</strong>, para seleccionarlo para descargar, también se seleccionara automáticamente <strong>gcc-core C compiler</strong>.</li>
+	<li>Para instalar <strong>gdb</strong>, buscamos dentro de la misma carpeta <strong>Devel</strong> donde diga <strong>gdb GNU Debugger</strong>, y damos click en <strong>Skip</strong> para seleccionarlo para descarga.</li>
+	<li>Para instalar <strong>make</strong>, nuevamente dentro de <strong>Devel</strong>, buscamos donde diga <strong>make</strong> y damos click en <strong>Skip</strong> también para instalarlo.</li>
+	<li>Una vez seleccionados los paquetes damos click en <strong>Siguiente</strong> (Next) y se comenzará la descarga, que tomara dependiendo de la conexión entre 10 y 20 minutos, una vez finalizada daremos click en <strong>Finish</strong> y nos avisara con un diálogo de Installation Complete, donde damos <strong>OK</strong>.</li>
+	<li>Con esto ya tendremos g++, make y gdb instalados.</li>
+</ol>
+<p>Una vez instalado Cygwin, y las respectivas g++, make y gdb, los siguiente es añadirlas al denominado PATH del sistema para poderlas usar. Para esto seguimos las siguientes instrucciones, disponibles en inglés <a title="Path" href="http://cs.calvin.edu/curriculum/cs/112/resources/installingEclipse/path/" target="_blank">aqui</a>:</p>
+<ol>
+	<li>En el Panel de Control buscamos <strong>Sistema</strong>.</li>
+	<li>En dentro de Sistema, buscamos Propiedades del Sistema,  y después <strong>Propiedades Avanzadas</strong>.</li>
+	<li>Dentro de las propiedades avanzadas encontraremos el botón que dice <strong>Variables de Sistema</strong> (Environment Variables) y le damos click.</li>
+	<li>En la ventana Variables de Sistema que se abre, buscamos en la sección de <strong>Variables de Sistema</strong> y ahí buscamos donde diga <strong>PATH</strong>.</li>
+	<li>Seleccionamos <strong>PATH</strong> y damos click en <strong>Editar</strong>, nos aparecera un cuadro de diálogo con dos campos de texto, en el <strong>segundo</strong>, añadiremos los siguiente:
+<pre>;C:\cygwin\bin\</pre>
+</li>
+	<li>Debemos tener cuidado de que la ruta anterior sea igual a la ruta donde instalamos Cygwin, sino cambiaron nada y siguieron las instrucciones tal como lo indique, deberá de ser la misma, la ruta va completa con todo y el punto y coma (;) al inicio.</li>
+	<li>Damos click en <strong>OK</strong> (o Aceptar) para guardar, y damos Aceptar en los diálogos hasta cerrarlos todos, con esto ya tendremos instalado g++, make y gdb en el PATH del sistema y podremos usar la librería <strong>iostream </strong>que es la librería estándar para leer y escribir.</li>
+</ol>
+<p>Si siguieron las instrucciones podrán usar y compilar sin ningún problema los códigos que les puse en el repositorio de código, de manera que sin importar si ustedes usan Windows y yo Linux, deberían de funcionar.</p>
+
+<p>Espero sus tareas el día de mañana <strong>viernes 22 de febrero</strong>.</p>
+</div>
+
+
+  <footer>
+    <p class="meta">
+      
+  
+
+<span class="byline author vcard">Publicado por <span class="fn">Jaime Jesús Delgado Meraz</span></span>
+
+      
+
+
+
+
+
+
+
+
+  
+
+
+<time datetime="2013-02-21T18:00:00-06:00" pubdate data-updated="true">21/02/2013</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/categorias/poo/'>POO</a>
+  
+</span>
+
+
+    </p>
+    
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://j2deme.github.io/2013/02/21/solucion-al-problema-de-iostream/" data-via="j2deme" data-counturl="http://j2deme.github.io/2013/02/21/solucion-al-problema-de-iostream/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
+</div>
+
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/2013/02/21/estructura-a-entregar/" title="Publicación Anterior: Estructura a entregar">&laquo; Estructura a entregar</a>
+      
+      
+        <a class="basic-alignment right" href="/2013/02/26/recuperacion-movil-u1-y-u2/" title="Publicación Siguiente: Recuperación Móvil U1 y U2">Recuperación Móvil U1 y U2 &raquo;</a>
+      
+    </p>
+  </footer>
+</article>
+
+</div>
+
+<aside class="sidebar">
+  
+    <section>
+  <h1>Publicaciones recientes</h1>
+  <ul id="recent_posts">
+    
+      <li class="post">
+        <a href="/2013/05/20/entregas-finales-y-recuperacion/">Entregas Finales y Recuperación</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2013/04/26/ajuste-de-fechas/">Ajuste de fechas</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2013/04/20/entrega-de-tareas/">Entrega de Tareas</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2013/04/06/proyecto-final-movil/">Proyecto Final Móvil</a>
+      </li>
+    
+      <li class="post">
+        <a href="/2013/04/06/proyecto-final-poo/">Proyecto Final POO</a>
+      </li>
+    
+  </ul>
+</section>
+
+
+<section>
+  <h1>Ultimos Tweets</h1>
+  <ul id="tweets">
+    <li class="loading">Actualizando estatus...</li>
+  </ul>
+  <script type="text/javascript">
+    $.domReady(function(){
+      getTwitterFeed("j2deme", 2, false);
+    });
+  </script>
+  <script src="/javascripts/twitter.js" type="text/javascript"> </script>
+  
+    <a href="http://twitter.com/j2deme" class="twitter-follow-button" data-show-count="true">Seguir @j2deme</a>
+  
+</section>
+
+
+<section class="googleplus googleplus-hidden">
+  <h1>
+    <a href="https://plus.google.com/j2deme?rel=author">
+      <img src="http://www.google.com/images/icons/ui/gprofile_button-32.png" width="32" height="32">
+      Google+
+    </a>
+  </h1>
+</section>
+
+
+
+  
+</aside>
+
+
+    </div>
+  </div>
+  <footer role="contentinfo"><p>
+  Copyright &copy; 2013 - <a href="/acerca">Jaime Jesús Delgado Meraz</a> -
+  <span class="credit">Powered by <a href="http://octopress.org">Octopress</a></span>
+</p>
+
+</footer>
+  
+
+
+
+<div id="fb-root"></div>
+<script>(function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) {return;}
+  js = d.createElement(s); js.id = id; js.async = true;
+  js.src = "//connect.facebook.net/en_US/all.js#appId=212934732101925&xfbml=1";
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+
+
+  <script type="text/javascript">
+    (function() {
+      var script = document.createElement('script'); script.type = 'text/javascript'; script.async = true;
+      script.src = 'https://apis.google.com/js/plusone.js';
+      var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(script, s);
+    })();
+  </script>
+
+
+
+  <script type="text/javascript">
+    (function(){
+      var twitterWidgets = document.createElement('script');
+      twitterWidgets.type = 'text/javascript';
+      twitterWidgets.async = true;
+      twitterWidgets.src = 'http://platform.twitter.com/widgets.js';
+      document.getElementsByTagName('head')[0].appendChild(twitterWidgets);
+    })();
+  </script>
+
+
+
+<script src="/javascripts/jquery-1.9.1.min.js"></script>
+<script src="/javascripts/jquery.countdown.js"></script>
+<script>
+$(function() {
+    $('.countdown').each(function(i){
+        var date = new Date($(this).text());
+        console.info(date);
+        $(this).countdown({
+            date: date,
+            render: function(data) {
+                var el = $(this.el);
+                el.empty()
+                //.append("<div>" + data.years + " <span>años</span></div>")
+                .append("<div>" + this.leadingZeros(data.days,2) + " <span>dias</span></div>")
+                .append("<div>" + this.leadingZeros(data.hours, 2) + " <span>horas</span></div>")
+                .append("<div>" + this.leadingZeros(data.min, 2) + " <span>mins</span></div>")
+                .append("<div>" + this.leadingZeros(data.sec, 2) + " <span>seg</span></div>");
+            }
+        })
+    })
+});
+</script>
+
+</body>
+</html>

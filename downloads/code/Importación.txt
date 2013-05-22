@@ -1,0 +1,10 @@
+**** Compurama S.A. de C.V. ****
+       RFC: CRSACV2013AB
+********************************
+***** 8 Abril 2013 14:00   *****
+***** 00001                *****
+********************************
+Nombre del dispositivo | Fabricante     |   País      |     Peso    |       Medidas
+HDD Seagate 1 TB            Seagate         Taiwan          300 grs         20 x 12 x 5 cm
+Monitor Actek 22"           Actek           Japón           2000 grs        23 x 20 x 8 cm
+Trackball Logitech          Logitech        China           200 grs         15 x 10 x 10 cm

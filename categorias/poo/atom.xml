@@ -1,0 +1,487 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+
+  <title><![CDATA[Categoria &rArr; POO | Jaime Delgado Meraz]]></title>
+  <link href="http://j2deme.github.io/categorias/poo/atom.xml" rel="self"/>
+  <link href="http://j2deme.github.io/"/>
+  <updated>2013-05-22T12:26:06-05:00</updated>
+  <id>http://j2deme.github.io/</id>
+  <author>
+    <name><![CDATA[Jaime Jesús Delgado Meraz]]></name>
+    <email><![CDATA[j2deme@gmail.com]]></email>
+  </author>
+  <generator uri="http://octopress.org/">Octopress</generator>
+
+  
+  <entry>
+    <title type="html"><![CDATA[Entregas Finales y Recuperación]]></title>
+    <link href="http://j2deme.github.io/2013/05/20/entregas-finales-y-recuperacion/"/>
+    <updated>2013-05-20T15:28:00-05:00</updated>
+    <id>http://j2deme.github.io/2013/05/20/entregas-finales-y-recuperacion</id>
+    <content type="html"><![CDATA[<ul id="markdown-toc">
+  <li><a href="#programacin-orientada-a-objetos">Programación Orientada a Objetos</a>    <ul>
+      <li><a href="#grupo-b">Grupo B</a></li>
+      <li><a href="#grupo-c">Grupo C</a></li>
+      <li><a href="#evaluacin-complementaria">Evaluación Complementaria</a></li>
+    </ul>
+  </li>
+  <li><a href="#programacin-mvil">Programación Móvil</a>    <ul>
+      <li><a href="#evaluacin-complementaria-1">Evaluación Complementaria</a></li>
+    </ul>
+  </li>
+</ul>
+
+<p>Saludos a todos.</p>
+
+<p>Despues de un descanso obligatorio debido a problemas técnicos (que la mayoría conoce), les vuelvo a publicar información relacionada con los proyectos finales, y lo relacionado al proceso de evaluación complementaria, que se estara realizando en las primeras 2 semanas de Junio.</p>
+
+<p>Les pido que lean con mucho cuidado la información relacionada a <strong>su</strong> materia, puesto que en este mismo post, encontraran la información de ambas, y en caso de tener alguna duda sobre cualquiera de los puntos que se mencionan, me lo hagan saber a la brevedad.</p>
+
+<!-- more -->
+
+<h1 id="programacin-orientada-a-objetos">Programación Orientada a Objetos</h1>
+<p>La evaluación final incluira una revisión de todos los puntos definidos en el documento del proyecto final publicado <a href="/2013/04/06/proyecto-final-poo/">aqui</a>. Dicha evaluación se realizará en dos partes, en la primera parte los alumnos deberan realizar una exposición de su prototipo, presentado todas las características de su proyecto, o aquellas que consideren de mayor relevancia.</p>
+
+<p>En una segunda parte deberan responder una ronda de preguntas relacionadas al proyecto que el docente y sus compañeros realicen, en caso de que los compañeros no tengan preguntas, el docente realizara preguntas a los integrantes, y solo la persona a la que se pregunte debera contestar, por lo que todos los integrantes del equipo deben poder contestar correctamente.</p>
+
+<p>Además del proyecto, aún esta pendiente una práctica (15%) que les sera de gran ayuda para conseguir algunos puntos extras que podrán sumar a la calificación de su proyecto final, y que en un momento dado podra ser determinante para una calificación aprobatoria, esta práctica y su descripción seran publicadas posteriormente el día de hoy.</p>
+
+<h2 id="grupo-b">Grupo B</h2>
+
+<p>El orden de presentación de los proyectos finales sera el siguiente:</p>
+
+<ul>
+  <li>Martes 28 (2 hrs)
+    <ul>
+      <li>Brenda, Keila, Christian, Fulgencio, Oscar</li>
+      <li>Luis Armando, Placido, Jose Mercedes, Juan Antonio, Julio Alberto</li>
+    </ul>
+  </li>
+  <li>Miércoles 29 (2 hrs)
+    <ul>
+      <li>Alva, Oscar, Alan</li>
+      <li>Jesus Enrique</li>
+    </ul>
+  </li>
+  <li>Jueves 30 (1 hr)
+    <ul>
+      <li>Todos aquellos que no se reportaron</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="grupo-c">Grupo C</h2>
+
+<p>En lo que respecta a este grupo, las fechas de evaluación estaran dadas de la siguiente manera:</p>
+
+<ul>
+  <li>Lunes 27 (2 hrs)
+    <ul>
+      <li>Eva, Natalia, Cecilia, Ruth, Teodolo</li>
+      <li>Carlos Alberto, Juan Jose, Juan Ramon, Eduardo</li>
+    </ul>
+  </li>
+  <li>Miércoles 29 (2 hrs)
+    <ul>
+      <li>Yesica, Hector, Cesar, Joaquin</li>
+      <li>Franco, Aranda, Monserrat, Fernando</li>
+    </ul>
+  </li>
+  <li>Jueves 30 (1 hr)
+    <ul>
+      <li>Mateo</li>
+      <li>Adolfo</li>
+      <li>Todos aquellos que no se reportaron</li>
+    </ul>
+  </li>
+</ul>
+
+<h2 id="evaluacin-complementaria">Evaluación Complementaria</h2>
+
+<p>En lo que respecta a la evaluación complementaria, esta se realizará de la siguiente forma:</p>
+
+<ul>
+  <li><strong>Unidades 1 y 2:</strong> Lunes 3 de Junio (Grupo C) y Martes 4 de Junio (Grupo B), con evaluación por examen teórico.</li>
+  <li><strong>Unidades 3 y 4:</strong> Miércoles 5 de Junio, con evaluación por examen teórico.</li>
+  <li><strong>Unidades 5 y 6:</strong> Esta unidad se evaluara con los cambios solicitados hechos al proyecto final, y la fecha de evaluación sera proporcional a la fecha de evaluación ordinaria, es decir, que las fechas quedaran de la siguiente manera:
+    <ul>
+      <li>Grupo B
+        <ul>
+          <li>Evaluación Martes 28 Mayo → Complementaria Martes 11 Junio.</li>
+          <li>Evaluación Miércoles 29 Mayo → Complementaria Miércoles 12 Junio.</li>
+          <li>Evaluación Jueves 30 Mayo → Complementaria Jueves 13 Junio.</li>
+        </ul>
+      </li>
+      <li>Grupo C
+        <ul>
+          <li>Evaluación Lunes 27 Mayo → Complementaria Lunes 10 Junio.</li>
+          <li>Evaluación Miércoles 29 Mayo → Complementaria Miércoles 12 Junio.</li>
+          <li>Evaluación Jueves 30 Mayo → Complementaria Jueves 13 Junio.</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+</ul>
+
+<h1 id="programacin-mvil">Programación Móvil</h1>
+<p>En el caso de ustedes, la forma de evaluación se hara tal como se platico durante la clase del día Lunes 20 de Junio de 2013, en donde por mayoría visible (de los asistentes), se acordo lo siguiente:</p>
+
+<ul>
+  <li>Los avances que se logren al día Jueves 23 de Mayo, para la Feria Tecnológica, no seran determinantes para su calificación, sin embargo, <strong>si</strong> se considerara su participación en el evento, para la parte de la evaluación de la exposición de su proyecto.</li>
+  <li>Se asignaran fechas de manera aleatoria entre los 7 equipos, para la evaluación final ordinaria en la semana de 27 al 31 de Mayo, en las horas clase, estas fechas <strong>NO</strong> seran intercambiables ni postergables, por lo que el (o los) equipo(s) que no se presente(n) cuando les sea asignado, obtendran una calificación reprobatoria <strong>inmediata</strong>.</li>
+  <li>Cada uno de los equipos debera presentar su prototipo final para evaluación ordinaria, en donde en caso de no aprobar, tendran oportunidad de presentar el prototipo con las modificaciones pertinentes indicadas por el docente, para en caso de así lograrlo, obtener una calificación aprobatoria en evaluación complementaria.</li>
+  <li>Los equipos deberan presentarse en las fechas y horas asignadas de manera <em>completa</em>, es decir, todos los integrantes, haciendo una excepción en casos extremos como accidentes o problemas de salud. Aquel integrante que no se presente por motivos no justificables, sera omitido de la calificación obtenida por su equipo, y debera realizar una evaluación distinta.</li>
+  <li>Además del proyecto, queda pendiente una práctica (15%) que sera publicada a la brevedad, para complementar la calificación que logren obtener por parte del proyecto.</li>
+</ul>
+
+<p>En base a lo anterior, las fechas para evaluación del proyecto final serán las siguientes:</p>
+
+<ul>
+  <li>Lunes 27
+    <ul>
+      <li><em>Comisiones:</em> Delia, Adrián Salas, Dulce Gabriela, Jorge Luis, Eder Israel, Joel Infante</li>
+      <li><em>Evaluación Docente:</em> Victor Gerardo, Jorge Augusto, Jose , Uriel Osornio, Carlos Eduardo, Erick</li>
+      <li><em>Comisiones:</em> Carmen Lizbeth, Carmen Santiago, José Miguel, Concepción, Jessica Valle, Víctor Manuel</li>
+    </ul>
+  </li>
+  <li>Martes 28
+    <ul>
+      <li><em>Comisiones:</em> Cindy, Janeth Carolina, Eduardo Israel, Eulalia, Oscar</li>
+      <li><em>Evaluación Docente:</em> Erick Ivan, Nereyda, María Fernanda, Jessica Velazquez, Nestor Alberto, Carlos Eduardo</li>
+      <li><em>Transporte Urbano:</em> Jaime, Isacar Itiel, José Humberto, Efraín Omar, Gerardo, Edgar</li>
+    </ul>
+  </li>
+  <li>Jueves 30
+    <ul>
+      <li><em>Transporte Urbano:</em> Antonio, Beatriz, David, María Guadalupe, Santos, Joel Samuel</li>
+    </ul>
+  </li>
+</ul>
+
+<p>En las fechas asignadas, cada uno de los equipos debera realizar la presentación correspondiente a su proyecto, de manera formal en cuanto a vestimenta y presentación del prototipo.</p>
+
+<p>En el caso específico de los 2 equipos de evaluación docente, hubo un cambio en los integrantes, que se informo en su momento y que no debería afectar el desarrollo final de los prototipos, de cualquier manera, tal como se los indique en clase, agradecería me informen sobre problemas internos de los equipos, relacionados con alumnos que no esten trabajando o colaborando en ningún sentido.</p>
+
+<h2 id="evaluacin-complementaria-1">Evaluación Complementaria</h2>
+
+<p>La  evaluación complementaria se realizará de la siguiente manera:</p>
+
+<ul>
+  <li><strong>Unidades 1 y 2:</strong> Lunes 3 de Junio, con evaluación por examen teórico</li>
+  <li><strong>Unidad 3:</strong> Martes 4 de Junio, con evaluación por examen teórico</li>
+  <li><strong>Unidad 4:</strong> Esta unidad se evaluara con los cambios solicitados hechos al proyecto final, y la fecha de evaluación sera proporcional a la fecha de evaluación ordinaria, es decir, que las fechas quedaran de la siguiente manera:
+    <ul>
+      <li>Evaluación Lunes 27 Mayo → Complementaria Lunes 10 Junio.</li>
+      <li>Evaluación Martes 28 Mayo → Complementaria Martes 11 Junio.</li>
+      <li>Evaluación Jueves 30 Mayo → Complementaria Jueves 13 Junio.</li>
+    </ul>
+  </li>
+</ul>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Ajuste de fechas]]></title>
+    <link href="http://j2deme.github.io/2013/04/26/ajuste-de-fechas/"/>
+    <updated>2013-04-26T15:39:00-05:00</updated>
+    <id>http://j2deme.github.io/2013/04/26/ajuste-de-fechas</id>
+    <content type="html"><![CDATA[<p>Saludos a todos.</p>
+
+<p>Les pongo disponibles algunos avisos relacionados con las fechas de entrega para los trabajos de la segunda evaluación, les recomiendo revisar cuidadosamente la sección que corresponda a su materia para que no vayan a entregar en fechas que no correspondan, o se confundan con las especificaciones de otros trabajos.</p>
+
+<!-- more -->
+
+<h3 id="programacin-orientada-a-objetos">Programación Orientada a Objetos</h3>
+
+<p>Hasta el momento he recibido varios trabajos (mayormente del grupo B), algunos individuales y otros en equipos, pero sin embargo no representan el total de alumnos inscritos en ambos grupos, por lo que supongo que muchos de ustedes aún no me han enviado nada.</p>
+
+<p>De los trabajos revisados he notado que la mayoría estan incompletos o aún presentan errores (en el peor de los casos lo dejaron hasta la última vez que les ayude con algo), por lo anterior, voy a extender una última vez el período de entrega para el día <strong>Domingo 28 de Abril</strong>, lo que creo les dara suficiente tiempo para ultimar detalles o arreglar errores.</p>
+
+<p>Como siempre, esta medida no debe afectar a aquellos que ya hayan entregado sus tareas el día de ayer, sin importar el grado de completitud, sino que les da una oportunidad de hacer mejoras, y en el caso de aquellos que no han entregado nada, de terminar y enviar algo.</p>
+
+<p><strong>Importante:</strong> Además de las tareas ya pendientes, también les dejo disponible el documento que indica lo relacionado al <em>examen práctico</em>, el cual pueden descargar desde <a href="https://dl.dropboxusercontent.com/u/1131727/Octopress/ExamenPractico.pdf">aquí</a>, les recuerdo que la fecha de entrega para este trabajo será el dia <strong>Domingo 28 de Abril</strong> y corresponde a una fecha de entrega única, por lo que no se aceptaran trabajos después de esa fecha.</p>
+
+<h3 id="programacin-mvil">Programación Móvil</h3>
+
+<p>Tal como lo acordamos previamente en clase, espero las entregas de sus tareas y reportes de diseño de sus aplicaciones para más tardar el día <strong>Domingo 28 de Abril</strong>, según yo lo había indicado claramente en el documento, pero para aquellos que aún no lo notan, o no lo han revisado, el documento se debe generar de manera que consideren ambas partes, web y móvil.</p>
+
+<p>Aclarando lo anterior, <strong>no</strong>, ese documento no se los calificara el profe Hugo, pero sí les servira en caso de que les pida un trabajo similar.</p>
+
+<p>Igualmente les recuerdo que el día <em>Lunes 29 de Abril</em> a las 12:00 p.m. (medio día), se realizara la junta donde se trataran puntos importantes sobre la Feria de Innovación, así que en el entendido del grado en que esten interesados, espero pueda asistir la mayoría, para en caso de que así sea, planteen sus dudas. Se que tienen clase a esa hora, pero creo que sera posible y entendible el que puedan pedir permiso para asistir a la junta, especialmente después de su viaje de estudios.</p>
+
+<p>Retomando el tema de la <em>Feria de Innovación</em>, dicho evento esta propuesto a realizarse el día <strong>Jueves 23 de Mayo de 2013</strong>, por lo que para esa fecha sus proyectos finales deben estar terminados o próximos a terminarse, para que puedan tener tiempo suficiente de realizar la documentación faltante de su proyecto.</p>
+
+<h3 id="notas-finales">Notas Finales</h3>
+
+<ul>
+  <li>Las fechas planteadas en esta publicación, tienen precedencia sobre otras fechas mencionadas <a href="/2013/04/20/entrega-de-tareas/">anteriormente</a>, es decir, que ustedes deberan guiarse por estas nuevas fechas.</li>
+  <li>Les recuerdo que de manera general la próxima fecha de entrega sera dentro de:</li>
+</ul>
+
+<div class="countdown">April 28, 2013 23:59:59</div>
+
+<ul>
+  <li>Lean cuidadosamente lo relacionado a las fechas para que no se confundan.</li>
+  <li>Aprovechen todo el tiempo disponible para ponerse al corriente con sus pendientes, y si es posible adelantar trabajo.</li>
+  <li>No dejen para el final todo el trabajo pues es casi seguro que se les saldrá de las manos, al juntarse con trabajos de otras materias.</li>
+  <li>Cualquier duda esta disponible la sección de comentarios de este blog, pueden seguirme en <a href="http://twitter.com/j2deme">twitter</a>, enviarme un correo o personalmente en clase.</li>
+</ul>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Entrega de Tareas]]></title>
+    <link href="http://j2deme.github.io/2013/04/20/entrega-de-tareas/"/>
+    <updated>2013-04-20T10:53:00-05:00</updated>
+    <id>http://j2deme.github.io/2013/04/20/entrega-de-tareas</id>
+    <content type="html"><![CDATA[<p>Saludos alumnos.</p>
+
+<p>Tengo algunas noticias que creo serán de interes para todos.</p>
+
+<p>Como ya les comenté el día Jueves 18, aplaze la fecha de entrega de las tareas para el día Domingo 21 de Abril, pero lo estuve pensando un poco más y voy a mover nuevamente la fecha, especialmente considerando que para ambas materias, las tareas representan un gran porcentaje de su calificación (50% para POO y 30% Móvil).</p>
+
+<!-- more -->
+
+<p>Una vez dicho lo anterior, la nueva fecha de entrega será el día <strong>Miércoles 24 de Abril</strong>, considerenlo como un regalo adelantado del día del niño.</p>
+
+<div class="countdown">April 24, 2013 23:59:59</div>
+
+<p>Les recomiendo altamente que aprovechen el tiempo extra que les estoy dando para poder terminar correctamente, o por lo menos lograr algo semi-funcional, evitando en todo momento pretextos como: problemas de instalación de los programas necesarios, descarga de APIs, importación de librerías, solicitud de API Keys o cualquier cosa relacionada.</p>
+
+<h3 id="programacin-orientada-a-objetos">Programación Orientada a Objetos</h3>
+
+<p>El día de ayer actualice el ejemplo de uso de clases con Qt que les mostré en clase, ahora permite comunicar las ventanas en ambas direcciones, es decir, de la ventana padre al hijo y viceversa.</p>
+
+<p><img class="left" src="/images/posts/QtUsingClasses.png" title="‘Comunicación de Objetos’ ‘Comunicación de Objetos’" ></p>
+
+<p>El ejemplo esta disponible en <a href="https://github.com/j2deme/POO_Cpp/tree/master/Qt/QtUsingClasses">QtUsingClasses</a> (deberán descargar todo el repositorio para tenerlo actualizado).</p>
+
+<p>Si ponen atención, observarán que hice algunos cambios en la clase <code>Perro</code>, que en este ejemplo es el tipo de objeto que se esta enviando entre los formularios, les recomiendo que la revisen y la utilicen como plantilla para las clases de su programas, ya que deriva de la clase <code>QObject</code> y utliza <code>QString</code> en lugar de <code>String</code> para simplificar algunas asignaciones de datos desde el formulario al objeto.</p>
+
+<h3 id="programacin-mvil">Programación Móvil</h3>
+
+<p>Recuerden que deben hacer el reporte de diseño de sus respectivas aplicaciones, con respecto al documento disponible <a href="/2013/04/06/proyecto-final-movil/">aquí</a>, puesto que deberán entregar su respectivo documento para el día Viernes 26 de Abril de 2013, es decir, dentro de:</p>
+
+<div class="countdown">April 26, 2013 23:59:59</div>
+<p><strong>Nota:</strong> Esta fecha es para la entrega del <strong>documento</strong>, no para las tareas, para que no se confundan.</p>
+
+<p>Como les comente en clase, la presentación de los prototipos será el día 24 de Mayo de 2013, en lugar y hora por definir, por lo que deben (sino lo han hecho), comenzar a la brevedad con el desarrollo de sus proyectos en ambas modalidades (web y móvil), solicitando la información necesaria al docente. En el caso de este grupo, la persona encargada de realizar las gestiones y cotizaciones será su compañero <em>Erick Ivan Martínez Netro</em>.</p>
+
+<h4 id="asignacin-de-proyectos">Asignación de Proyectos</h4>
+
+<p>Para los que aún no esten enterados la asignación de equipos quedo de la siguiente forma:</p>
+
+<p><strong>Evaluación Docente</strong></p>
+
+<p><em>Equipo 1:</em> Erick Ivan, Nereyda, María Fernanda, Jessica Velazquez, Jorge Augusto, Pepé (?)</p>
+
+<p><em>Equipo 2:</em> Victor Gerardo, Nestor Alberto, Uriel Osornio, Carlo Eduardo, Erick</p>
+
+<p><strong>Transporte Urbano</strong></p>
+
+<p><em>Equipo 1:</em> Jaime, Isacar Itiel, José Humberto, Efraín Omar, Gerardo, Edgar</p>
+
+<p><em>Equipo 2:</em> Antonio, Beatriz, David, María Guadalupe, Santos, Joel Samuel</p>
+
+<p><strong>Comisiones</strong></p>
+
+<p><em>Equipo 1:</em> Cindy, Janeth Carolina, Eduardo Israel, Eulalia, Oscar</p>
+
+<p><em>Equipo 2:</em> Carmen Lizbeth, Carmen Santiago, José Miguel, Concepción, Jessica Valle, Víctor Manuel</p>
+
+<p><em>Equipo 3:</em> Delia, Adrián Salas, Dulce Gabriela, Jorge Luis, Eder Israel, Joel Infante</p>
+
+<p>El orden de los equipos es meramente visual, no indica ningúna precedencia o ventaja en ningún sentido.</p>
+
+<h3 id="notas-finales">Notas finales</h3>
+
+<ul>
+  <li>Aprovechen el tiempo extra que se les esta dando.</li>
+  <li>Lean cuidadosamente lo relacionado a las fechas para que no se “confundan”.</li>
+  <li>Espero tener revisados sus examenes para el día martes 23, en lo posible.</li>
+  <li>Aquellos que <strong>no</strong> hayan realizado el examen en la fecha programada, favor de presentarse a la brevedad en la hora de clase más próxima, de lo contrario ya <strong>no</strong> se les aplicará la evaluación.</li>
+  <li>Agradecería pudieran informar al resto de sus compañeros compartiendo este post en Twitter y Facebook, para que todos esten informados de los cambios.</li>
+</ul>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Proyecto Final POO]]></title>
+    <link href="http://j2deme.github.io/2013/04/06/proyecto-final-poo/"/>
+    <updated>2013-04-06T17:07:00-06:00</updated>
+    <id>http://j2deme.github.io/2013/04/06/proyecto-final-poo</id>
+    <content type="html"><![CDATA[<p>Saludos alumnos de POO:</p>
+
+<p>Anexo a esta publicación encontraran el documento del proyecto final de la materia. En este documento se plantea un problema común a resolver para todos y la razón de porque se definió un único problema.</p>
+
+<!-- more -->
+
+<p>Contrario a lo que se había planteado en clase, para el proyecto final se definirá un proyecto común para todos los alumnos, en oposición a que cada equipo proponga su proyecto individual.</p>
+
+<p>La decisión anterior, se tomo en consideración a que todos los alumnos sean evaluados con un conjunto de parámetros base, y que a su vez puedan añadir cualquier opción extra que consideren. Además se hizo para evitar que los proyectos propuestos fueran muy dispares y beneficiaran a aquellos cuyos proyectos fueran más “fáciles” y afectaran a aquellos que propusieran algo más innovador.</p>
+
+<p>En este documento se describe el problema a resolver mencionando brevemente su funcionamiento, se indican los requerimientos mínimos para su diseño y desarrollo, e igualmente se mencionan sus requerimientos funcionales y técnicos. De igual manera se describen las clases mínimas que deberan desarrollarse, así como los puntos a evaluar y consideraciones finales sobre el proceso de entrega del proyecto, su exposición y evaluación.</p>
+
+<p>Pueden descargar el documento del proyecto final desde <a href="http://dl.dropbox.com/u/1131727/Octopress/ProyectoFinalPOO.pdf">aquí</a>. Sírvanse leer cuidadosamente cada una de las partes del documento, y plantear sus dudas en los comentarios de este post (por sí alguien más tiene la misma duda), o esperen hasta clase, donde se explicara con un poco más de detalle cada uno de los puntos.</p>
+
+<h3 id="ejemplos-de-documentos-requeridos">Ejemplos de documentos requeridos</h3>
+
+<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>Garantía de los productos  (Garantía.txt)</span> <a href='/downloads/code/Garantía.txt'>download</a></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+</pre></td><td class='code'><pre><code class='text'><span class='line'>**** Compurama S.A. de C.V. ****
+</span><span class='line'>       RFC: CRSACV2013AB
+</span><span class='line'>********************************
+</span><span class='line'>***** 8 Abril 2013 14:00   *****
+</span><span class='line'>***** 00001                *****
+</span><span class='line'>********************************
+</span><span class='line'>Nombre del dispositivo | Número de Serie | Garantía (Meses)
+</span><span class='line'>HDD Seagate 1 TB            12345667            6
+</span><span class='line'>Monitor Actek 22&quot;           45387269            12
+</span><span class='line'>Trackball Logitech          84936201            6
+</span><span class='line'>
+</span><span class='line'>********************************
+</span><span class='line'>Nombre: Jaime Jesús Delgado Meraz
+</span><span class='line'>Dirección: Calle Hidalgo #15 Col.Centro
+</span><span class='line'>Teléfono: 481-110-1234
+</span><span class='line'>Email: j2deme@gmail.com
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+<div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>Comprobante de compra  (Ticket.txt)</span> <a href='/downloads/code/Ticket.txt'>download</a></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+<span class='line-number'>11</span>
+<span class='line-number'>12</span>
+<span class='line-number'>13</span>
+<span class='line-number'>14</span>
+<span class='line-number'>15</span>
+<span class='line-number'>16</span>
+<span class='line-number'>17</span>
+<span class='line-number'>18</span>
+<span class='line-number'>19</span>
+</pre></td><td class='code'><pre><code class='text'><span class='line'>**** Compurama S.A. de C.V. ****
+</span><span class='line'>       RFC: CRSACV2013AB
+</span><span class='line'>********************************
+</span><span class='line'>***** 8 Abril 2013 14:00   *****
+</span><span class='line'>***** 00001                *****
+</span><span class='line'>********************************
+</span><span class='line'>Nombre: Jaime Jesús Delgado Meraz
+</span><span class='line'>Dirección: Calle Hidalgo #15 Col.Centro
+</span><span class='line'>Teléfono: 481-110-1234
+</span><span class='line'>Email: j2deme@gmail.com
+</span><span class='line'>********************************
+</span><span class='line'>Nombre del dispositivo | Cantidad | Precio Unitario | Subtotal
+</span><span class='line'>HDD Seagate 1 TB            2            1,500.0       3,000.0
+</span><span class='line'>Monitor Actek 22&quot;           1              985.0         985.0
+</span><span class='line'>Trackball Logitech          1              350.0         350.0
+</span><span class='line'>--------------------------------------------------------------
+</span><span class='line'>Total (sin IVA)                                        4,335.0
+</span><span class='line'>IVA                                                      693.6
+</span><span class='line'>Total                                                  5,028.6
+</span></code></pre></td></tr></table></div></figure></notextile></div>
+<div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>Comprobante de Importación  (Importación.txt)</span> <a href='/downloads/code/Importación.txt'>download</a></figcaption>
+ <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
+<span class='line-number'>2</span>
+<span class='line-number'>3</span>
+<span class='line-number'>4</span>
+<span class='line-number'>5</span>
+<span class='line-number'>6</span>
+<span class='line-number'>7</span>
+<span class='line-number'>8</span>
+<span class='line-number'>9</span>
+<span class='line-number'>10</span>
+</pre></td><td class='code'><pre><code class='text'><span class='line'>**** Compurama S.A. de C.V. ****
+</span><span class='line'>       RFC: CRSACV2013AB
+</span><span class='line'>********************************
+</span><span class='line'>***** 8 Abril 2013 14:00   *****
+</span><span class='line'>***** 00001                *****
+</span><span class='line'>********************************
+</span><span class='line'>Nombre del dispositivo | Fabricante     |   País      |     Peso    |       Medidas
+</span><span class='line'>HDD Seagate 1 TB            Seagate         Taiwan          300 grs         20 x 12 x 5 cm
+</span><span class='line'>Monitor Actek 22&quot;           Actek           Japón           2000 grs        23 x 20 x 8 cm
+</span><span class='line'>Trackball Logitech          Logitech        China           200 grs         15 x 10 x 10 cm
+</span></code></pre></td></tr></table></div></figure></notextile></div></p>
+
+<p>Sin más por el momento, espero esten próximos a acabar sus proyectos de vacaciones y nos vemos sin falta el día Lunes 8 de Abril 2013 en clase.</p>
+]]></content>
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Avance en vacaciones]]></title>
+    <link href="http://j2deme.github.io/2013/04/04/avance-en-vacaciones/"/>
+    <updated>2013-04-04T13:00:00-06:00</updated>
+    <id>http://j2deme.github.io/2013/04/04/avance-en-vacaciones</id>
+    <content type="html"><![CDATA[<p>Saludos a todos.</p>
+
+<p>Ya faltan pocos días para el regreso a clases. Y espero que esten trabajando en sus tareas, recuerden que son para entregar el día Lunes 8 de Abril de 2013 tal como se los indique <a href="/2013/03/14/proximas-fechas-importantes/">aquí</a> y <a href="/2013/03/21/tareas-y-laboratorios-4-y-5/">aquí</a>.</p>
+
+<p>En consideración a aquellos que <strong>si</strong> estan trabajando en este período de descanso, les publico algunos ejemplos que les serviran de ayuda y referencia.</p>
+
+<!-- more -->
+
+<h3 id="programacin-orientada-a-objetos">Programación Orientada a Objetos</h3>
+
+<p>Después de revisar nuevamente el contenido del tutorial indicado para la tarea 3, me dí cuenta que había algunos problemas con el contenido y las instrucciones, sin embargo, estos problemas no fueron impedimento para las <strong>2</strong> personas que si me enviaron la tarea.</p>
+
+<p>El detalle con el tutorial asignado a realizar, es que solo contemplaba la parte de diseño de la aplicación, y mencionaba brevemente la parte funcional de la misma, y yo les pedí que entregaran la aplicación funcional. Aunque la tarea asignada no era imposible, puesto que solo requería de leer un poco más del tutorial, si contradecía en cierto sentido la instrucciones de la misma.</p>
+
+<p>Debido a esa <a href="http://es.wiktionary.org/wiki/ambiguo#Acepciones">ambigüedad</a> voy a hacer la siguiente consideración:
+<blockquote><p>La tarea 3 no se considerará dentro del porcentaje de las tareas. Sin embargo, en consideración a aquellos que la hayan entregado tendrán acceso a un puntaje extra.</p></blockquote></p>
+
+<p>Lo anterior quiere decir que no la tomare en cuenta para los que no la hayan entregado (no les afecta negativamente), pero si la consideraré para aquellos que la entregaron previo a esta publicación. Por lo tanto, no aceptare ninguna entrega más de la tarea 3.</p>
+
+<p>Pueden descargar el código fuente <strong>funcional</strong> de la aplicación de ejemplo, que encargue para el tutorial <a href="https://github.com/j2deme/POO_Cpp/tree/master/Qt/TempConverter">aquí</a>, recuerden que tendran que descargar el repositorio completo, o descargar los archivos de uno por uno.</p>
+
+<p>Como nota extra, esta aplicación la realice usando como referencia el tutorial en español que les dí y el libro <em>C++ GUI Programming with Qt4 1st Edition</em>, que les publique anteriormente, <strong>no</strong> use ningún recurso en línea puesto que la hice cuando estaba fuera de la ciudad, sin acceso a Internet.</p>
+
+<p>Más adelante les publicaré algunos ejemplos extras con Qt que les serán de ayuda para sus tareas y proyecto final, de igual manera les publicare la información relacionada con los requerimientos de su proyecto final.</p>
+
+<h3 id="programacin-mvil">Programación Móvil</h3>
+
+<p>Analizando las entregas de tareas recibidas he podido determinar algunas cosas:</p>
+
+<ul>
+  <li>Actualmente, puedo contar con una sola mano a aquellos que se  han tomado el tiempo de investigar como resolver los problemas que han tenido.</li>
+  <li>Si bien no entregan las tareas a tiempo, tampoco las entregan en los días extras.</li>
+  <li>Aunque estan disponibles múltiples canales de comunicación (email, comentarios en el blog, twitter, personalmente) son pocos los que se toman el tiempo de preguntar sus dudas.</li>
+  <li>Especialmente de aquellos que ya reprobaron el primer bloque de unidades, esperaría que fueran más <a href="http://es.wiktionary.org/wiki/asertivo#Acepciones">asertivos</a> en cuanto a sus entregas.</li>
+</ul>
+
+<p>Una vez dicho lo anterior, tal como les dije a los alumnos de POO, espero que esten trabajando en sus tareas, y cualquier duda esta disponible mi correo y demás formas de comunicación.</p>
+
+<p>Estan disponible en línea tanto el código fuente de la aplicación <a href="https://github.com/j2deme/AndroidApps/tree/master/DiceRace"><strong>Dice Race</strong></a>, de la tarea 2, y un ejemplo de como utilizar un <a href="https://github.com/j2deme/AndroidApps/tree/master/MapDemo">mapa</a> en Android.</p>
+
+<p>El código de ejemplo del mapa les servira de referencia para los laboratorios 4 y 5, y para aquellos que no lo han hecho el laboratorio 3. En lo respectivo al mapa, les estare publicando un tutorial y algunos enlaces de referencia para lograr hacer funcionar el mapa en Android.</p>
+
+<h3 id="nota-final">Nota final</h3>
+
+<p>Recuerden que la fecha de entrega de las tareas y laboratorios (4 y 5), es el día Lunes 8 de Abril de 2013.</p>
+
+<div class="countdown">April 8, 2013 23:59:59</div>
+
+<p>Revisen también la sección de <em>Diapositivas</em> donde encontraran la información de los temas para el próximo examen.</p>
+]]></content>
+  </entry>
+  
+</feed>
