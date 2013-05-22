@@ -2,7 +2,7 @@
 layout: post
 title: "Entregas Finales y Recuperación"
 date: 2013-05-20 15:28
-published: false
+published: true
 comments: true
 categories: [Movil, POO]
 ---
