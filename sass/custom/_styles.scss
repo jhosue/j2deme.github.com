@@ -45,3 +45,18 @@
     }
 }
 
+#markdown-toc:before {
+  content: "Contenidos";
+  font-weight: bold;
+}
+
+ul#markdown-toc {
+  list-style: none;
+  float: right;
+  @include shadow-box;
+  background-color: white;
+}
+
+.blog-index #markdown-toc {
+  display: none;
+}

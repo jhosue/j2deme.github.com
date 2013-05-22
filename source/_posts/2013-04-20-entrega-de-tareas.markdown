@@ -54,7 +54,7 @@ __Transporte Urbano__
 
 _Equipo 1:_ Jaime, Isacar Itiel, José Humberto, Efraín Omar, Gerardo, Edgar
 
-_Equipo 2:_ Antonio, Beatriz, David, María Guadalupe, Santos, Joel Samuel,
+_Equipo 2:_ Antonio, Beatriz, David, María Guadalupe, Santos, Joel Samuel
 
 __Comisiones__
 
