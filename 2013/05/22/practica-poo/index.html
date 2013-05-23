@@ -5,11 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Instalación de Qt - Jaime Delgado Meraz</title>
+  <title>Práctica POO - Jaime Delgado Meraz</title>
   <meta name="author" content="Jaime Jesús Delgado Meraz">
 
   
-  <meta name="description" content="Alumnos de POO: En este post encontraran algunos tutoriales que les serviran para verificar que la instalación de Qt en Windows sea correcta. A la &hellip;">
+  <meta name="description" content="Saludos alumnos. Tal como les comente en clase, además del proyecto final, dentro de las estrategias de evaluación también se considera una práctica &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -18,7 +18,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://j2deme.github.io/2013/03/21/instalacion-de-qt/">
+  <link rel="canonical" href="http://j2deme.github.io/2013/05/22/practica-poo/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="http://feeds.feedburner.com/JaimeDelgadoMeraz" rel="alternate" title="Jaime Delgado Meraz" type="application/atom+xml">
@@ -88,7 +88,7 @@
   
   <header>
     
-      <h1 class="entry-title">Instalación de Qt</h1>
+      <h1 class="entry-title">Práctica POO</h1>
     
     
       <p class="meta">
@@ -104,7 +104,7 @@
   
 
 
-<time datetime="2013-03-21T08:57:00-06:00" pubdate data-updated="true">21/03/2013</time>
+<time datetime="2013-05-22T14:24:00-05:00" pubdate data-updated="true">22/05/2013</time>
         
          | <a href="#disqus_thread">Comentarios</a>
         
@@ -113,36 +113,87 @@
   </header>
 
 
-<div class="entry-content"><p>Alumnos de POO:</p>
+<div class="entry-content"><p>Saludos alumnos.</p>
 
-<p>En este post encontraran algunos tutoriales que les serviran para verificar que la instalación de Qt en Windows sea correcta.</p>
+<p>Tal como les comente en clase, además del proyecto final, dentro de las estrategias de evaluación también se considera una práctica con un valor de 15% que les servira para complementar la calificación que obtengan en su proyecto final.</p>
 
-<p>A la mayoría se le hizo fácil únicamente descargar el Qt Creator y tratar de correr el código que les dí, sin embargo, había que hacer algo más pero hasta donde logre determinar nadie lo hizo.</p>
-
-<p>Entonces básicamente, esta es la investigación de instalación de Qt que ustedes debieron haber hecho.</p>
+<p>A continuación podrán encontrar más a detalle el problema a resolver en dicha práctica.</p>
 
 <!-- more -->
 
-<p>A continuación les pongo 2 enlaces a los tutoriales de instalación de Qt en Windows (para ninguna versión en especial), estos tutoriales son los oficiales provistos por Nokia en la página del proyecto de Qt, y ambos estan en <strong>inglés</strong>.</p>
+<h1 id="problema">Problema</h1>
+<p>Se debe generar un algoritmo de encriptación y desencriptación básico, que tome 2 parámetros, el primero de ellos, la acción a realizar, ya sea encriptar o desencriptar, y el segundo parámetro el archivo sobre el cual se va a trabajar, estos parámetros podran ingresarse como parámetros de la consola quedando de la siguiente manera (suponiendo que el programa se llama Crypto):</p>
 
-<p>Para Qt4 pueden revisar <a href="http://qt-project.org/doc/qt-4.8/install-win.html" title="Qt4">aquí</a> y para Qt5 <a href="http://qt-project.org/doc/qt-5.0/qtdoc/install-win.html">aquí</a>.</p>
+<div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+</pre></td><td class="code"><pre><code class=""><span class="line">Crypto e miarchivo.txt //Para encriptar
+</span><span class="line">
+</span><span class="line">Crypto d miarchivo.txt //Para desencriptar</span></code></pre></td></tr></table></div></figure></notextile></div>
+<p>De igual manera, podran leer los parámetros desde la ejecución del programa, es decir:</p>
 
-<p>En cuanto lo que respecta al tutorial en español, el más completo que encontre, y que es para una versión más o menos promedio (Windows 7), esta disponible <a href="http://www.zonaqt.com/content/instalacion-de-qt-creator-en-windows-actualizado" title="Instalación Qt Creator">aquí</a>, en este caso a comparación de los 2 anteriores, este tutorial esta enfocado a la instalación de Qt Creator y la librería Qt5.</p>
+<div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+</pre></td><td class="code"><pre><code class=""><span class="line">Crypto
+</span><span class="line">[E]ncriptar o [D]esencriptar? E
+</span><span class="line">Archivo a trabajar? miarchivo.txt
+</span><span class="line">
+</span><span class="line">Archivo encriptado correctamente!</span></code></pre></td></tr></table></div></figure></notextile></div>
 
-<p>Lo que pude observar de los 3 tutoriales es que básicamente el paso que nadie hizo fue añadir el binario de Qt al <strong>Path</strong> del sistema para que al compilar desde el Qt Creator detecte las librerías de Qt (muy similar a lo que sucedió con la librería <a href="/2013/02/21/solucion-al-problema-de-iostream/">Iostream</a> que en su momento también les recomendé que instalaran).</p>
+<p>Una vez ingresados los respectivos parámetros, se debe realizar la acción indicada (encriptado o desencriptado), utilizando la implementación del algoritmo que se detalla más adelante, y se debe generar (escribir) un archivo con el resultado de la acción, este archivo debera llamarse igual que el archivo original, pero con el sufijo de la acción realizada, quedando por ejemplo:</p>
 
-<p>Entonces aquí tienen la información <strong>general</strong>, pero tal como les dije en clase, cualquier caso especial en sus equipos:</p>
+<div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+</pre></td><td class="code"><pre><code class=""><span class="line">Encriptando miArchivoSinEncriptar.txt &gt; encriptado-miArchivoSinEncriptar.txt
+</span><span class="line">
+</span><span class="line">Desencriptando miArchivoEncriptado.txt &gt; desencriptado-miArchivoEncriptado.txt</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p>Queda a su libertad el utilizar cualquier otro tipo de sufijos o prefijos para indicar la acción indicada (<code>miArchivo.e.txt</code> para encriptado y <code>miArchivo.d.txt</code> para desencriptado, por ejemplo).</p>
+
+<h2 id="encriptacin-y-desencriptacin">Encriptación y Desencriptación</h2>
+<p>El algoritmo de encriptado y desencriptado es muy simple, básicamente funciona suponiendo que el alfabeto es un anillo, y que cada letra del alfabeto se desplaza 4 posiciones hacia adelante para realizar la codificación o decodificación necesaria, funcionando de igual manera con los dígitos del 0 al 9, lo que genera un tabla de codificación de la siguiente manera:</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class="line-number">1</span>
+<span class="line-number">2</span>
+<span class="line-number">3</span>
+<span class="line-number">4</span>
+<span class="line-number">5</span>
+</pre></td><td class="code"><pre><code class=""><span class="line">abcdefghijklmnopqrstuvwxyz
+</span><span class="line">efghijklmnopqrstuvwxyzabcd
+</span><span class="line">
+</span><span class="line">0123456789
+</span><span class="line">4567890123</span></code></pre></td></tr></table></div></figure></notextile></div>
+<p>De la tabla de codificación anterior se desprende lo siguiente:</p>
 
 <ul>
-  <li>Que si Windows XP, Vista, 7 u 8, o</li>
-  <li>Que si 32 o 64 bits, o</li>
-  <li>Que si Basic, Home, Student, Professional o Ultimate.</li>
+  <li>No funciona con letras tales como: ñ, ü, é, etc. Por lo que deberan omitirse al momento de escribir los textos (o permitirlos y no codificarlos).</li>
+  <li>No funciona con símbolos tales como: #$%&amp;/()=?¡¿!, etc. Aunque si bien se podría definir una regla de codificación, igualmente deberan omitirse en los textos (o permitirlos y no codificarlos).</li>
+  <li>No se indica que hacer con los espacios, pero estos podrían cambiarse por guiones (-) al codificar, o simplemente quedarse iguales.</li>
+  <li>No se indica que hacer con las mayúsculas, aunque podrían añadirse al final  (…wxyzABC…), sin embargo, para propósitos de la práctica se recomienda no considerarlas en los textos.</li>
 </ul>
 
-<p>Es responsabilidad <strong>suya</strong> encontrar la solución. Como les he dicho múltiples veces en clase, yo tengo Ubuntu 32 bits y rara vez tengo problemas al instalar las cosas, pero no significa que ustedes tengan que cambiar de sistema operativo, sino que tienen que aprender a solucionar los problemas técnicos de <strong>sus</strong> equipos.</p>
+<p>Omitiendo las limitantes que el algoritmo pudiera presentar, este algoritmo es funcional, por lo que para propósitos de esta práctica se debera implementar. Un ejemplo del uso de este algoritmo sería convertir la cadena <code>hola mundo</code> a <code>lspe qyrhs</code> y viceversa. En su caso deberan tomar textos más extensos, encriptarlos y desencriptarlos.</p>
 
-<p>Espero sus tareas para el día Sábado 23 de Marzo, tal como lo indique en la publicación respectiva y en la calendarización.</p>
+<h2 id="implementacin">Implementación</h2>
 
+<p>Deberan generar un clase (<em>p.e.</em> <code>Crypto</code>) con 2 funciones (además de constructor y destructor) encriptar y desencriptar, las cuales recibiran como parámetro una cadena (encriptada o de texto simple, según sea el caso), y deberán devolver una cadena con la acción indicada.</p>
+
+<p>Los datos se obtendran desde archivos de texto plano (ya sean codificados o no), que seran leídos, procesados, y finalmente se debera guardar el resultado en otro archivo, tal como se indico anteriormente.</p>
+
+<p>Podrán encontrar algunos ejemplos de escritura y lectura de archivos de texto plano <a href="https://github.com/j2deme/POO_Cpp/tree/master/06_Flujos_y_Archivos/TextoPlano">aquí</a>, aunque no estan limitados a eso.</p>
+
+<h2 id="consideraciones-finales">Consideraciones finales</h2>
+
+<ul>
+  <li>El trabajo debera realizarse por equipo, en este caso, serán los mismos equipos ya asignados para el proyecto final, o sí asi lo desean, en equipos a su gusto no mayores a 5 integrantes.</li>
+  <li>Deben entregar únicamente un empaquetado (zip) con el código fuente de la aplicación, sin documento.</li>
+  <li>La práctica esta pensada para realizarse para consola, pero si se realiza una implementación gráfica, se considerara para puntaje extra.</li>
+  <li>La entrega de esta práctica será únicamente el día <strong>Jueves 30 de Mayo de 2013</strong>.</li>
+</ul>
 </div>
 
 
@@ -165,7 +216,7 @@
   
 
 
-<time datetime="2013-03-21T08:57:00-06:00" pubdate data-updated="true">21/03/2013</time>
+<time datetime="2013-05-22T14:24:00-05:00" pubdate data-updated="true">22/05/2013</time>
       
 
 <span class="categories">
@@ -179,7 +230,7 @@
     
       <div class="sharing">
   
-  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://j2deme.github.io/2013/03/21/instalacion-de-qt/" data-via="j2deme" data-counturl="http://j2deme.github.io/2013/03/21/instalacion-de-qt/" >Tweet</a>
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://j2deme.github.io/2013/05/22/practica-poo/" data-via="j2deme" data-counturl="http://j2deme.github.io/2013/05/22/practica-poo/" >Tweet</a>
   
   
   <div class="g-plusone" data-size="medium"></div>
@@ -192,10 +243,10 @@
     
     <p class="meta">
       
-        <a class="basic-alignment left" href="/2013/03/17/tarea-y-laboratorio-3/" title="Publicación Anterior: Tarea y Laboratorio 3">&laquo; Tarea y Laboratorio 3</a>
+        <a class="basic-alignment left" href="/2013/05/22/entregas-finales-y-recuperacion/" title="Publicación Anterior: Entregas Finales y Recuperación">&laquo; Entregas Finales y Recuperación</a>
       
       
-        <a class="basic-alignment right" href="/2013/03/21/tareas-y-laboratorios-4-y-5/" title="Publicación Siguiente: Tareas y Laboratorios 4 y 5">Tareas y Laboratorios 4 y 5 &raquo;</a>
+        <a class="basic-alignment right" href="/2013/05/22/practica-movil/" title="Publicación Siguiente: Práctica Móvil">Práctica Móvil &raquo;</a>
       
     </p>
   </footer>
@@ -286,8 +337,8 @@
       
         
         // var disqus_developer = 1;
-        var disqus_identifier = 'http://j2deme.github.io/2013/03/21/instalacion-de-qt/';
-        var disqus_url = 'http://j2deme.github.io/2013/03/21/instalacion-de-qt/';
+        var disqus_identifier = 'http://j2deme.github.io/2013/05/22/practica-poo/';
+        var disqus_url = 'http://j2deme.github.io/2013/05/22/practica-poo/';
         var disqus_script = 'embed.js';
       
     (function () {

@@ -4,7 +4,7 @@
   <title><![CDATA[Categoria &rArr; Movil | Jaime Delgado Meraz]]></title>
   <link href="http://j2deme.github.io/categorias/movil/atom.xml" rel="self"/>
   <link href="http://j2deme.github.io/"/>
-  <updated>2013-05-22T12:26:06-05:00</updated>
+  <updated>2013-05-22T19:37:22-05:00</updated>
   <id>http://j2deme.github.io/</id>
   <author>
     <name><![CDATA[Jaime Jesús Delgado Meraz]]></name>
@@ -14,10 +14,41 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Práctica Móvil]]></title>
+    <link href="http://j2deme.github.io/2013/05/22/practica-movil/"/>
+    <updated>2013-05-22T18:45:00-05:00</updated>
+    <id>http://j2deme.github.io/2013/05/22/practica-movil</id>
+    <content type="html"><![CDATA[<p>Saludos alumnos.</p>
+
+<p>A poco menos de un día para el evento de la Feria Tecnológica, les pongo disponible, la que será su última práctica del semestre.</p>
+
+<p>Esta práctica estará basada en el problema propuesto para los alumnos de <a href="/2013/05/22/practica-poo/">POO</a>, pero con una serie de pequeños cambios que les detallo a continuación.</p>
+
+<!-- more -->
+
+<p>Una vez que hayan revisado el problema propuesto, se daran cuenta que básicamente consiste de convertir cadenas de texto plano a cadenas de texto plano <em>codificadas</em> y viceversa, de acuerdo con la tabla de codificación y las reglas indicadas.</p>
+
+<p>Puesto que en su caso, no cuentan con una terminal desde la cual invocar los comandos, su práctica consistira en resolver el mismo problema, pero generando una interfaz en la cual puedan escribir un texto largo (multilínea), seleccionar la opción a realizar desde un desplegable (encriptar o desencriptar) y mostrar el texto generado, para poderlo copiar y utilizarlo en lo que corresponda.</p>
+
+<p>Igualmente les recomiendo utilizar una clase con sus respectivos métodos, de manera que puedan generar un objeto (<em>p.e.</em> de tipo <code>Crypto</code>) e invocar en él la función seleccionada.</p>
+
+<h2 id="consideraciones-finales">Consideraciones finales</h2>
+
+<ul>
+  <li>Son libres de diseñar la interfaz a su gusto, siempre y cuando permita como mínimo las características indicadas.</li>
+  <li>Cualquier otra característica añadida, como envío por SMS, desencriptado de SMS entrantes y/o similares, será considerada para puntaje extra.</li>
+  <li>El trabajo debera realizarse por equipo, en este caso, serán los mismos equipos ya asignados para el proyecto final, o sí asi lo desean, en equipos a su gusto no mayores a 5 integrantes.</li>
+  <li>Deben entregar únicamente un empaquetado (zip) con el código fuente de la aplicación, sin documento.</li>
+  <li>Al igual que para los alumnos de POO, la fecha de entrega de esta práctica será únicamente el día <strong>Jueves 30 de Mayo de 2013</strong>.</li>
+</ul>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Entregas Finales y Recuperación]]></title>
-    <link href="http://j2deme.github.io/2013/05/20/entregas-finales-y-recuperacion/"/>
-    <updated>2013-05-20T15:28:00-05:00</updated>
-    <id>http://j2deme.github.io/2013/05/20/entregas-finales-y-recuperacion</id>
+    <link href="http://j2deme.github.io/2013/05/22/entregas-finales-y-recuperacion/"/>
+    <updated>2013-05-22T10:00:00-05:00</updated>
+    <id>http://j2deme.github.io/2013/05/22/entregas-finales-y-recuperacion</id>
     <content type="html"><![CDATA[<ul id="markdown-toc">
   <li><a href="#programacin-orientada-a-objetos">Programación Orientada a Objetos</a>    <ul>
       <li><a href="#grupo-b">Grupo B</a></li>
@@ -331,247 +362,6 @@
 <p>(En progreso, documento aún no disponible)</p>
 
 <p>Para los equipos que quedaron asignados al proyecto de transporte urbano, sírvanse descargar los requerimientos mínimos de dicho proyecto disponibles <a href="#">aquí</a>, y de igual manera cualquier duda con respecto al proyecto pueden hacermela saber en los comentarios de este post, en mi correo, twitter o directamente en clase.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Mapas en Android]]></title>
-    <link href="http://j2deme.github.io/2013/04/05/mapas-en-android/"/>
-    <updated>2013-04-05T18:37:00-06:00</updated>
-    <id>http://j2deme.github.io/2013/04/05/mapas-en-android</id>
-    <content type="html"><![CDATA[<p>Saludos alumnos de móvil.</p>
-
-<p>En consideración a que los últimos tres laboratorios han contenido como parte de su desarrollo el uso de mapas en Android (sugerido no obligatorio) y especialmente para aquellos que estarán realizando el proyecto de <em>transporte urbano</em>, aquí les pongo los pasos necesarios para poder utilizar el mapa, esta publicación es complementaria al código que ya esta disponible en el <a href="https://github.com/j2deme/AndroidApps">repositorio</a> de aplicaciones.</p>
-
-<p><strong>Nota:</strong> Por modificaciones del API de Android, los mapas <strong>no</strong> funcionan en el emulador, únicamente en dispositivos físicos.</p>
-
-<!-- more -->
-
-<p><strong>Dificultad:</strong> Intermedia</p>
-
-<p><strong>Tiempo necesario:</strong> 45~60 minutos</p>
-
-<h2 id="paso-0-descargar-google-play-services-sdk">Paso 0: Descargar Google Play Services SDK</h2>
-
-<p>Este se considera el paso inicial, puesto que requiere descargar una librería nueva en Eclipse y puede (o no) tomar algo de tiempo, por lo que se recomienda hacerlo al inicio, mientras se realiza el resto de los pasos.</p>
-
-<p>Contrario a su antecesor, el api de Google Maps para Android, en su versión 2, esta contenido como un servicio del Google Play, por lo que requiere que se descargue esta librería, para lograrlo, en Eclipse, damos click el icono de Android SDK Manager, o en <em>Window</em> &gt; <em>Android SDK Manager</em>, donde se nos mostrara la lista de paquetes de APIs y una carpeta llamada <em>Extras</em>, en la cual debemos buscar el paquete <strong>Google Play Services</strong> e instalarlo.</p>
-
-<p>Debemos aceptar la licencia y aceptar la descarga e instalación, en consideración a la velocidad que tengan disponibles de su red, este paso podría tomar un par de minutos o algun par de decenas de minutos, por lo que lo pondremos a descargar y seguiremos con el resto de los pasos.</p>
-
-<h2 id="paso-1-obtener-la-firma-digital-sha1">Paso 1: Obtener la firma digital SHA1</h2>
-
-<p>Este paso es fundamental, ya que sin el, el resto del tutorial no tiene ningún sentido, ya que será imposible hacer uso de los mapas, al menos no de manera nativa.</p>
-
-<p>Para poder solicitar nuestra API key, primero debemos conocer nuestra firma digital SHA1 de <em>debug</em> (desarrollo).</p>
-
-<p>En Windows:
-<div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>keytool -list -v -keystore “C:\Users\su_usuario.android\debug.keystore” -alias androiddebugkey -storepass android -keypass android</span></code></pre></td></tr></table></div></figure></notextile></div></p>
-
-<p>En Linux:
-<div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>keytool -list -v -keystore ~/.android/debug.keystore -alias androiddebugkey -storepass android -keypass android</span></code></pre></td></tr></table></div></figure></notextile></div></p>
-
-<p>Y deberan obtener algo similar a lo siguiente:
-<div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>Alias name: androiddebugkey
-</span><span class='line'> Creation date: Jan 01, 2013
-</span><span class='line'> Entry type: PrivateKeyEntry
-</span><span class='line'> Certificate chain length: 1
-</span><span class='line'> Certificate[1]:
-</span><span class='line'> Owner: CN=Android Debug, O=Android, C=US
-</span><span class='line'> Issuer: CN=Android Debug, O=Android, C=US
-</span><span class='line'> Serial number: 4aa9b300
-</span><span class='line'> Valid from: Mon Jan 01 08:04:04 UTC 2013 until: Mon Jan 01 18:04:04 PST 2033
-</span><span class='line'> Certificate fingerprints:
-</span><span class='line'>      MD5:  AE:9F:95:D0:A6:86:89:BC:A8:70:BA:34:FF:6A:AC:F9
-</span><span class='line'>      SHA1: BB:0D:AC:74:D3:21:E1:43:07:71:9B:62:90:AF:A1:66:6E:44:5D:75
-</span><span class='line'>      Signature algorithm name: SHA1withRSA
-</span><span class='line'>      Version: 3</span></code></pre></td></tr></table></div></figure></notextile></div></p>
-
-<p>Aquí deberan copiar la firma digital SHA1, que para este ejemplo es:
-<div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>BB:0D:AC:74:D3:21:E1:43:07:71:9B:62:90:AF:A1:66:6E:44:5D:75</span></code></pre></td></tr></table></div></figure></notextile></div></p>
-
-<p>Recuerden que cada clave es <strong>única</strong> para cada equipo.</p>
-
-<h2 id="paso-2-crear-un-proyecto-de-api">Paso 2: Crear un proyecto de API</h2>
-
-<p>Una vez que tenemos nuestra llave SHA1, el siguiente paso es acceder al <strong>Google API Console</strong> disponible en <a href="https://code.google.com/apis/console/">https://code.google.com/apis/console/</a>.</p>
-
-<p>En la dirección anterior podremos acceder a la consola de activación de servicios de APIs de Google, donde tendremos acceso a, por ejemplo, las APIs de: Gmail, Youtube, Google Maps, Google Places, Picasa, Google Charts, entre otras.</p>
-
-<p>Para nuestro propósito haremos uso del api de <strong>Google Maps Android API v2</strong>, que configuraremos más adelante, cabe mencionar que se requiere de una cuenta de Gmail para poder hacer uso de los servicios de las APIs, así que tendremos que iniciar sesión o generar una nueva cuenta.</p>
-
-<p>Al abrir la consola de APIs, existen dos opciones posibles:</p>
-
-<ol>
-  <li>Que nunca hayamos usado la consola de APIS (el caso de la mayoría), por lo que se les solicitará que creen un proyecto para gestionar el uso de las APIs que elijan. Para esto daremos click en <strong>Create Project</strong>, y obtendremos un nuevo proyecto llamado <strong>API Project</strong>.</li>
-  <li>Si ya hemos utilizado la consola de APIs, veremos una lista de los proyectos existentes y servicios disponibles. Sin embargo, es una buena idea usar un nuevo proyecto únicamente para el api de <em>Google Maps Android</em>.</li>
-</ol>
-
-<p>En cualquier caso, nos encontraremos con una pantalla donde observaremos una barra similar a la siguiente:
-<img class="left" src="/images/posts/console1.png" title="‘Barra Lateral’ ‘Barra Lateral’" ></p>
-
-<p>Desde la cual podremos renombrar, borrar, abrir o crear, o eliminar el borrado de algún proyecto.</p>
-
-<p>Una vez que tengamos un proyecto nuevo el paso siguiente es dar click en <strong>Services</strong> para configurar el acceso a los diversos servicios ofrecidos por Google, en esta ocasión nos servirá para elegir el API de Google Maps para Android, pero para aquellos que les gusta desarrollar aplicaciones en sus tiempos libres, encontrarán una gran variedad de APIs disponibles para experimentar.</p>
-
-<h2 id="paso-3-activar-el-api">Paso 3: Activar el API</h2>
-
-<p>Una vez dado click en <em>Services</em>, se desplegara una lista de todas las APIs disponibles por parte de Google, de donde deberemos buscar <strong>Google Maps Android API v2</strong> y activarla, tal como se ve en la imagen:
-<img class="left" src="/images/posts/console2.png" title="‘Google Maps Android API v2’ ‘Google Maps Android API v2’" ></p>
-
-<p>Una vez hecho esto, si es la primera vez que hacemos uso de esta API, se nos mostrara la licencia de uso, la cual tendremos que aceptar, en caso contrario no podremos utilizar el API elegida, esto solo se realiza una vez.</p>
-
-<p><strong>Nota:</strong> Asegurense de elegir el API correcta que corresponde a Android, de lo contrario el resto de los pasos no funcionara.</p>
-
-<h2 id="paso-4-obtener-el-api-key">Paso 4: Obtener el API Key</h2>
-
-<p>Una vez que activamos el servicio, el siguiente paso es solicitar el API key para poderla usar en nuestra aplicación, para lo cual, dentro de la misma Google API Console, daremos click en la opción <strong>API Access</strong>.</p>
-
-<p>Ahi veremos algo más o menos similar a la siguiente imagen:
-<img class="left" src="/images/posts/console3.png" title="‘API Access’ ‘API Access’" ></p>
-
-<p>Una vez en esta pantalla, daremos click, en el botón que marcado con <strong>Create new Android key…</strong>, y se nos abrira un diálogo similar a este:
-<img class="left" src="/images/posts/console4.png" title="‘Configurar API Key’ ‘Configurar API Key’" ></p>
-
-<p>Aquí ingresaremos en el cuadro de texto, los datos de nuestra firma digital SHA1 (que obtuvimos en el paso 1), y separado con un punto y coma (;), el nombre del paquete de nuestra aplicación, de esta manera:
-<div class='bogus-wrapper'><notextile><figure class='code'><div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class=''><span class='line'>BB:0D:AC:74:D3:21:E1:43:07:71:9B:62:90:AF:A1:66:6E:44:5D:75;com.j2deme.mapdemo</span></code></pre></td></tr></table></div></figure></notextile></div></p>
-
-<p>Donde la parte de <code>com.j2deme.mapdemo</code> se refiere al nombre del paquete de nuestra aplicación al crearla, generalmente inicia con el <code>com.</code>, seguido del nombre de la empresa o alias del desarrollador(<code>j2deme.</code> en mi caso) y finalmente el nombre de la aplicación sin espacios y en minúsculas (<code>mapdemo</code> en el caso de la aplicación que esta en el repositorio).</p>
-
-<p>Una vez ingresados los datos necesarios, damos click en el botón <strong>Create</strong> y se nos generara nuestra llave para hacer uso de los mapas de Google en Android:
-<img class="left" src="/images/posts/console5.png" title="‘API Key para Android’ ‘API Key para Android’" ></p>
-
-<p>Con esto ya tendremos generada nuestra llave y podremos hacer uso de ella en nuestras aplicación, si requerimos usar el mapa en otra aplicación daremos click en la opción <em>Edit allowed Android apps</em>, en donde en una nueva línea añadiremos la misma llave SHA1, y el nombre del paquete de nuestra nueva aplicación, así tantas veces necesitemos.</p>
-
-<h2 id="paso-5-importar-google-play-services-al-workspace">Paso 5: Importar Google Play Services al Workspace</h2>
-
-<p>Para lograr correctamente este paso, deberemos haber realizado sin problemas los pasos anteriores, de lo contrario debemos regresarnos y resolver cualquier problema que se haya presentado. Tal como lo indique anteriormente, nuevamente lo digo, para poder verificar el correcto funcionamiento de los mapas en Android es <strong>necesario</strong> el uso de un dispositivo físico, no funciona en el emulador.</p>
-
-<p>Para lograr un ejemplo básico del uso de mapas en Android, lo primero es confirmar que el paquete <em>Google Play Services</em>, indicado en el paso 0, se ha finalizado de descargar, de ser así generaremos una nueva aplicación de Android, asegurandonos que el nombre del paquete sea <strong>igual</strong> al que indicamos en la consola de apis.</p>
-
-<p>Una vez que tengamos nuestra nueva aplicación debemos importar la librería <em>Google Play Services</em> para poderla utilizar en nuestra aplicación, para esto, en Eclipse seleccionamos <em>File &gt; Import &gt; Android &gt; Existing Android Code into Workspace</em> y nos pedira la ruta de la librería, la cual debe estar ubicada dentro de la carpeta del SDK de Android (que viene dentro del zip del ADT) en <code>extras/google/google_play_services/libproject/google-play-services_lib</code>.</p>
-
-<p>Es importante considerar que tenemos que importar la librería al workspace (carpeta) donde vayamos a generar nuestra aplicación indicando la opción de <em>Copy to workspace</em> para que la copie y no solo la referencie, de lo contrario no funcionara. Esto quiere decir que si nuestra aplicación no estara en el workspace debemos cambiar la ruta a donde se importara para que funcione.</p>
-
-<p><strong>Nota:</strong> En mi caso, yo importe la librería <strong>dentro</strong> de la carpeta de mi aplicación, y logré que funcionara, porque al ponerla juntas, es decir, la carpeta de la librería y la de mi aplicación en la misma carpeta, no quiso funcionar, sin embargo pueden probar ambas formas para ver cual les funciona. Además, tuve que elegir el API 16 porque me generaba errores con la 17.</p>
-
-<h2 id="paso-6-aadir-google-play-services-como-dependencia">Paso 6: Añadir Google Play Services como dependencia</h2>
-
-<p>Una vez que hayamos generado nuestro nuevo proyecto, y hayamos importado la librería <em>Google Play Services</em> a nuestro workspace, el siguiente paso es añadir esta librería como dependencia de nuestro proyecto, para que podamos hacer uso de los mapas y otros servicios relacionados con este SDK.</p>
-
-<p>Para lo anterior, en el explorador de proyectos (normalmente ubicado al lado derecho de la pantalla en Eclipse) damos click derecho sobre la carpeta de nuestro proyecto y configuramos sus propiedades (<code>Click Derecho &gt; Properties</code> o <code>Window &gt; Properties</code> con el proyecto seleccionado). En la ventana que se nos abre elegimos la pestaña <em>Android</em> y nos desplazamos a la sección de <em>Library</em>, y damos click en <strong>Add</strong>.</p>
-
-<p>Se nos abrira una ventana, donde si importamos correctamente la librería <em>Google Play Services</em>, nos debe aparecer una carpeta llamada <em>google-play-services_lib</em> (o similar), la elegiremos y daremos click en <em>OK</em>.</p>
-
-<p>Debera aparecer la librería añadida con una palomita verde indicado que se añadió correctamente, damos click en <em>Apply</em> y después en <em>OK</em>.</p>
-
-<h2 id="paso-7-aadir-api-key-y-permisos-al-manifest">Paso 7: Añadir API key y permisos al manifest</h2>
-
-<p>En este punto ya estamos listos para hacer uso de nuestra API key en Android, para lo cual tienen dos opciones, descargar la aplicación demo que yo realize, disponible <a href="https://github.com/j2deme/AndroidApps/blob/master/MapDemo/">aquí</a> o pueden seguir leyendo para entender como hacer la aplicación desde cero.</p>
-
-<p>Para este paso, es necesario abrir el archivo <code>AndroidManifest.xml</code>, cambiarse al editor de XML y añadir lo siguiente antes de la etiqueta <code>&lt;/application&gt;</code>:
-<div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>AndroidManifest.xml  </span></figcaption>
- <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-</pre></td><td class='code'><pre><code class='xml'><span class='line'><span class="nt">&lt;meta-data</span> <span class="na">android:name=</span><span class="s">&quot;com.google.android.maps.v2.API_KEY&quot;</span> <span class="na">android:value=</span><span class="s">&quot;su_api_key&quot;</span> <span class="nt">/&gt;</span>
-</span></code></pre></td></tr></table></div></figure></notextile></div></p>
-
-<p>Dentro del mismo archivo es necesario añadir los permisos de la aplicación, estos nos serviran, entre otras cosas para acceder a la posición gps, usar el internet, guardar los <em>tiles</em> del mapa en la memoria sd, y principalmente usar el mapa, a su vez, sera necesario añadir el uso de un <em>feature</em> (característica) que nos requerira el uso de la libreria OpenGL de acuerdo con los requerimientos del api de Google Maps en su versión 2.</p>
-
-<p>Estos permisos y el <em>feature</em> deberan ir dentro de la etiqueta <code>&lt;manifest&gt;</code>, y antes de la etiqueta <code>&lt;application&gt;</code>:
-<div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>AndroidManifest.xml  </span></figcaption>
- <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-</pre></td><td class='code'><pre><code class='xml'><span class='line'><span class="nt">&lt;permission</span> <span class="na">android:name=</span><span class="s">&quot;com.j2deme.mapdemo.permission.MAPS_RECEIVE&quot;</span> <span class="na">android:protectionlevel=</span><span class="s">&quot;signature&quot;</span> <span class="nt">/&gt;</span>
-</span><span class='line'>    <span class="nt">&lt;uses-permission</span> <span class="na">android:name=</span><span class="s">&quot;com.j2deme.mapdemo.permission.MAPS_RECEIVE&quot;</span> <span class="nt">/&gt;</span>
-</span><span class='line'>    <span class="nt">&lt;uses-permission</span> <span class="na">android:name=</span><span class="s">&quot;android.permission.INTERNET&quot;</span> <span class="nt">/&gt;</span>
-</span><span class='line'>    <span class="nt">&lt;uses-permission</span> <span class="na">android:name=</span><span class="s">&quot;android.permission.WRITE_EXTERNAL_STORAGE&quot;</span> <span class="nt">/&gt;</span>
-</span><span class='line'>    <span class="nt">&lt;uses-permission</span> <span class="na">android:name=</span><span class="s">&quot;com.google.android.providers.gsf.permission.READ_GSERVICES&quot;</span> <span class="nt">/&gt;</span>
-</span><span class='line'>    <span class="nt">&lt;uses-permission</span> <span class="na">android:name=</span><span class="s">&quot;android.permission.ACCESS_NETWORK_STATE&quot;</span> <span class="nt">/&gt;</span>
-</span><span class='line'>    <span class="nt">&lt;uses-permission</span> <span class="na">android:name=</span><span class="s">&quot;android.permission.ACCESS_COARSE_LOCATION&quot;</span> <span class="nt">/&gt;</span>
-</span><span class='line'>    <span class="nt">&lt;uses-permission</span> <span class="na">android:name=</span><span class="s">&quot;android.permission.ACCESS_FINE_LOCATION&quot;</span> <span class="nt">/&gt;</span>
-</span><span class='line'>    <span class="nt">&lt;uses-feature</span> <span class="na">android:glesversion=</span><span class="s">&quot;0x00020000&quot;</span> <span class="na">android:required=</span><span class="s">&quot;true&quot;</span> <span class="nt">/&gt;</span>
-</span></code></pre></td></tr></table></div></figure></notextile></div></p>
-
-<p>Observen que generamos un permiso específico de nuestra aplicación (linea 2) que contiene el nombre del paquete de nuestra aplicación (<code>com.j2deme.mapdemo</code>), si ustedes estan haciendo la aplicación desde cero, debe de indicar el nombre del paquete de su aplicación, <strong>igual</strong> al que indicaron al solicitar el API key.</p>
-
-<h2 id="paso-8-aadir-el-mapa-a-nuestra-aplicacin">Paso 8: Añadir el mapa a nuestra aplicación</h2>
-
-<p>Una vez configurada nuestra API key y los permisos necesarios en el <em>manifest</em>, lo siguiente es modificar el <em>layout</em> de nuestra aplicación para mostrar el mapa, quedando de la siguiente manera:
-<div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>activity_main.xml  </span></figcaption>
- <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-</pre></td><td class='code'><pre><code class='xml'><span class='line'><span class="nt">&lt;relativelayout</span> <span class="na">xmlns:android=</span><span class="s">&quot;http://schemas.android.com/apk/res/android&quot;</span> <span class="na">xmlns:tools=</span><span class="s">&quot;http://schemas.android.com/tools&quot;</span> <span class="na">android:layout_width=</span><span class="s">&quot;match_parent&quot;</span> <span class="na">android:layout_height=</span><span class="s">&quot;match_parent&quot;</span> <span class="na">tools:context=</span><span class="s">&quot;.MainActivity&quot;</span><span class="nt">&gt;</span>
-</span><span class='line'>    <span class="nt">&lt;fragment</span> <span class="na">xmlns:android=</span><span class="s">&quot;http://schemas.android.com/apk/res/android&quot;</span> <span class="na">android:id=</span><span class="s">&quot;@+id/map&quot;</span> <span class="na">android:layout_width=</span><span class="s">&quot;match_parent&quot;</span> <span class="na">android:layout_height=</span><span class="s">&quot;match_parent&quot;</span> <span class="na">class=</span><span class="s">&quot;com.google.android.gms.maps.SupportMapFragment&quot;</span> <span class="nt">/&gt;</span>
-</span><span class='line'><span class="nt">&lt;/relativelayout&gt;</span>
-</span></code></pre></td></tr></table></div></figure></notextile></div></p>
-
-<p>A lo anterior se le conoce como <em>Map Fragment</em>, en el cual, como se supondra podemos añadir un mapa y configurar características como: zoom, inclinación de la cámara, latitud, longitud, tipo de mapa, así como añadir controles para brújula, rotación, desplazamiento, inclinación y zoom. Además de que todas estas opciones pueden configurarse también, directamente desde Java.</p>
-
-<p>Si estamos utilizando Eclipse, ya se nos habrá generado la clase <em>Activity</em> para nuestro mapa, la cual debe contener un método <em>onCreate</em>. Sino lo tiene debemos añadirlo:
-<div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>MainActivity.java  </span></figcaption>
- <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-</pre></td><td class='code'><pre><code class='java'><span class='line'><span class="nd">@Override</span>
-</span><span class='line'><span class="kd">protected</span> <span class="kt">void</span> <span class="nf">onCreate</span><span class="o">(</span><span class="n">Bundle</span> <span class="n">savedInstanceState</span><span class="o">)</span> <span class="o">{</span>
-</span><span class='line'>    <span class="kd">super</span><span class="o">.</span><span class="na">onCreate</span><span class="o">(</span><span class="n">savedInstanceState</span><span class="o">);</span>
-</span><span class='line'>    <span class="n">setContentView</span><span class="o">(</span><span class="n">R</span><span class="o">.</span><span class="na">layout</span><span class="o">.</span><span class="na">activity_main</span><span class="o">);</span>
-</span><span class='line'><span class="o">}</span>
-</span></code></pre></td></tr></table></div></figure></notextile></div></p>
-
-<p>El código anterior, cargara el <em>layout</em> de nuestro mapa como vista de nuestra aplicación. Una vez realizado estos pasos ya podremos ejecutar nuestra aplicación en nuestro dispositivo físico, y si tenemos acceso a Internet, nos debera mostrar un mapa a pantalla completa, con el cual podemos interactuar navegandolo, desplazandonos y haciendo zoom en él.</p>
-
-<p>Aquellos que hayan descargado el código fuente de la aplicación <strong>MapDemo</strong> observaran que es algo diferente a lo mostrado en este post, ya que incluye otras opciones como el usar el GPS, cambiar el tipo de mapa y mostrar un marcador en el mapa.</p>
-
-<h2 id="nota-final">Nota final</h2>
-
-<p>Primeramente agradezco de antemano a aquellos que se hayan tomado el tiempo de leer y realizar todos los pasos, ya que me tomo un buen tiempo escribir este post. Espero les sirva de ayuda y referencia para aquellos que quieren usar mapas en sus aplicaciones.</p>
-
-<p>Si encuentran algún problema, haganmelo saber en los comentarios, para que todos puedan opinar.</p>
-
-<p>Para mayor información o problemas específicos les recomiendo revisar las referencias donde tal vez puedan encontrar una solución a su problema o duda.</p>
-
-<h3 id="referencias">Referencias</h3>
-
-<ul>
-  <li><a href="http://mobile.tutsplus.com/tutorials/android/android-sdk-working-with-google-maps-application-setup/">Mobile Tuts+: Android SDK Working with Google Maps – Application Setup</a></li>
-  <li><a href="http://www.android-ever.com/2013/02/google-maps-android-api-v2-tutorial.html">Android Beginning Bunch : Google Maps Android API v2 API Key Generate Tutorial</a></li>
-  <li><a href="http://karnshah8890.blogspot.mx/2013/02/google-maps-android-api-v2-introduction.html">Deep Dive in Android: Google Maps API V2</a></li>
-  <li><a href="http://android-er.blogspot.mx/2012/12/a-simple-example-using-google-maps.html">Android ER: A simple example using Google Maps Android API v2</a> (Recomendación Personal)</li>
-  <li><a href="https://github.com/googlemaps/hellomap-android">Quick start with the Google Maps Android API</a> (Proyecto template provisto por Google Maps)</li>
-  <li><a href="https://code.google.com/apis/console/">Google APIs Console</a></li>
-  <li><a href="https://developers.google.com/maps/documentation/android/start">Google Developers: Getting started with Google Maps Android API v2</a></li>
-  <li><a href="http://www.vogella.com/articles/AndroidGoogleMaps/article.html">Vogella: Google Maps Android API v2</a></li>
-  <li><a href="http://wptrafficanalyzer.in/blog/google-maps-in-android-application-with-new-google-maps-android-api-v2-using-supportmapfragment/">Knowledge by Experience: Google Maps in Android Application with new Google Maps Android API v2 using SupportMapFragment</a></li>
-</ul>
 ]]></content>
   </entry>
   

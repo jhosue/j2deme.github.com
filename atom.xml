@@ -4,7 +4,7 @@
   <title><![CDATA[Jaime Delgado Meraz]]></title>
   <link href="http://j2deme.github.io/atom.xml" rel="self"/>
   <link href="http://j2deme.github.io/"/>
-  <updated>2013-05-22T12:26:06-05:00</updated>
+  <updated>2013-05-22T19:37:22-05:00</updated>
   <id>http://j2deme.github.io/</id>
   <author>
     <name><![CDATA[Jaime Jesús Delgado Meraz]]></name>
@@ -14,10 +14,120 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Práctica Móvil]]></title>
+    <link href="http://j2deme.github.io/2013/05/22/practica-movil/"/>
+    <updated>2013-05-22T18:45:00-05:00</updated>
+    <id>http://j2deme.github.io/2013/05/22/practica-movil</id>
+    <content type="html"><![CDATA[<p>Saludos alumnos.</p>
+
+<p>A poco menos de un día para el evento de la Feria Tecnológica, les pongo disponible, la que será su última práctica del semestre.</p>
+
+<p>Esta práctica estará basada en el problema propuesto para los alumnos de <a href="http://j2deme.github.io/2013/05/22/practica-poo/">POO</a>, pero con una serie de pequeños cambios que les detallo a continuación.</p>
+
+<!-- more -->
+
+<p>Una vez que hayan revisado el problema propuesto, se daran cuenta que básicamente consiste de convertir cadenas de texto plano a cadenas de texto plano <em>codificadas</em> y viceversa, de acuerdo con la tabla de codificación y las reglas indicadas.</p>
+
+<p>Puesto que en su caso, no cuentan con una terminal desde la cual invocar los comandos, su práctica consistira en resolver el mismo problema, pero generando una interfaz en la cual puedan escribir un texto largo (multilínea), seleccionar la opción a realizar desde un desplegable (encriptar o desencriptar) y mostrar el texto generado, para poderlo copiar y utilizarlo en lo que corresponda.</p>
+
+<p>Igualmente les recomiendo utilizar una clase con sus respectivos métodos, de manera que puedan generar un objeto (<em>p.e.</em> de tipo <code>Crypto</code>) e invocar en él la función seleccionada.</p>
+
+<h2 id="consideraciones-finales">Consideraciones finales</h2>
+
+<ul>
+  <li>Son libres de diseñar la interfaz a su gusto, siempre y cuando permita como mínimo las características indicadas.</li>
+  <li>Cualquier otra característica añadida, como envío por SMS, desencriptado de SMS entrantes y/o similares, será considerada para puntaje extra.</li>
+  <li>El trabajo debera realizarse por equipo, en este caso, serán los mismos equipos ya asignados para el proyecto final, o sí asi lo desean, en equipos a su gusto no mayores a 5 integrantes.</li>
+  <li>Deben entregar únicamente un empaquetado (zip) con el código fuente de la aplicación, sin documento.</li>
+  <li>Al igual que para los alumnos de POO, la fecha de entrega de esta práctica será únicamente el día <strong>Jueves 30 de Mayo de 2013</strong>.</li>
+</ul>
+]]></content>
+    
+    <category scheme="http://j2deme.github.io/categories/" term="movil" />
+    
+  </entry>
+  
+  <entry>
+    <title type="html"><![CDATA[Práctica POO]]></title>
+    <link href="http://j2deme.github.io/2013/05/22/practica-poo/"/>
+    <updated>2013-05-22T14:24:00-05:00</updated>
+    <id>http://j2deme.github.io/2013/05/22/practica-poo</id>
+    <content type="html"><![CDATA[<p>Saludos alumnos.</p>
+
+<p>Tal como les comente en clase, además del proyecto final, dentro de las estrategias de evaluación también se considera una práctica con un valor de 15% que les servira para complementar la calificación que obtengan en su proyecto final.</p>
+
+<p>A continuación podrán encontrar más a detalle el problema a resolver en dicha práctica.</p>
+
+<!-- more -->
+
+<h1 id="problema">Problema</h1>
+<p>Se debe generar un algoritmo de encriptación y desencriptación básico, que tome 2 parámetros, el primero de ellos, la acción a realizar, ya sea encriptar o desencriptar, y el segundo parámetro el archivo sobre el cual se va a trabajar, estos parámetros podran ingresarse como parámetros de la consola quedando de la siguiente manera (suponiendo que el programa se llama Crypto):</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr> <td class="code"><pre><code class=""><span class="line">Crypto e miarchivo.txt //Para encriptar
+</span><span class="line">
+</span><span class="line">Crypto d miarchivo.txt //Para desencriptar</span></code></pre></td></tr></table></div></figure></notextile></div>
+<p>De igual manera, podran leer los parámetros desde la ejecución del programa, es decir:</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr> <td class="code"><pre><code class=""><span class="line">Crypto
+</span><span class="line">[E]ncriptar o [D]esencriptar? E
+</span><span class="line">Archivo a trabajar? miarchivo.txt
+</span><span class="line">
+</span><span class="line">Archivo encriptado correctamente!</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p>Una vez ingresados los respectivos parámetros, se debe realizar la acción indicada (encriptado o desencriptado), utilizando la implementación del algoritmo que se detalla más adelante, y se debe generar (escribir) un archivo con el resultado de la acción, este archivo debera llamarse igual que el archivo original, pero con el sufijo de la acción realizada, quedando por ejemplo:</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr> <td class="code"><pre><code class=""><span class="line">Encriptando miArchivoSinEncriptar.txt &gt; encriptado-miArchivoSinEncriptar.txt
+</span><span class="line">
+</span><span class="line">Desencriptando miArchivoEncriptado.txt &gt; desencriptado-miArchivoEncriptado.txt</span></code></pre></td></tr></table></div></figure></notextile></div>
+
+<p>Queda a su libertad el utilizar cualquier otro tipo de sufijos o prefijos para indicar la acción indicada (<code>miArchivo.e.txt</code> para encriptado y <code>miArchivo.d.txt</code> para desencriptado, por ejemplo).</p>
+
+<h2 id="encriptacin-y-desencriptacin">Encriptación y Desencriptación</h2>
+<p>El algoritmo de encriptado y desencriptado es muy simple, básicamente funciona suponiendo que el alfabeto es un anillo, y que cada letra del alfabeto se desplaza 4 posiciones hacia adelante para realizar la codificación o decodificación necesaria, funcionando de igual manera con los dígitos del 0 al 9, lo que genera un tabla de codificación de la siguiente manera:</p>
+
+<div class="bogus-wrapper"><notextile><figure class="code"><div class="highlight"><table><tr> <td class="code"><pre><code class=""><span class="line">abcdefghijklmnopqrstuvwxyz
+</span><span class="line">efghijklmnopqrstuvwxyzabcd
+</span><span class="line">
+</span><span class="line">0123456789
+</span><span class="line">4567890123</span></code></pre></td></tr></table></div></figure></notextile></div>
+<p>De la tabla de codificación anterior se desprende lo siguiente:</p>
+
+<ul>
+  <li>No funciona con letras tales como: ñ, ü, é, etc. Por lo que deberan omitirse al momento de escribir los textos (o permitirlos y no codificarlos).</li>
+  <li>No funciona con símbolos tales como: #$%&amp;/()=?¡¿!, etc. Aunque si bien se podría definir una regla de codificación, igualmente deberan omitirse en los textos (o permitirlos y no codificarlos).</li>
+  <li>No se indica que hacer con los espacios, pero estos podrían cambiarse por guiones (-) al codificar, o simplemente quedarse iguales.</li>
+  <li>No se indica que hacer con las mayúsculas, aunque podrían añadirse al final  (…wxyzABC…), sin embargo, para propósitos de la práctica se recomienda no considerarlas en los textos.</li>
+</ul>
+
+<p>Omitiendo las limitantes que el algoritmo pudiera presentar, este algoritmo es funcional, por lo que para propósitos de esta práctica se debera implementar. Un ejemplo del uso de este algoritmo sería convertir la cadena <code>hola mundo</code> a <code>lspe qyrhs</code> y viceversa. En su caso deberan tomar textos más extensos, encriptarlos y desencriptarlos.</p>
+
+<h2 id="implementacin">Implementación</h2>
+
+<p>Deberan generar un clase (<em>p.e.</em> <code>Crypto</code>) con 2 funciones (además de constructor y destructor) encriptar y desencriptar, las cuales recibiran como parámetro una cadena (encriptada o de texto simple, según sea el caso), y deberán devolver una cadena con la acción indicada.</p>
+
+<p>Los datos se obtendran desde archivos de texto plano (ya sean codificados o no), que seran leídos, procesados, y finalmente se debera guardar el resultado en otro archivo, tal como se indico anteriormente.</p>
+
+<p>Podrán encontrar algunos ejemplos de escritura y lectura de archivos de texto plano <a href="https://github.com/j2deme/POO_Cpp/tree/master/06_Flujos_y_Archivos/TextoPlano">aquí</a>, aunque no estan limitados a eso.</p>
+
+<h2 id="consideraciones-finales">Consideraciones finales</h2>
+
+<ul>
+  <li>El trabajo debera realizarse por equipo, en este caso, serán los mismos equipos ya asignados para el proyecto final, o sí asi lo desean, en equipos a su gusto no mayores a 5 integrantes.</li>
+  <li>Deben entregar únicamente un empaquetado (zip) con el código fuente de la aplicación, sin documento.</li>
+  <li>La práctica esta pensada para realizarse para consola, pero si se realiza una implementación gráfica, se considerara para puntaje extra.</li>
+  <li>La entrega de esta práctica será únicamente el día <strong>Jueves 30 de Mayo de 2013</strong>.</li>
+</ul>
+]]></content>
+    
+    <category scheme="http://j2deme.github.io/categories/" term="poo" />
+    
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Entregas Finales y Recuperación]]></title>
-    <link href="http://j2deme.github.io/2013/05/20/entregas-finales-y-recuperacion/"/>
-    <updated>2013-05-20T15:28:00-05:00</updated>
-    <id>http://j2deme.github.io/2013/05/20/entregas-finales-y-recuperacion</id>
+    <link href="http://j2deme.github.io/2013/05/22/entregas-finales-y-recuperacion/"/>
+    <updated>2013-05-22T10:00:00-05:00</updated>
+    <id>http://j2deme.github.io/2013/05/22/entregas-finales-y-recuperacion</id>
     <content type="html"><![CDATA[<ul id="markdown-toc">
   <li><a href="#programacin-orientada-a-objetos">Programación Orientada a Objetos</a>    <ul>
       <li><a href="#grupo-b">Grupo B</a></li>
@@ -1112,64 +1222,6 @@ Por lo tanto, y para evitar que una sola práctica equivalga al 50% de su califi
     <category scheme="http://j2deme.github.io/categories/" term="movil" />
     
     <category scheme="http://j2deme.github.io/categories/" term="poo" />
-    
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Recuperación POO U1 y U2]]></title>
-    <link href="http://j2deme.github.io/2013/02/27/recuperacion-poo-u1-y-u2/"/>
-    <updated>2013-02-27T18:00:00-06:00</updated>
-    <id>http://j2deme.github.io/2013/02/27/recuperacion-poo-u1-y-u2</id>
-    <content type="html"><![CDATA[<p>Saludos alumnos de POO.</p>
-
-<p>Al igual que con los alumnos de <a title="Recuperación Móvil U1 y U2" href="http://jaimedm.wordpress.com/2013/02/26/recuperacion-movil-u1-y-u2/" target="_blank">móvil</a>, me disculpo por la hora de publicación.</p>
-
-<p>Ya esta disponible la clase <strong>Fecha</strong> que estuvimos desarrollando en la clase, esta en el repositorio que ya les proporcione anteriormente, o si quieren directamente <a title="Fecha" href="https://github.com/j2deme/POO_Cpp/tree/master/02_Clases_y_Objetos/03_Fecha" target="_blank">aqui</a>. La clase esta completa con todos los métodos que se mencionan en el problema, y en el caso específico del método de bisiesto y dias entre, se utilizaron fórmulas disponibles en Internet, de las cuales les puse los enlaces en el mismo código.</p>
-
-<!--more-->
-
-<p>Recuerden que tienen hasta el día <strong><strike>sábado 2 de marzo de 2013</strike> domingo 3 de marzo de 2013</strong> para entregar los 2 problemas restantes (cafetera y automóvil) completamente funcionales, para poderlos considerar como recuperación.</p>
-
-<p>Se entregara un empaquetado (zip) con 2 carpetas (de los 2 proyectos) y un archivo de texto (txt) con los nombres de los integrantes, aquellos no anotados en ninguna lista, no serán considerados.</p>
-
-<p><strong>No</strong> es necesario documentación, únicamente los códigos de los dos proyectos funcionales.</p>
-
-<p><strong>Nota: </strong>Hasta el momento solo he recibido los correos de 2 equipos, del grupo B, necesito los de los demás.</p>
-
-<p>Cualquier duda al correo indicado de la materia(j2deme+poo@gmail.com) o en un comentario en esta misma página.</p>
-]]></content>
-    
-    <category scheme="http://j2deme.github.io/categories/" term="poo" />
-    
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Recuperación Móvil U1 y U2]]></title>
-    <link href="http://j2deme.github.io/2013/02/26/recuperacion-movil-u1-y-u2/"/>
-    <updated>2013-02-26T18:00:00-06:00</updated>
-    <id>http://j2deme.github.io/2013/02/26/recuperacion-movil-u1-y-u2</id>
-    <content type="html"><![CDATA[<p>Saludos alumnos de móvil.</p>
-
-<p>En primera instancia una disculpa por la hora de publicación, en un segundo punto, pueden consultar la lista de calificaciones parciales <a title="Movil Unidades 1 y 2" href="https://docs.google.com/spreadsheet/pub?key=0AlL0Gs47MupYdEYxeGgtempqUVVoZFd4dkRWU2N0dWc&amp;single=true&amp;gid=0&amp;output=html" target="_blank">aqui</a>. En la lista podrán observar 3 categorías:</p>
-<ol>
-	<li>Calificación en color negro, ya estan pasados, pueden entregar la aplicación de recuperación para puntos extras.</li>
-	<li>Calificación en rojo con fondo blanco, estan reprobados con opción de entregar la aplicación de recuperación.</li>
-	<li>Calificación en blanco con fondo rojo, no alcanzan el mínimo por lo que estan reprobados en las correspondientes unidades.</li>
-</ol>
-<p>Lo siento por aquellos que no pasaron estas unidades, pero espero que se apliquen más para aprobar las unidades restantes y en su momento realizar el exámen de recuperación.</p>
-
-<p>Aquellos con calificaciones del primer y segundo tipo harán la aplicación de cálculo de la fórmula de <strong>Haversine</strong>.</p>
-
-<!--more-->
-
-<p>El problema a resolver esta disponible <a href="http://jaimedm.files.wordpress.com/2013/02/lab1_extra.pdf" target="_blank">aquí</a>.</p>
-
-<p>Tienen como fecha límite el día <strong><strike>sábado 2 de marzo de 2013</strike> domingo 3 de marzo de 2013</strong> para entregar la aplicación y mejorar su calificación, de lo contrario se quedará como reprobatoria en para aquellos en la segunda situación.</p>
-
-<p>La entrega es <strong>individual</strong>, no se requiere documentación, únicamente la aplicación <strong>funcional</strong>.</p>
-]]></content>
-    
-    <category scheme="http://j2deme.github.io/categories/" term="movil" />
     
   </entry>
   

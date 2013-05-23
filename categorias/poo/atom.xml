@@ -4,7 +4,7 @@
   <title><![CDATA[Categoria &rArr; POO | Jaime Delgado Meraz]]></title>
   <link href="http://j2deme.github.io/categorias/poo/atom.xml" rel="self"/>
   <link href="http://j2deme.github.io/"/>
-  <updated>2013-05-22T12:26:06-05:00</updated>
+  <updated>2013-05-22T19:37:22-05:00</updated>
   <id>http://j2deme.github.io/</id>
   <author>
     <name><![CDATA[Jaime Jesús Delgado Meraz]]></name>
@@ -14,10 +14,91 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Práctica POO]]></title>
+    <link href="http://j2deme.github.io/2013/05/22/practica-poo/"/>
+    <updated>2013-05-22T14:24:00-05:00</updated>
+    <id>http://j2deme.github.io/2013/05/22/practica-poo</id>
+    <content type="html"><![CDATA[<p>Saludos alumnos.</p>
+
+<p>Tal como les comente en clase, además del proyecto final, dentro de las estrategias de evaluación también se considera una práctica con un valor de 15% que les servira para complementar la calificación que obtengan en su proyecto final.</p>
+
+<p>A continuación podrán encontrar más a detalle el problema a resolver en dicha práctica.</p>
+
+<!-- more -->
+
+<h1 id="problema">Problema</h1>
+<p>Se debe generar un algoritmo de encriptación y desencriptación básico, que tome 2 parámetros, el primero de ellos, la acción a realizar, ya sea encriptar o desencriptar, y el segundo parámetro el archivo sobre el cual se va a trabajar, estos parámetros podran ingresarse como parámetros de la consola quedando de la siguiente manera (suponiendo que el programa se llama Crypto):</p>
+
+<p>```
+Crypto e miarchivo.txt //Para encriptar</p>
+
+<p>Crypto d miarchivo.txt //Para desencriptar
+```
+De igual manera, podran leer los parámetros desde la ejecución del programa, es decir:</p>
+
+<p>```
+Crypto
+[E]ncriptar o [D]esencriptar? E
+Archivo a trabajar? miarchivo.txt</p>
+
+<p>Archivo encriptado correctamente!
+```</p>
+
+<p>Una vez ingresados los respectivos parámetros, se debe realizar la acción indicada (encriptado o desencriptado), utilizando la implementación del algoritmo que se detalla más adelante, y se debe generar (escribir) un archivo con el resultado de la acción, este archivo debera llamarse igual que el archivo original, pero con el sufijo de la acción realizada, quedando por ejemplo:</p>
+
+<p>```
+Encriptando miArchivoSinEncriptar.txt &gt; encriptado-miArchivoSinEncriptar.txt</p>
+
+<p>Desencriptando miArchivoEncriptado.txt &gt; desencriptado-miArchivoEncriptado.txt
+```</p>
+
+<p>Queda a su libertad el utilizar cualquier otro tipo de sufijos o prefijos para indicar la acción indicada (<code>miArchivo.e.txt</code> para encriptado y <code>miArchivo.d.txt</code> para desencriptado, por ejemplo).</p>
+
+<h2 id="encriptacin-y-desencriptacin">Encriptación y Desencriptación</h2>
+<p>El algoritmo de encriptado y desencriptado es muy simple, básicamente funciona suponiendo que el alfabeto es un anillo, y que cada letra del alfabeto se desplaza 4 posiciones hacia adelante para realizar la codificación o decodificación necesaria, funcionando de igual manera con los dígitos del 0 al 9, lo que genera un tabla de codificación de la siguiente manera:</p>
+
+<p>```
+abcdefghijklmnopqrstuvwxyz
+efghijklmnopqrstuvwxyzabcd</p>
+
+<p>0123456789
+4567890123
+```
+De la tabla de codificación anterior se desprende lo siguiente:</p>
+
+<ul>
+  <li>No funciona con letras tales como: ñ, ü, é, etc. Por lo que deberan omitirse al momento de escribir los textos (o permitirlos y no codificarlos).</li>
+  <li>No funciona con símbolos tales como: #$%&amp;/()=?¡¿!, etc. Aunque si bien se podría definir una regla de codificación, igualmente deberan omitirse en los textos (o permitirlos y no codificarlos).</li>
+  <li>No se indica que hacer con los espacios, pero estos podrían cambiarse por guiones (-) al codificar, o simplemente quedarse iguales.</li>
+  <li>No se indica que hacer con las mayúsculas, aunque podrían añadirse al final  (…wxyzABC…), sin embargo, para propósitos de la práctica se recomienda no considerarlas en los textos.</li>
+</ul>
+
+<p>Omitiendo las limitantes que el algoritmo pudiera presentar, este algoritmo es funcional, por lo que para propósitos de esta práctica se debera implementar. Un ejemplo del uso de este algoritmo sería convertir la cadena <code>hola mundo</code> a <code>lspe qyrhs</code> y viceversa. En su caso deberan tomar textos más extensos, encriptarlos y desencriptarlos.</p>
+
+<h2 id="implementacin">Implementación</h2>
+
+<p>Deberan generar un clase (<em>p.e.</em> <code>Crypto</code>) con 2 funciones (además de constructor y destructor) encriptar y desencriptar, las cuales recibiran como parámetro una cadena (encriptada o de texto simple, según sea el caso), y deberán devolver una cadena con la acción indicada.</p>
+
+<p>Los datos se obtendran desde archivos de texto plano (ya sean codificados o no), que seran leídos, procesados, y finalmente se debera guardar el resultado en otro archivo, tal como se indico anteriormente.</p>
+
+<p>Podrán encontrar algunos ejemplos de escritura y lectura de archivos de texto plano <a href="https://github.com/j2deme/POO_Cpp/tree/master/06_Flujos_y_Archivos/TextoPlano">aquí</a>, aunque no estan limitados a eso.</p>
+
+<h2 id="consideraciones-finales">Consideraciones finales</h2>
+
+<ul>
+  <li>El trabajo debera realizarse por equipo, en este caso, serán los mismos equipos ya asignados para el proyecto final, o sí asi lo desean, en equipos a su gusto no mayores a 5 integrantes.</li>
+  <li>Deben entregar únicamente un empaquetado (zip) con el código fuente de la aplicación, sin documento.</li>
+  <li>La práctica esta pensada para realizarse para consola, pero si se realiza una implementación gráfica, se considerara para puntaje extra.</li>
+  <li>La entrega de esta práctica será únicamente el día <strong>Jueves 30 de Mayo de 2013</strong>.</li>
+</ul>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Entregas Finales y Recuperación]]></title>
-    <link href="http://j2deme.github.io/2013/05/20/entregas-finales-y-recuperacion/"/>
-    <updated>2013-05-20T15:28:00-05:00</updated>
-    <id>http://j2deme.github.io/2013/05/20/entregas-finales-y-recuperacion</id>
+    <link href="http://j2deme.github.io/2013/05/22/entregas-finales-y-recuperacion/"/>
+    <updated>2013-05-22T10:00:00-05:00</updated>
+    <id>http://j2deme.github.io/2013/05/22/entregas-finales-y-recuperacion</id>
     <content type="html"><![CDATA[<ul id="markdown-toc">
   <li><a href="#programacin-orientada-a-objetos">Programación Orientada a Objetos</a>    <ul>
       <li><a href="#grupo-b">Grupo B</a></li>
@@ -424,63 +505,6 @@
 </span></code></pre></td></tr></table></div></figure></notextile></div></p>
 
 <p>Sin más por el momento, espero esten próximos a acabar sus proyectos de vacaciones y nos vemos sin falta el día Lunes 8 de Abril 2013 en clase.</p>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Avance en vacaciones]]></title>
-    <link href="http://j2deme.github.io/2013/04/04/avance-en-vacaciones/"/>
-    <updated>2013-04-04T13:00:00-06:00</updated>
-    <id>http://j2deme.github.io/2013/04/04/avance-en-vacaciones</id>
-    <content type="html"><![CDATA[<p>Saludos a todos.</p>
-
-<p>Ya faltan pocos días para el regreso a clases. Y espero que esten trabajando en sus tareas, recuerden que son para entregar el día Lunes 8 de Abril de 2013 tal como se los indique <a href="/2013/03/14/proximas-fechas-importantes/">aquí</a> y <a href="/2013/03/21/tareas-y-laboratorios-4-y-5/">aquí</a>.</p>
-
-<p>En consideración a aquellos que <strong>si</strong> estan trabajando en este período de descanso, les publico algunos ejemplos que les serviran de ayuda y referencia.</p>
-
-<!-- more -->
-
-<h3 id="programacin-orientada-a-objetos">Programación Orientada a Objetos</h3>
-
-<p>Después de revisar nuevamente el contenido del tutorial indicado para la tarea 3, me dí cuenta que había algunos problemas con el contenido y las instrucciones, sin embargo, estos problemas no fueron impedimento para las <strong>2</strong> personas que si me enviaron la tarea.</p>
-
-<p>El detalle con el tutorial asignado a realizar, es que solo contemplaba la parte de diseño de la aplicación, y mencionaba brevemente la parte funcional de la misma, y yo les pedí que entregaran la aplicación funcional. Aunque la tarea asignada no era imposible, puesto que solo requería de leer un poco más del tutorial, si contradecía en cierto sentido la instrucciones de la misma.</p>
-
-<p>Debido a esa <a href="http://es.wiktionary.org/wiki/ambiguo#Acepciones">ambigüedad</a> voy a hacer la siguiente consideración:
-<blockquote><p>La tarea 3 no se considerará dentro del porcentaje de las tareas. Sin embargo, en consideración a aquellos que la hayan entregado tendrán acceso a un puntaje extra.</p></blockquote></p>
-
-<p>Lo anterior quiere decir que no la tomare en cuenta para los que no la hayan entregado (no les afecta negativamente), pero si la consideraré para aquellos que la entregaron previo a esta publicación. Por lo tanto, no aceptare ninguna entrega más de la tarea 3.</p>
-
-<p>Pueden descargar el código fuente <strong>funcional</strong> de la aplicación de ejemplo, que encargue para el tutorial <a href="https://github.com/j2deme/POO_Cpp/tree/master/Qt/TempConverter">aquí</a>, recuerden que tendran que descargar el repositorio completo, o descargar los archivos de uno por uno.</p>
-
-<p>Como nota extra, esta aplicación la realice usando como referencia el tutorial en español que les dí y el libro <em>C++ GUI Programming with Qt4 1st Edition</em>, que les publique anteriormente, <strong>no</strong> use ningún recurso en línea puesto que la hice cuando estaba fuera de la ciudad, sin acceso a Internet.</p>
-
-<p>Más adelante les publicaré algunos ejemplos extras con Qt que les serán de ayuda para sus tareas y proyecto final, de igual manera les publicare la información relacionada con los requerimientos de su proyecto final.</p>
-
-<h3 id="programacin-mvil">Programación Móvil</h3>
-
-<p>Analizando las entregas de tareas recibidas he podido determinar algunas cosas:</p>
-
-<ul>
-  <li>Actualmente, puedo contar con una sola mano a aquellos que se  han tomado el tiempo de investigar como resolver los problemas que han tenido.</li>
-  <li>Si bien no entregan las tareas a tiempo, tampoco las entregan en los días extras.</li>
-  <li>Aunque estan disponibles múltiples canales de comunicación (email, comentarios en el blog, twitter, personalmente) son pocos los que se toman el tiempo de preguntar sus dudas.</li>
-  <li>Especialmente de aquellos que ya reprobaron el primer bloque de unidades, esperaría que fueran más <a href="http://es.wiktionary.org/wiki/asertivo#Acepciones">asertivos</a> en cuanto a sus entregas.</li>
-</ul>
-
-<p>Una vez dicho lo anterior, tal como les dije a los alumnos de POO, espero que esten trabajando en sus tareas, y cualquier duda esta disponible mi correo y demás formas de comunicación.</p>
-
-<p>Estan disponible en línea tanto el código fuente de la aplicación <a href="https://github.com/j2deme/AndroidApps/tree/master/DiceRace"><strong>Dice Race</strong></a>, de la tarea 2, y un ejemplo de como utilizar un <a href="https://github.com/j2deme/AndroidApps/tree/master/MapDemo">mapa</a> en Android.</p>
-
-<p>El código de ejemplo del mapa les servira de referencia para los laboratorios 4 y 5, y para aquellos que no lo han hecho el laboratorio 3. En lo respectivo al mapa, les estare publicando un tutorial y algunos enlaces de referencia para lograr hacer funcionar el mapa en Android.</p>
-
-<h3 id="nota-final">Nota final</h3>
-
-<p>Recuerden que la fecha de entrega de las tareas y laboratorios (4 y 5), es el día Lunes 8 de Abril de 2013.</p>
-
-<div class="countdown">April 8, 2013 23:59:59</div>
-
-<p>Revisen también la sección de <em>Diapositivas</em> donde encontraran la información de los temas para el próximo examen.</p>
 ]]></content>
   </entry>
   
