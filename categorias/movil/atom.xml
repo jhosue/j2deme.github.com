@@ -4,7 +4,7 @@
   <title><![CDATA[Categoria &rArr; Movil | Jaime Delgado Meraz]]></title>
   <link href="http://j2deme.github.io/categorias/movil/atom.xml" rel="self"/>
   <link href="http://j2deme.github.io/"/>
-  <updated>2013-05-22T19:50:17-05:00</updated>
+  <updated>2013-05-24T23:45:12-05:00</updated>
   <id>http://j2deme.github.io/</id>
   <author>
     <name><![CDATA[Jaime Jesús Delgado Meraz]]></name>
@@ -12,6 +12,59 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Webview en Android y más]]></title>
+    <link href="http://j2deme.github.io/2013/05/24/webview-en-android-y-mas/"/>
+    <updated>2013-05-24T18:33:00-05:00</updated>
+    <id>http://j2deme.github.io/2013/05/24/webview-en-android-y-mas</id>
+    <content type="html"><![CDATA[<p>Saludos alumnos.</p>
+
+<p>A un día de su evento, espero les haya ido muy bien. Se que hubieron altas y bajas en cuanto a las opiniones, que causaron puntos muy críticos en el evento, pero se que esto les servira como una experiencia académica, profesional y de vida.</p>
+
+<p>Omitiendo el resultado del evento, puedo decirles lo siguiente: de lo malo, lo bueno, y de lo bueno, lo mejor.</p>
+
+<!-- more -->
+
+<p>Puesto que según me comentaron, nadie haría una aplicación nativa de Android (utilizando diseño en XML y lógica en Java), quedamos en el acuerdo que lo que se haría en este caso, sería el lograr que sus aplicaciones fueran <a href="http://es.wikipedia.org/wiki/Dise%C3%B1o_web_adaptativo">responsivas</a> y pudieran verse adecuadamente en Android mediante el uso de un <strong>Webview</strong>.</p>
+
+<h2 id="responsividad">Responsividad</h2>
+
+<p>En lo que respecta a la parte responsiva, les listo a continuación diversos frameworks CSS que les serán de ayuda para eso:</p>
+
+<ul>
+  <li><a href="http://www.getskeleton.com/">Skeleton</a></li>
+  <li><a href="http://foundation.zurb.com/">Foundation</a></li>
+  <li><a href="http://twitter.github.io/bootstrap/">Twitter Bootstrap</a></li>
+</ul>
+
+<p>Además de los frameworks que liste anteriormente, también es posible dar responsividad “manual” o “semi-responsiva” detectando el tipo de dispositivo desde el cual se visualiza la página y mostrando una página diferente con una interfaz diseñada para móvil, para lo cual les anexo algunas otras herramientas que les serán utiles para esa parte:</p>
+
+<ul>
+  <li><a href="http://jquerymobile.com/">JQuery Mobile</a> (Framework Javascript)</li>
+  <li><a href="http://lungo.tapquo.com/">Lungo</a> (Framework Javascript)</li>
+  <li><a href="http://mobiledetect.net/">Mobile Detect</a> (Librería PHP)</li>
+  <li><a href="http://phonegap.com/">PhoneGap</a> (HTML + CSS + JS = APK)</li>
+</ul>
+
+<p>Recuerden que tal como les comente en la clase previa al evento de la Feria Tecnológica, sin importar el desempeño que hayan tenido en el evento, la parte de evaluación sera en las fechas ya asignadas, y se les evaluara la aplicación de manera critíca, es decir, que todos los puntos mínimos requeridos deberan estar, y cualquier otro elemento añadido podra considerarse para puntaje extra.</p>
+
+<h2 id="webview">Webview</h2>
+
+<p>Reiterando nuevamente, que puesto que no desarrollaron sus aplicaciones móviles en código nativo, deberan hacer por lo menos, uso de un Webview para visualizar sus respectivas aplicaciones web en el dispositivo móvil, para lo cual les pongo otra serie de enlaces, desde donde podrán encontrar información relacionada:</p>
+
+<ul>
+  <li><a href="http://www.mkyong.com/android/android-webview-example/">Android Webview Example</a> (Aquí podrán encontrar la opción de descargar el código, para adaptarlo a sus necesidades)</li>
+  <li><a href="http://www.androidaspect.com/2012/09/android-webview-tutorial.html">Android Webview Tutorial</a></li>
+  <li><a href="http://androcode.es/2012/05/usando-webview-en-android/">Usando Webview en Android</a></li>
+  <li><a href="http://blog.extrema-sistemas.com/2012/07/30/como-sacarle-el-maximo-partido-a-webview-en-aplicaciones-android/">Como sacarle el máximo partido a Webview en aplicaciones Android</a></li>
+</ul>
+
+<p>Espero que esta información (que ya les había comentado con anterioridad) les sea de utilidad para poder terminar sus proyectos correctamente, para que puedan obtener el total o la mayoría de los puntos.</p>
+
+<p>Recuerden también que la exposición del proyecto sera de manera formal en la fecha asignada, y deben resaltar todos los puntos medulares de su aplicación, así como su demostración de funcionamiento en móvil, ya sea desde un dispositivo con Android, o desde el navegador de algún equipo móvil.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Práctica Móvil]]></title>
@@ -333,35 +386,6 @@
   <li>Aquellos que <strong>no</strong> hayan realizado el examen en la fecha programada, favor de presentarse a la brevedad en la hora de clase más próxima, de lo contrario ya <strong>no</strong> se les aplicará la evaluación.</li>
   <li>Agradecería pudieran informar al resto de sus compañeros compartiendo este post en Twitter y Facebook, para que todos esten informados de los cambios.</li>
 </ul>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Proyecto Final Móvil]]></title>
-    <link href="http://j2deme.github.io/2013/04/06/proyecto-final-movil/"/>
-    <updated>2013-04-06T17:36:00-06:00</updated>
-    <id>http://j2deme.github.io/2013/04/06/proyecto-final-movil</id>
-    <content type="html"><![CDATA[<p>Saludos alumnos de móvil.</p>
-
-<p>En este post encontrarán adjuntos los documentos que describen los requerimientos mínimos para el reporte de diseño de la aplicación.</p>
-
-<p>A su vez, encontrarán el formato de autoevaluación por equipos, que deberan rellenar con los respectivos datos de sus proyectos, los datos de sus integrantes, y las evaluaciones correspondientes de cada uno.</p>
-
-<!-- more -->
-
-<h2 id="unidad-3">Unidad 3</h2>
-
-<p>En lo correspondiente a los criterios de evaluación de esta unidad, podrán encontrar los requisitos mínimos para el <a href="http://dl.dropbox.com/u/1131727/Octopress/ReporteDise%C3%B1oMovil.pdf">reporte de diseño de la aplicación</a> y el <a href="http://dl.dropbox.com/u/1131727/Octopress/AutoevaluacionEquipos.xlsx">formato de autoevaluación por equipos</a> (que incluye instrucciones sobre su llenado).</p>
-
-<p>El porcentaje de evaluación destinado para el <em>avance del proyecto</em> se considerará en la proporción en la que logren finalizar las pantallas correspondientes a cada una de las acciones necesarias para su proyecto, y si su proyecto requiere pocas pantallas, se considerará el avance en el desarrollo de los elementos para conectarse al servidor y consumir los servicios de datos (APIs) o en ambos rubros si así corresponde.</p>
-
-<p>Cualquier duda o comentario relacionado a cualquiera de los documentos aquí citados, sírvanse publicarlas directamente en los comentarios de este post, o directamente en clase.</p>
-
-<h2 id="proyecto-transporte-urbano">Proyecto: Transporte Urbano</h2>
-
-<p>(En progreso, documento aún no disponible)</p>
-
-<p>Para los equipos que quedaron asignados al proyecto de transporte urbano, sírvanse descargar los requerimientos mínimos de dicho proyecto disponibles <a href="#">aquí</a>, y de igual manera cualquier duda con respecto al proyecto pueden hacermela saber en los comentarios de este post, en mi correo, twitter o directamente en clase.</p>
 ]]></content>
   </entry>
   

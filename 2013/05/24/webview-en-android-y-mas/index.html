@@ -5,12 +5,11 @@
 <!--[if (gt IE 8)|(gt IEMobile 7)|!(IEMobile)|!(IE)]><!--><html class="no-js" lang="en"><!--<![endif]-->
 <head>
   <meta charset="utf-8">
-  <title>Jaime Delgado Meraz</title>
+  <title>Webview en Android y más - Jaime Delgado Meraz</title>
   <meta name="author" content="Jaime Jesús Delgado Meraz">
 
   
-  <meta name="description" content="Disculpen la tardanza.
-Ya estan disponibles los libros para este curso, podrán ver en la sección que los libros solo aseguro la disponibilidad de los &hellip;">
+  <meta name="description" content="Saludos alumnos. A un día de su evento, espero les haya ido muy bien. Se que hubieron altas y bajas en cuanto a las opiniones, que causaron puntos &hellip;">
   
 
   <!-- http://t.co/dKP3o1e -->
@@ -19,7 +18,7 @@ Ya estan disponibles los libros para este curso, podrán ver en la sección que 
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   
-  <link rel="canonical" href="http://j2deme.github.io/blog/page/4/">
+  <link rel="canonical" href="http://j2deme.github.io/2013/05/24/webview-en-android-y-mas/">
   <link href="/favicon.png" rel="icon">
   <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css">
   <link href="http://feeds.feedburner.com/JaimeDelgadoMeraz" rel="alternate" title="Jaime Delgado Meraz" type="application/atom+xml">
@@ -84,15 +83,12 @@ Ya estan disponibles los libros para este curso, podrán ver en la sección que 
 </nav>
   <div id="main">
     <div id="content">
-      <div class="blog-index">
+      <div>
+<article class="hentry" role="article">
   
-  
-  
-    <article>
-      
   <header>
     
-      <h1 class="entry-title"><a href="/2013/02/04/libros-ene-jun-2013-listos/">Libros Ene -Jun 2013</a></h1>
+      <h1 class="entry-title">Webview en Android y más</h1>
     
     
       <p class="meta">
@@ -108,80 +104,71 @@ Ya estan disponibles los libros para este curso, podrán ver en la sección que 
   
 
 
-<time datetime="2013-02-04T17:00:00-06:00" pubdate data-updated="true">04/02/2013</time>
+<time datetime="2013-05-24T18:33:00-05:00" pubdate data-updated="true">24/05/2013</time>
+        
+         | <a href="#disqus_thread">Comentarios</a>
         
       </p>
     
   </header>
 
 
-  <div class="entry-content"><p>Disculpen la tardanza.</p>
-<p>Ya estan disponibles los libros para este curso, podrán ver en la sección que los libros solo aseguro la disponibilidad de los libros el primer mes, puesto que estan en mi cuenta personal de Dropbox y me ocupan más del 50% del espacio.</p>
-<p>Por cierto para aquellos que aún no tienen cuenta en Dropbox y deseen obtener un poco de espacio extra, pueden dar click <a title="Dropbox" href="http://db.tt/qfLxoC6" target="_blank">aquí</a>, recibiran 500 MB en lugar de los 250 MB estándar.</p>
+<div class="entry-content"><p>Saludos alumnos.</p>
+
+<p>A un día de su evento, espero les haya ido muy bien. Se que hubieron altas y bajas en cuanto a las opiniones, que causaron puntos muy críticos en el evento, pero se que esto les servira como una experiencia académica, profesional y de vida.</p>
+
+<p>Omitiendo el resultado del evento, puedo decirles lo siguiente: de lo malo, lo bueno, y de lo bueno, lo mejor.</p>
+
+<!-- more -->
+
+<p>Puesto que según me comentaron, nadie haría una aplicación nativa de Android (utilizando diseño en XML y lógica en Java), quedamos en el acuerdo que lo que se haría en este caso, sería el lograr que sus aplicaciones fueran <a href="http://es.wikipedia.org/wiki/Dise%C3%B1o_web_adaptativo">responsivas</a> y pudieran verse adecuadamente en Android mediante el uso de un <strong>Webview</strong>.</p>
+
+<h2 id="responsividad">Responsividad</h2>
+
+<p>En lo que respecta a la parte responsiva, les listo a continuación diversos frameworks CSS que les serán de ayuda para eso:</p>
+
+<ul>
+  <li><a href="http://www.getskeleton.com/">Skeleton</a></li>
+  <li><a href="http://foundation.zurb.com/">Foundation</a></li>
+  <li><a href="http://twitter.github.io/bootstrap/">Twitter Bootstrap</a></li>
+</ul>
+
+<p>Además de los frameworks que liste anteriormente, también es posible dar responsividad “manual” o “semi-responsiva” detectando el tipo de dispositivo desde el cual se visualiza la página y mostrando una página diferente con una interfaz diseñada para móvil, para lo cual les anexo algunas otras herramientas que les serán utiles para esa parte:</p>
+
+<ul>
+  <li><a href="http://jquerymobile.com/">JQuery Mobile</a> (Framework Javascript)</li>
+  <li><a href="http://lungo.tapquo.com/">Lungo</a> (Framework Javascript)</li>
+  <li><a href="http://mobiledetect.net/">Mobile Detect</a> (Librería PHP)</li>
+  <li><a href="http://phonegap.com/">PhoneGap</a> (HTML + CSS + JS = APK)</li>
+</ul>
+
+<p>Recuerden que tal como les comente en la clase previa al evento de la Feria Tecnológica, sin importar el desempeño que hayan tenido en el evento, la parte de evaluación sera en las fechas ya asignadas, y se les evaluara la aplicación de manera critíca, es decir, que todos los puntos mínimos requeridos deberan estar, y cualquier otro elemento añadido podra considerarse para puntaje extra.</p>
+
+<h2 id="webview">Webview</h2>
+
+<p>Reiterando nuevamente, que puesto que no desarrollaron sus aplicaciones móviles en código nativo, deberan hacer por lo menos, uso de un Webview para visualizar sus respectivas aplicaciones web en el dispositivo móvil, para lo cual les pongo otra serie de enlaces, desde donde podrán encontrar información relacionada:</p>
+
+<ul>
+  <li><a href="http://www.mkyong.com/android/android-webview-example/">Android Webview Example</a> (Aquí podrán encontrar la opción de descargar el código, para adaptarlo a sus necesidades)</li>
+  <li><a href="http://www.androidaspect.com/2012/09/android-webview-tutorial.html">Android Webview Tutorial</a></li>
+  <li><a href="http://androcode.es/2012/05/usando-webview-en-android/">Usando Webview en Android</a></li>
+  <li><a href="http://blog.extrema-sistemas.com/2012/07/30/como-sacarle-el-maximo-partido-a-webview-en-aplicaciones-android/">Como sacarle el máximo partido a Webview en aplicaciones Android</a></li>
+</ul>
+
+<p>Espero que esta información (que ya les había comentado con anterioridad) les sea de utilidad para poder terminar sus proyectos correctamente, para que puedan obtener el total o la mayoría de los puntos.</p>
+
+<p>Recuerden también que la exposición del proyecto sera de manera formal en la fecha asignada, y deben resaltar todos los puntos medulares de su aplicación, así como su demostración de funcionamiento en móvil, ya sea desde un dispositivo con Android, o desde el navegador de algún equipo móvil.</p>
 </div>
-  
-  
 
 
-    </article>
-  
-  
-    <article>
+  <footer>
+    <p class="meta">
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/2013/01/29/instrumentaciones-y-planeaciones-ene-jun-2013/">Instrumentaciones y Planeaciones Ene -Jun 2013</a></h1>
-    
-    
-      <p class="meta">
-        
-
-
-
-
-
-
-
-
   
 
+<span class="byline author vcard">Publicado por <span class="fn">Jaime Jesús Delgado Meraz</span></span>
 
-<time datetime="2013-01-29T18:00:00-06:00" pubdate data-updated="true">29/01/2013</time>
-        
-      </p>
-    
-  </header>
-
-
-  <div class="entry-content"><h3 id="programacin-orientada-a-objetos">Programación Orientada a Objetos</h3>
-<ul>
-  <li><a href="http://dl.dropbox.com/u/1131727/Octopress/Instrumentacion_Didactica_POO_ISI22.pdf">Instrumentación Didáctica</a></li>
-  <li><a href="http://dl.dropbox.com/u/1131727/Octopress/Planeaci%C3%B3n_POO_B.pdf">Planeación B</a></li>
-  <li><a href="http://dl.dropbox.com/u/1131727/Octopress/Planeaci%C3%B3n_POO_C.pdf">Planeación C</a></li>
-</ul>
-
-<h3 id="programacin-mvil">Programación Móvil</h3>
-<ul>
-  <li><a href="http://dl.dropbox.com/u/1131727/Octopress/Instrumentacion_Didactica_M%C3%B3vil_ISI87.pdf">Instrumentación Didáctica</a></li>
-  <li><a href="http://dl.dropbox.com/u/1131727/Octopress/Planeaci%C3%B3n_M%C3%B3vil_C.pdf">Planeación C</a></li>
-</ul>
-</div>
-  
-  
-
-
-    </article>
-  
-  
-    <article>
       
-  <header>
-    
-      <h1 class="entry-title"><a href="/2013/01/29/bienvenidos-alumnos/">Bienvenidos Alumnos</a></h1>
-    
-    
-      <p class="meta">
-        
 
 
 
@@ -193,34 +180,48 @@ Ya estan disponibles los libros para este curso, podrán ver en la sección que 
   
 
 
-<time datetime="2013-01-29T17:00:00-06:00" pubdate data-updated="true">29/01/2013</time>
-        
-      </p>
+<time datetime="2013-05-24T18:33:00-05:00" pubdate data-updated="true">24/05/2013</time>
+      
+
+<span class="categories">
+  
+    <a class='category' href='/categorias/movil/'>Movil</a>
+  
+</span>
+
+
+    </p>
     
-  </header>
-
-
-  <div class="entry-content"><p>Aqui podran encontrar información de los cursos de:</p>
-
-<ul>
-  <li><a href="categories/POO">Programación Orientada a Objetos</a></li>
-  <li><a href="categories/Movil">Programación Móvil</a></li>
-</ul>
+      <div class="sharing">
+  
+  <a href="http://twitter.com/share" class="twitter-share-button" data-url="http://j2deme.github.io/2013/05/24/webview-en-android-y-mas/" data-via="j2deme" data-counturl="http://j2deme.github.io/2013/05/24/webview-en-android-y-mas/" >Tweet</a>
+  
+  
+  <div class="g-plusone" data-size="medium"></div>
+  
+  
+    <div class="fb-like" data-send="true" data-width="450" data-show-faces="false"></div>
+  
 </div>
-  
-  
 
+    
+    <p class="meta">
+      
+        <a class="basic-alignment left" href="/2013/05/22/practica-movil/" title="Publicación Anterior: Práctica Móvil">&laquo; Práctica Móvil</a>
+      
+      
+    </p>
+  </footer>
+</article>
 
-    </article>
-  
-  <div class="pagination">
-    
-    <a href="/archivo">Archivo</a>
-    
-    <a class="next" href="/blog/page/3/">M&aacute;s nuevos &rarr;</a>
-    
-  </div>
+  <section>
+    <h1>Comentarios</h1>
+    <div id="disqus_thread" aria-live="polite"><noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
 </div>
+  </section>
+
+</div>
+
 <aside class="sidebar">
   
     <section>
@@ -254,7 +255,7 @@ Ya estan disponibles los libros para este curso, podrán ver en la sección que 
 <section>
   <h1>Ultimos Tweets</h1>
   <ul id="tweets">
-    <li class="loading">Actualizando estatus&#8230;</li>
+    <li class="loading">Actualizando estatus...</li>
   </ul>
   <script type="text/javascript">
     $.domReady(function(){
@@ -282,6 +283,7 @@ Ya estan disponibles los libros para este curso, podrán ver en la sección que 
   
 </aside>
 
+
     </div>
   </div>
   <footer role="contentinfo"><p>
@@ -296,7 +298,10 @@ Ya estan disponibles los libros para este curso, podrán ver en la sección que 
       var disqus_shortname = 'jaimedelgadomeraz';
       
         
-        var disqus_script = 'count.js';
+        // var disqus_developer = 1;
+        var disqus_identifier = 'http://j2deme.github.io/2013/05/24/webview-en-android-y-mas/';
+        var disqus_url = 'http://j2deme.github.io/2013/05/24/webview-en-android-y-mas/';
+        var disqus_script = 'embed.js';
       
     (function () {
       var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
