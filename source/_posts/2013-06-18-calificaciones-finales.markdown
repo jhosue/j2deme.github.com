@@ -22,6 +22,7 @@ Lo anterior lo aclaro para aquellos que pudieran tener dudas o que esperaban que
 En los siguiente enlaces podrán encontrar su promedio final, y les reitero que estas calificaciones ya no cambian. Quiero comentarles que durante los exámenes de recuperación observe algunas anomalías que fueron penalizadas, y que espero no se repitan si les vuelvo a dar clases.
 
 Aquellos que no acreditaron fue debido a una de 2 simples razones:
+
 - No se presentaron a realizar sus exámenes, o
 - No se tomaron el tiempo suficiente para prepararse para sus exámenes.
 
