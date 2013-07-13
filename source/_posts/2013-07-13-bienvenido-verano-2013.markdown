@@ -2,7 +2,7 @@
 layout: post
 title: "Bienvenido Verano 2013"
 date: 2013-07-13 15:07
-published: false
+published: true
 comments: true
 categories: [Móvil, IA]
 ---
