@@ -37,4 +37,4 @@ Recuerden que para ambos cursos el examen será el día Lunes 15 en sus respecti
 
 El material esta disponible como siempre en la sección de diapositivas, y les agradecería cualquier comentario sobre errores de ortografía o errores de dislexia (que como han logrado observar me suceden a menudo) para realizar las debidas correciones y hacer que el material mejore día a día.
 
-Saludos y espero que el ritmo de publicación del material y avisos se regularize a partir de hoy.
+Saludos y espero que el ritmo de publicación del material y avisos se regularice a partir de hoy.
