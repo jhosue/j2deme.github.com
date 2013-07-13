@@ -15,7 +15,7 @@ A una semana de iniciado el curso de verano 2013, y poniendome al corriente con 
 
 ## Inteligencia Artificial
 
-También les pongo disponible para los alumnos de IA, un zip donde podran encontrar el código necesario para poder utilizar grafos no dirigidos en Java. Dentro del archivo `Graph.java` encontraran un ejemplo de como se lee un grafo desde un archivo, también les anexo un ejemplo de un pequeño grafo (que podrán encontrar en `Grafo1.txt`).
+También les pongo disponible para los alumnos de IA, un [zip](https://dl.dropboxusercontent.com/u/1131727/Octopress/SearchAlgorithms.zip) donde podran encontrar el código necesario para poder utilizar grafos no dirigidos en Java. Dentro del archivo `Graph.java` encontraran un ejemplo de como se lee un grafo desde un archivo, también les anexo un ejemplo de un pequeño grafo (que podrán encontrar en `Grafo1.txt`).
 
 Sin embargo, tal como vimos en clase, no debe ser mayor problema el diseñar sus propios grafos, recuerden que la estructura es la siguiente:
 
