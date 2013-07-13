@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Categoria &rArr; General | Jaime Delgado Meraz]]></title>
-  <link href="http://j2deme.github.io/categorias/general/atom.xml" rel="self"/>
-  <link href="http://j2deme.github.io/"/>
-  <updated>2013-05-27T12:12:14-05:00</updated>
-  <id>http://j2deme.github.io/</id>
+  <link href="http://j2deme.github.com/categorias/general/atom.xml" rel="self"/>
+  <link href="http://j2deme.github.com/"/>
+  <updated>2013-07-13T15:56:46-05:00</updated>
+  <id>http://j2deme.github.com/</id>
   <author>
     <name><![CDATA[Jaime Jesús Delgado Meraz]]></name>
     <email><![CDATA[j2deme@gmail.com]]></email>
@@ -15,9 +15,9 @@
   
   <entry>
     <title type="html"><![CDATA[Bienvenidos de nuevo]]></title>
-    <link href="http://j2deme.github.io/2013/03/09/bienvenidos-de-nuevo/"/>
+    <link href="http://j2deme.github.com/2013/03/09/bienvenidos-de-nuevo/"/>
     <updated>2013-03-09T17:00:00-06:00</updated>
-    <id>http://j2deme.github.io/2013/03/09/bienvenidos-de-nuevo</id>
+    <id>http://j2deme.github.com/2013/03/09/bienvenidos-de-nuevo</id>
     <content type="html"><![CDATA[<p>Saludos alumnos.</p>
 
 <p>En primer instancia disculpen los inconvenientes que esta migración pudiera haberles causado. La idea de mover el blog a una plataforma diferente es principalmente para tener un medio de publicación más estable, esto debido a una serie de problemas de funcionamiento que se presentaron en <a href="http://jaimedm.wordpress.com">Worpress</a> y sobre todo, la poca capacidad de adaptación de la plataforma a mis necesidades específicas.</p>
@@ -35,9 +35,9 @@
   
   <entry>
     <title type="html"><![CDATA[Memoria USB encontrada]]></title>
-    <link href="http://j2deme.github.io/2013/02/06/memoria-usb-encontrada/"/>
+    <link href="http://j2deme.github.com/2013/02/06/memoria-usb-encontrada/"/>
     <updated>2013-02-06T18:00:00-06:00</updated>
-    <id>http://j2deme.github.io/2013/02/06/memoria-usb-encontrada</id>
+    <id>http://j2deme.github.com/2013/02/06/memoria-usb-encontrada</id>
     <content type="html"><![CDATA[<p><strong>08/02/2013</strong>: Afortunadamente para su dueña, la memoria ya ha sido entregada.</p>
 
 <p>Saludos a todos.</p>
@@ -60,9 +60,9 @@
   
   <entry>
     <title type="html"><![CDATA[Bienvenidos Alumnos]]></title>
-    <link href="http://j2deme.github.io/2013/01/29/bienvenidos-alumnos/"/>
+    <link href="http://j2deme.github.com/2013/01/29/bienvenidos-alumnos/"/>
     <updated>2013-01-29T17:00:00-06:00</updated>
-    <id>http://j2deme.github.io/2013/01/29/bienvenidos-alumnos</id>
+    <id>http://j2deme.github.com/2013/01/29/bienvenidos-alumnos</id>
     <content type="html"><![CDATA[<p>Aqui podran encontrar información de los cursos de:</p>
 
 <ul>

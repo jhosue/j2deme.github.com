@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Categoria &rArr; POO | Jaime Delgado Meraz]]></title>
-  <link href="http://j2deme.github.io/categorias/poo/atom.xml" rel="self"/>
-  <link href="http://j2deme.github.io/"/>
-  <updated>2013-05-27T12:12:14-05:00</updated>
-  <id>http://j2deme.github.io/</id>
+  <link href="http://j2deme.github.com/categorias/poo/atom.xml" rel="self"/>
+  <link href="http://j2deme.github.com/"/>
+  <updated>2013-07-13T15:56:46-05:00</updated>
+  <id>http://j2deme.github.com/</id>
   <author>
     <name><![CDATA[Jaime Jesús Delgado Meraz]]></name>
     <email><![CDATA[j2deme@gmail.com]]></email>
@@ -14,10 +14,53 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Calificaciones finales]]></title>
+    <link href="http://j2deme.github.com/2013/06/18/calificaciones-finales/"/>
+    <updated>2013-06-18T18:32:00-05:00</updated>
+    <id>http://j2deme.github.com/2013/06/18/calificaciones-finales</id>
+    <content type="html"><![CDATA[<p>Saludos alumnos.</p>
+
+<p>En esta última publicación les pongo disponibles sus calificaciones finales, las cuales ya fueron entregadas en las actas oficiales al departamento de control escolar, por lo que <strong>no</strong> estan sujetas a cambios de ninguna índole, si presentaron algún examen de recuperación en las semanas anteriores, ya esta considerado en su calificación.</p>
+
+<p>Recuerden que por la nueva modalidad de evaluación por competencias, solamente se permitió una segunda oportunidad, esto en contraposición a otras retículas que todavía se manejan mediante la aplicación de 2 exámenes de recuperación (regularización y extraordinario).</p>
+
+<p>Lo anterior lo aclaro para aquellos que pudieran tener dudas o que esperaban que se les aplicaran otros exámenes.</p>
+
+<!-- more -->
+
+<h1 id="programacin-orientada-a-objetos">Programación Orientada a Objetos</h1>
+
+<p>En los siguiente enlaces podrán encontrar su promedio final, y les reitero que estas calificaciones ya no cambian. Quiero comentarles que durante los exámenes de recuperación observe algunas anomalías que fueron penalizadas, y que espero no se repitan si les vuelvo a dar clases.</p>
+
+<p>Aquellos que no acreditaron fue debido a una de 2 simples razones:</p>
+
+<ul>
+  <li>No se presentaron a realizar sus exámenes, o</li>
+  <li>No se tomaron el tiempo suficiente para prepararse para sus exámenes.</li>
+</ul>
+
+<p>Sin más, les dejo los enlaces a continuación para que revisen sus calificaciones.</p>
+
+<ul>
+  <li><a href="https://docs.google.com/spreadsheet/pub?key=0AlL0Gs47MupYdDFYbnRzakcyeU9hbFlVaFduR25GTVE&amp;single=true&amp;gid=0&amp;output=html">Grupo B</a></li>
+  <li><a href="https://docs.google.com/spreadsheet/pub?key=0AlL0Gs47MupYdDFYbnRzakcyeU9hbFlVaFduR25GTVE&amp;single=true&amp;gid=1&amp;output=html">Grupo C</a></li>
+</ul>
+
+<h1 id="programacin-mvil">Programación Móvil</h1>
+
+<p>Al igual que sus compañeros de Programación Orientada a Objetos, las calificaciones que les pongo en línea son las finales y ya no podran cambiarse con otro examen o trabajo. Pueden checar sus calificaciones <a href="https://docs.google.com/spreadsheet/pub?key=0AlL0Gs47MupYdDFYbnRzakcyeU9hbFlVaFduR25GTVE&amp;single=true&amp;gid=2&amp;output=html">aquí</a>.</p>
+
+<h1 id="notas-finales">Notas finales</h1>
+
+<p>Espero todos auqellos que hayan hecho sus respectivos esfuerzos esten conformes con las calificaciones obtenidas, y en caso de que no, les recomiendo que para cursos próximos apliquen algo más de sus capacidades para lograr una mejor calificación o una calificación aprobatoria, según sea el caso.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Práctica POO]]></title>
-    <link href="http://j2deme.github.io/2013/05/22/practica-poo/"/>
+    <link href="http://j2deme.github.com/2013/05/22/practica-poo/"/>
     <updated>2013-05-22T14:24:00-05:00</updated>
-    <id>http://j2deme.github.io/2013/05/22/practica-poo</id>
+    <id>http://j2deme.github.com/2013/05/22/practica-poo</id>
     <content type="html"><![CDATA[<p>Saludos alumnos.</p>
 
 <p>Tal como les comente en clase, además del proyecto final, dentro de las estrategias de evaluación también se considera una práctica con un valor de 15% que les servira para complementar la calificación que obtengan en su proyecto final.</p>
@@ -96,9 +139,9 @@ De la tabla de codificación anterior se desprende lo siguiente:</p>
   
   <entry>
     <title type="html"><![CDATA[Entregas Finales y Recuperación]]></title>
-    <link href="http://j2deme.github.io/2013/05/22/entregas-finales-y-recuperacion/"/>
+    <link href="http://j2deme.github.com/2013/05/22/entregas-finales-y-recuperacion/"/>
     <updated>2013-05-22T10:00:00-05:00</updated>
-    <id>http://j2deme.github.io/2013/05/22/entregas-finales-y-recuperacion</id>
+    <id>http://j2deme.github.com/2013/05/22/entregas-finales-y-recuperacion</id>
     <content type="html"><![CDATA[<ul id="markdown-toc">
   <li><a href="#programacin-orientada-a-objetos">Programación Orientada a Objetos</a>    <ul>
       <li><a href="#grupo-b">Grupo B</a></li>
@@ -263,9 +306,9 @@ De la tabla de codificación anterior se desprende lo siguiente:</p>
   
   <entry>
     <title type="html"><![CDATA[Ajuste de fechas]]></title>
-    <link href="http://j2deme.github.io/2013/04/26/ajuste-de-fechas/"/>
+    <link href="http://j2deme.github.com/2013/04/26/ajuste-de-fechas/"/>
     <updated>2013-04-26T15:39:00-05:00</updated>
-    <id>http://j2deme.github.io/2013/04/26/ajuste-de-fechas</id>
+    <id>http://j2deme.github.com/2013/04/26/ajuste-de-fechas</id>
     <content type="html"><![CDATA[<p>Saludos a todos.</p>
 
 <p>Les pongo disponibles algunos avisos relacionados con las fechas de entrega para los trabajos de la segunda evaluación, les recomiendo revisar cuidadosamente la sección que corresponda a su materia para que no vayan a entregar en fechas que no correspondan, o se confundan con las especificaciones de otros trabajos.</p>
@@ -312,9 +355,9 @@ De la tabla de codificación anterior se desprende lo siguiente:</p>
   
   <entry>
     <title type="html"><![CDATA[Entrega de Tareas]]></title>
-    <link href="http://j2deme.github.io/2013/04/20/entrega-de-tareas/"/>
+    <link href="http://j2deme.github.com/2013/04/20/entrega-de-tareas/"/>
     <updated>2013-04-20T10:53:00-05:00</updated>
-    <id>http://j2deme.github.io/2013/04/20/entrega-de-tareas</id>
+    <id>http://j2deme.github.com/2013/04/20/entrega-de-tareas</id>
     <content type="html"><![CDATA[<p>Saludos alumnos.</p>
 
 <p>Tengo algunas noticias que creo serán de interes para todos.</p>
@@ -383,128 +426,6 @@ De la tabla de codificación anterior se desprende lo siguiente:</p>
   <li>Aquellos que <strong>no</strong> hayan realizado el examen en la fecha programada, favor de presentarse a la brevedad en la hora de clase más próxima, de lo contrario ya <strong>no</strong> se les aplicará la evaluación.</li>
   <li>Agradecería pudieran informar al resto de sus compañeros compartiendo este post en Twitter y Facebook, para que todos esten informados de los cambios.</li>
 </ul>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Proyecto Final POO]]></title>
-    <link href="http://j2deme.github.io/2013/04/06/proyecto-final-poo/"/>
-    <updated>2013-04-06T17:07:00-06:00</updated>
-    <id>http://j2deme.github.io/2013/04/06/proyecto-final-poo</id>
-    <content type="html"><![CDATA[<p>Saludos alumnos de POO:</p>
-
-<p>Anexo a esta publicación encontraran el documento del proyecto final de la materia. En este documento se plantea un problema común a resolver para todos y la razón de porque se definió un único problema.</p>
-
-<!-- more -->
-
-<p>Contrario a lo que se había planteado en clase, para el proyecto final se definirá un proyecto común para todos los alumnos, en oposición a que cada equipo proponga su proyecto individual.</p>
-
-<p>La decisión anterior, se tomo en consideración a que todos los alumnos sean evaluados con un conjunto de parámetros base, y que a su vez puedan añadir cualquier opción extra que consideren. Además se hizo para evitar que los proyectos propuestos fueran muy dispares y beneficiaran a aquellos cuyos proyectos fueran más “fáciles” y afectaran a aquellos que propusieran algo más innovador.</p>
-
-<p>En este documento se describe el problema a resolver mencionando brevemente su funcionamiento, se indican los requerimientos mínimos para su diseño y desarrollo, e igualmente se mencionan sus requerimientos funcionales y técnicos. De igual manera se describen las clases mínimas que deberan desarrollarse, así como los puntos a evaluar y consideraciones finales sobre el proceso de entrega del proyecto, su exposición y evaluación.</p>
-
-<p>Pueden descargar el documento del proyecto final desde <a href="http://dl.dropbox.com/u/1131727/Octopress/ProyectoFinalPOO.pdf">aquí</a>. Sírvanse leer cuidadosamente cada una de las partes del documento, y plantear sus dudas en los comentarios de este post (por sí alguien más tiene la misma duda), o esperen hasta clase, donde se explicara con un poco más de detalle cada uno de los puntos.</p>
-
-<h3 id="ejemplos-de-documentos-requeridos">Ejemplos de documentos requeridos</h3>
-
-<p><div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>Garantía de los productos  (Garantía.txt)</span> <a href='/downloads/code/Garantía.txt'>download</a></figcaption>
- <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-</pre></td><td class='code'><pre><code class='text'><span class='line'>**** Compurama S.A. de C.V. ****
-</span><span class='line'>       RFC: CRSACV2013AB
-</span><span class='line'>********************************
-</span><span class='line'>***** 8 Abril 2013 14:00   *****
-</span><span class='line'>***** 00001                *****
-</span><span class='line'>********************************
-</span><span class='line'>Nombre del dispositivo | Número de Serie | Garantía (Meses)
-</span><span class='line'>HDD Seagate 1 TB            12345667            6
-</span><span class='line'>Monitor Actek 22&quot;           45387269            12
-</span><span class='line'>Trackball Logitech          84936201            6
-</span><span class='line'>
-</span><span class='line'>********************************
-</span><span class='line'>Nombre: Jaime Jesús Delgado Meraz
-</span><span class='line'>Dirección: Calle Hidalgo #15 Col.Centro
-</span><span class='line'>Teléfono: 481-110-1234
-</span><span class='line'>Email: j2deme@gmail.com
-</span></code></pre></td></tr></table></div></figure></notextile></div>
-<div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>Comprobante de compra  (Ticket.txt)</span> <a href='/downloads/code/Ticket.txt'>download</a></figcaption>
- <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-<span class='line-number'>11</span>
-<span class='line-number'>12</span>
-<span class='line-number'>13</span>
-<span class='line-number'>14</span>
-<span class='line-number'>15</span>
-<span class='line-number'>16</span>
-<span class='line-number'>17</span>
-<span class='line-number'>18</span>
-<span class='line-number'>19</span>
-</pre></td><td class='code'><pre><code class='text'><span class='line'>**** Compurama S.A. de C.V. ****
-</span><span class='line'>       RFC: CRSACV2013AB
-</span><span class='line'>********************************
-</span><span class='line'>***** 8 Abril 2013 14:00   *****
-</span><span class='line'>***** 00001                *****
-</span><span class='line'>********************************
-</span><span class='line'>Nombre: Jaime Jesús Delgado Meraz
-</span><span class='line'>Dirección: Calle Hidalgo #15 Col.Centro
-</span><span class='line'>Teléfono: 481-110-1234
-</span><span class='line'>Email: j2deme@gmail.com
-</span><span class='line'>********************************
-</span><span class='line'>Nombre del dispositivo | Cantidad | Precio Unitario | Subtotal
-</span><span class='line'>HDD Seagate 1 TB            2            1,500.0       3,000.0
-</span><span class='line'>Monitor Actek 22&quot;           1              985.0         985.0
-</span><span class='line'>Trackball Logitech          1              350.0         350.0
-</span><span class='line'>--------------------------------------------------------------
-</span><span class='line'>Total (sin IVA)                                        4,335.0
-</span><span class='line'>IVA                                                      693.6
-</span><span class='line'>Total                                                  5,028.6
-</span></code></pre></td></tr></table></div></figure></notextile></div>
-<div class='bogus-wrapper'><notextile><figure class='code'><figcaption><span>Comprobante de Importación  (Importación.txt)</span> <a href='/downloads/code/Importación.txt'>download</a></figcaption>
- <div class="highlight"><table><tr><td class="gutter"><pre class="line-numbers"><span class='line-number'>1</span>
-<span class='line-number'>2</span>
-<span class='line-number'>3</span>
-<span class='line-number'>4</span>
-<span class='line-number'>5</span>
-<span class='line-number'>6</span>
-<span class='line-number'>7</span>
-<span class='line-number'>8</span>
-<span class='line-number'>9</span>
-<span class='line-number'>10</span>
-</pre></td><td class='code'><pre><code class='text'><span class='line'>**** Compurama S.A. de C.V. ****
-</span><span class='line'>       RFC: CRSACV2013AB
-</span><span class='line'>********************************
-</span><span class='line'>***** 8 Abril 2013 14:00   *****
-</span><span class='line'>***** 00001                *****
-</span><span class='line'>********************************
-</span><span class='line'>Nombre del dispositivo | Fabricante     |   País      |     Peso    |       Medidas
-</span><span class='line'>HDD Seagate 1 TB            Seagate         Taiwan          300 grs         20 x 12 x 5 cm
-</span><span class='line'>Monitor Actek 22&quot;           Actek           Japón           2000 grs        23 x 20 x 8 cm
-</span><span class='line'>Trackball Logitech          Logitech        China           200 grs         15 x 10 x 10 cm
-</span></code></pre></td></tr></table></div></figure></notextile></div></p>
-
-<p>Sin más por el momento, espero esten próximos a acabar sus proyectos de vacaciones y nos vemos sin falta el día Lunes 8 de Abril 2013 en clase.</p>
 ]]></content>
   </entry>
   

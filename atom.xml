@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Jaime Delgado Meraz]]></title>
-  <link href="http://j2deme.github.io/atom.xml" rel="self"/>
-  <link href="http://j2deme.github.io/"/>
-  <updated>2013-05-27T12:12:14-05:00</updated>
-  <id>http://j2deme.github.io/</id>
+  <link href="http://j2deme.github.com/atom.xml" rel="self"/>
+  <link href="http://j2deme.github.com/"/>
+  <updated>2013-07-13T15:56:46-05:00</updated>
+  <id>http://j2deme.github.com/</id>
   <author>
     <name><![CDATA[Jaime Jesús Delgado Meraz]]></name>
     <email><![CDATA[j2deme@gmail.com]]></email>
@@ -14,10 +14,58 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Calificaciones finales]]></title>
+    <link href="http://j2deme.github.com/2013/06/18/calificaciones-finales/"/>
+    <updated>2013-06-18T18:32:00-05:00</updated>
+    <id>http://j2deme.github.com/2013/06/18/calificaciones-finales</id>
+    <content type="html"><![CDATA[<p>Saludos alumnos.</p>
+
+<p>En esta última publicación les pongo disponibles sus calificaciones finales, las cuales ya fueron entregadas en las actas oficiales al departamento de control escolar, por lo que <strong>no</strong> estan sujetas a cambios de ninguna índole, si presentaron algún examen de recuperación en las semanas anteriores, ya esta considerado en su calificación.</p>
+
+<p>Recuerden que por la nueva modalidad de evaluación por competencias, solamente se permitió una segunda oportunidad, esto en contraposición a otras retículas que todavía se manejan mediante la aplicación de 2 exámenes de recuperación (regularización y extraordinario).</p>
+
+<p>Lo anterior lo aclaro para aquellos que pudieran tener dudas o que esperaban que se les aplicaran otros exámenes.</p>
+
+<!-- more -->
+
+<h1 id="programacin-orientada-a-objetos">Programación Orientada a Objetos</h1>
+
+<p>En los siguiente enlaces podrán encontrar su promedio final, y les reitero que estas calificaciones ya no cambian. Quiero comentarles que durante los exámenes de recuperación observe algunas anomalías que fueron penalizadas, y que espero no se repitan si les vuelvo a dar clases.</p>
+
+<p>Aquellos que no acreditaron fue debido a una de 2 simples razones:</p>
+
+<ul>
+  <li>No se presentaron a realizar sus exámenes, o</li>
+  <li>No se tomaron el tiempo suficiente para prepararse para sus exámenes.</li>
+</ul>
+
+<p>Sin más, les dejo los enlaces a continuación para que revisen sus calificaciones.</p>
+
+<ul>
+  <li><a href="https://docs.google.com/spreadsheet/pub?key=0AlL0Gs47MupYdDFYbnRzakcyeU9hbFlVaFduR25GTVE&amp;single=true&amp;gid=0&amp;output=html">Grupo B</a></li>
+  <li><a href="https://docs.google.com/spreadsheet/pub?key=0AlL0Gs47MupYdDFYbnRzakcyeU9hbFlVaFduR25GTVE&amp;single=true&amp;gid=1&amp;output=html">Grupo C</a></li>
+</ul>
+
+<h1 id="programacin-mvil">Programación Móvil</h1>
+
+<p>Al igual que sus compañeros de Programación Orientada a Objetos, las calificaciones que les pongo en línea son las finales y ya no podran cambiarse con otro examen o trabajo. Pueden checar sus calificaciones <a href="https://docs.google.com/spreadsheet/pub?key=0AlL0Gs47MupYdDFYbnRzakcyeU9hbFlVaFduR25GTVE&amp;single=true&amp;gid=2&amp;output=html">aquí</a>.</p>
+
+<h1 id="notas-finales">Notas finales</h1>
+
+<p>Espero todos auqellos que hayan hecho sus respectivos esfuerzos esten conformes con las calificaciones obtenidas, y en caso de que no, les recomiendo que para cursos próximos apliquen algo más de sus capacidades para lograr una mejor calificación o una calificación aprobatoria, según sea el caso.</p>
+]]></content>
+    
+    <category scheme="http://j2deme.github.com/categories/" term="movil" />
+    
+    <category scheme="http://j2deme.github.com/categories/" term="poo" />
+    
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Webview en Android y más]]></title>
-    <link href="http://j2deme.github.io/2013/05/24/webview-en-android-y-mas/"/>
+    <link href="http://j2deme.github.com/2013/05/24/webview-en-android-y-mas/"/>
     <updated>2013-05-24T18:33:00-05:00</updated>
-    <id>http://j2deme.github.io/2013/05/24/webview-en-android-y-mas</id>
+    <id>http://j2deme.github.com/2013/05/24/webview-en-android-y-mas</id>
     <content type="html"><![CDATA[<p>Saludos alumnos.</p>
 
 <p>A un día de su evento, espero les haya ido muy bien. Se que hubieron altas y bajas en cuanto a las opiniones, que causaron puntos muy críticos en el evento, pero se que esto les servira como una experiencia académica, profesional y de vida.</p>
@@ -65,20 +113,20 @@
 <p>Recuerden también que la exposición del proyecto sera de manera formal en la fecha asignada, y deben resaltar todos los puntos medulares de su aplicación, así como su demostración de funcionamiento en móvil, ya sea desde un dispositivo con Android, o desde el navegador de algún equipo móvil.</p>
 ]]></content>
     
-    <category scheme="http://j2deme.github.io/categories/" term="movil" />
+    <category scheme="http://j2deme.github.com/categories/" term="movil" />
     
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Práctica Móvil]]></title>
-    <link href="http://j2deme.github.io/2013/05/22/practica-movil/"/>
+    <link href="http://j2deme.github.com/2013/05/22/practica-movil/"/>
     <updated>2013-05-22T18:45:00-05:00</updated>
-    <id>http://j2deme.github.io/2013/05/22/practica-movil</id>
+    <id>http://j2deme.github.com/2013/05/22/practica-movil</id>
     <content type="html"><![CDATA[<p>Saludos alumnos.</p>
 
 <p>A poco menos de un día para el evento de la Feria Tecnológica, les pongo disponible, la que será su última práctica del semestre.</p>
 
-<p>Esta práctica estará basada en el problema propuesto para los alumnos de <a href="http://j2deme.github.io/2013/05/22/practica-poo/">POO</a>, pero con una serie de pequeños cambios que les detallo a continuación.</p>
+<p>Esta práctica estará basada en el problema propuesto para los alumnos de <a href="http://j2deme.github.com/2013/05/22/practica-poo/">POO</a>, pero con una serie de pequeños cambios que les detallo a continuación.</p>
 
 <!-- more -->
 
@@ -99,15 +147,15 @@
 </ul>
 ]]></content>
     
-    <category scheme="http://j2deme.github.io/categories/" term="movil" />
+    <category scheme="http://j2deme.github.com/categories/" term="movil" />
     
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Práctica POO]]></title>
-    <link href="http://j2deme.github.io/2013/05/22/practica-poo/"/>
+    <link href="http://j2deme.github.com/2013/05/22/practica-poo/"/>
     <updated>2013-05-22T14:24:00-05:00</updated>
-    <id>http://j2deme.github.io/2013/05/22/practica-poo</id>
+    <id>http://j2deme.github.com/2013/05/22/practica-poo</id>
     <content type="html"><![CDATA[<p>Saludos alumnos.</p>
 
 <p>Tal como les comente en clase, además del proyecto final, dentro de las estrategias de evaluación también se considera una práctica con un valor de 15% que les servira para complementar la calificación que obtengan en su proyecto final.</p>
@@ -175,15 +223,15 @@
 </ul>
 ]]></content>
     
-    <category scheme="http://j2deme.github.io/categories/" term="poo" />
+    <category scheme="http://j2deme.github.com/categories/" term="poo" />
     
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Entregas Finales y Recuperación]]></title>
-    <link href="http://j2deme.github.io/2013/05/22/entregas-finales-y-recuperacion/"/>
+    <link href="http://j2deme.github.com/2013/05/22/entregas-finales-y-recuperacion/"/>
     <updated>2013-05-22T10:00:00-05:00</updated>
-    <id>http://j2deme.github.io/2013/05/22/entregas-finales-y-recuperacion</id>
+    <id>http://j2deme.github.com/2013/05/22/entregas-finales-y-recuperacion</id>
     <content type="html"><![CDATA[<ul id="markdown-toc">
   <li><a href="#programacin-orientada-a-objetos">Programación Orientada a Objetos</a>    <ul>
       <li><a href="#grupo-b">Grupo B</a></li>
@@ -206,7 +254,7 @@
 <!-- more -->
 
 <h1 id="programacin-orientada-a-objetos">Programación Orientada a Objetos</h1>
-<p>La evaluación final incluira una revisión de todos los puntos definidos en el documento del proyecto final publicado <a href="http://j2deme.github.io/2013/04/06/proyecto-final-poo/">aqui</a>. Dicha evaluación se realizará en dos partes, en la primera parte los alumnos deberan realizar una exposición de su prototipo, presentado todas las características de su proyecto, o aquellas que consideren de mayor relevancia.</p>
+<p>La evaluación final incluira una revisión de todos los puntos definidos en el documento del proyecto final publicado <a href="http://j2deme.github.com/2013/04/06/proyecto-final-poo/">aqui</a>. Dicha evaluación se realizará en dos partes, en la primera parte los alumnos deberan realizar una exposición de su prototipo, presentado todas las características de su proyecto, o aquellas que consideren de mayor relevancia.</p>
 
 <p>En una segunda parte deberan responder una ronda de preguntas relacionadas al proyecto que el docente y sus compañeros realicen, en caso de que los compañeros no tengan preguntas, el docente realizara preguntas a los integrantes, y solo la persona a la que se pregunte debera contestar, por lo que todos los integrantes del equipo deben poder contestar correctamente.</p>
 
@@ -345,17 +393,17 @@
 </ul>
 ]]></content>
     
-    <category scheme="http://j2deme.github.io/categories/" term="movil" />
+    <category scheme="http://j2deme.github.com/categories/" term="movil" />
     
-    <category scheme="http://j2deme.github.io/categories/" term="poo" />
+    <category scheme="http://j2deme.github.com/categories/" term="poo" />
     
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Ajuste de fechas]]></title>
-    <link href="http://j2deme.github.io/2013/04/26/ajuste-de-fechas/"/>
+    <link href="http://j2deme.github.com/2013/04/26/ajuste-de-fechas/"/>
     <updated>2013-04-26T15:39:00-05:00</updated>
-    <id>http://j2deme.github.io/2013/04/26/ajuste-de-fechas</id>
+    <id>http://j2deme.github.com/2013/04/26/ajuste-de-fechas</id>
     <content type="html"><![CDATA[<p>Saludos a todos.</p>
 
 <p>Les pongo disponibles algunos avisos relacionados con las fechas de entrega para los trabajos de la segunda evaluación, les recomiendo revisar cuidadosamente la sección que corresponda a su materia para que no vayan a entregar en fechas que no correspondan, o se confundan con las especificaciones de otros trabajos.</p>
@@ -385,7 +433,7 @@
 <h3 id="notas-finales">Notas Finales</h3>
 
 <ul>
-  <li>Las fechas planteadas en esta publicación, tienen precedencia sobre otras fechas mencionadas <a href="http://j2deme.github.io/2013/04/20/entrega-de-tareas/">anteriormente</a>, es decir, que ustedes deberan guiarse por estas nuevas fechas.</li>
+  <li>Las fechas planteadas en esta publicación, tienen precedencia sobre otras fechas mencionadas <a href="http://j2deme.github.com/2013/04/20/entrega-de-tareas/">anteriormente</a>, es decir, que ustedes deberan guiarse por estas nuevas fechas.</li>
   <li>Les recuerdo que de manera general la próxima fecha de entrega sera dentro de:</li>
 </ul>
 
@@ -399,17 +447,17 @@
 </ul>
 ]]></content>
     
-    <category scheme="http://j2deme.github.io/categories/" term="movil" />
+    <category scheme="http://j2deme.github.com/categories/" term="movil" />
     
-    <category scheme="http://j2deme.github.io/categories/" term="poo" />
+    <category scheme="http://j2deme.github.com/categories/" term="poo" />
     
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Entrega de Tareas]]></title>
-    <link href="http://j2deme.github.io/2013/04/20/entrega-de-tareas/"/>
+    <link href="http://j2deme.github.com/2013/04/20/entrega-de-tareas/"/>
     <updated>2013-04-20T10:53:00-05:00</updated>
-    <id>http://j2deme.github.io/2013/04/20/entrega-de-tareas</id>
+    <id>http://j2deme.github.com/2013/04/20/entrega-de-tareas</id>
     <content type="html"><![CDATA[<p>Saludos alumnos.</p>
 
 <p>Tengo algunas noticias que creo serán de interes para todos.</p>
@@ -428,7 +476,7 @@
 
 <p>El día de ayer actualice el ejemplo de uso de clases con Qt que les mostré en clase, ahora permite comunicar las ventanas en ambas direcciones, es decir, de la ventana padre al hijo y viceversa.</p>
 
-<p><img class="left" src="http://j2deme.github.io/images/posts/QtUsingClasses.png" title="Comunicación de Objetos" alt="Comunicación de Objetos" /></p>
+<p><img class="left" src="http://j2deme.github.com/images/posts/QtUsingClasses.png" title="Comunicación de Objetos" alt="Comunicación de Objetos" /></p>
 
 <p>El ejemplo esta disponible en <a href="https://github.com/j2deme/POO_Cpp/tree/master/Qt/QtUsingClasses">QtUsingClasses</a> (deberán descargar todo el repositorio para tenerlo actualizado).</p>
 
@@ -436,7 +484,7 @@
 
 <h3 id="programacin-mvil">Programación Móvil</h3>
 
-<p>Recuerden que deben hacer el reporte de diseño de sus respectivas aplicaciones, con respecto al documento disponible <a href="http://j2deme.github.io/2013/04/06/proyecto-final-movil/">aquí</a>, puesto que deberán entregar su respectivo documento para el día Viernes 26 de Abril de 2013, es decir, dentro de:</p>
+<p>Recuerden que deben hacer el reporte de diseño de sus respectivas aplicaciones, con respecto al documento disponible <a href="http://j2deme.github.com/2013/04/06/proyecto-final-movil/">aquí</a>, puesto que deberán entregar su respectivo documento para el día Viernes 26 de Abril de 2013, es decir, dentro de:</p>
 
 <div class="countdown">April 26, 2013 23:59:59</div>
 <p><strong>Nota:</strong> Esta fecha es para la entrega del <strong>documento</strong>, no para las tareas, para que no se confundan.</p>
@@ -480,17 +528,17 @@
 </ul>
 ]]></content>
     
-    <category scheme="http://j2deme.github.io/categories/" term="movil" />
+    <category scheme="http://j2deme.github.com/categories/" term="movil" />
     
-    <category scheme="http://j2deme.github.io/categories/" term="poo" />
+    <category scheme="http://j2deme.github.com/categories/" term="poo" />
     
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Proyecto Final Móvil]]></title>
-    <link href="http://j2deme.github.io/2013/04/06/proyecto-final-movil/"/>
+    <link href="http://j2deme.github.com/2013/04/06/proyecto-final-movil/"/>
     <updated>2013-04-06T17:36:00-06:00</updated>
-    <id>http://j2deme.github.io/2013/04/06/proyecto-final-movil</id>
+    <id>http://j2deme.github.com/2013/04/06/proyecto-final-movil</id>
     <content type="html"><![CDATA[<p>Saludos alumnos de móvil.</p>
 
 <p>En este post encontrarán adjuntos los documentos que describen los requerimientos mínimos para el reporte de diseño de la aplicación.</p>
@@ -514,15 +562,15 @@
 <p>Para los equipos que quedaron asignados al proyecto de transporte urbano, sírvanse descargar los requerimientos mínimos de dicho proyecto disponibles <a href="#">aquí</a>, y de igual manera cualquier duda con respecto al proyecto pueden hacermela saber en los comentarios de este post, en mi correo, twitter o directamente en clase.</p>
 ]]></content>
     
-    <category scheme="http://j2deme.github.io/categories/" term="movil" />
+    <category scheme="http://j2deme.github.com/categories/" term="movil" />
     
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Proyecto Final POO]]></title>
-    <link href="http://j2deme.github.io/2013/04/06/proyecto-final-poo/"/>
+    <link href="http://j2deme.github.com/2013/04/06/proyecto-final-poo/"/>
     <updated>2013-04-06T17:07:00-06:00</updated>
-    <id>http://j2deme.github.io/2013/04/06/proyecto-final-poo</id>
+    <id>http://j2deme.github.com/2013/04/06/proyecto-final-poo</id>
     <content type="html"><![CDATA[<p>Saludos alumnos de POO:</p>
 
 <p>Anexo a esta publicación encontraran el documento del proyecto final de la materia. En este documento se plantea un problema común a resolver para todos y la razón de porque se definió un único problema.</p>
@@ -539,7 +587,7 @@
 
 <h3 id="ejemplos-de-documentos-requeridos">Ejemplos de documentos requeridos</h3>
 
-<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span>Garantía de los productos  (Garantía.txt)</span> <a href="http://j2deme.github.io/downloads/code/Garantía.txt">download</a></figcaption>
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span>Garantía de los productos  (Garantía.txt)</span> <a href="http://j2deme.github.com/downloads/code/Garantía.txt">download</a></figcaption>
  <div class="highlight"><table><tr> <td class="code"><pre><code class="text"><span class="line">**** Compurama S.A. de C.V. ****
 </span><span class="line">       RFC: CRSACV2013AB
 </span><span class="line">********************************
@@ -557,7 +605,7 @@
 </span><span class="line">Teléfono: 481-110-1234
 </span><span class="line">Email: j2deme@gmail.com
 </span></code></pre></td></tr></table></div></figure></notextile></div>
-<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span>Comprobante de compra  (Ticket.txt)</span> <a href="http://j2deme.github.io/downloads/code/Ticket.txt">download</a></figcaption>
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span>Comprobante de compra  (Ticket.txt)</span> <a href="http://j2deme.github.com/downloads/code/Ticket.txt">download</a></figcaption>
  <div class="highlight"><table><tr> <td class="code"><pre><code class="text"><span class="line">**** Compurama S.A. de C.V. ****
 </span><span class="line">       RFC: CRSACV2013AB
 </span><span class="line">********************************
@@ -578,7 +626,7 @@
 </span><span class="line">IVA                                                      693.6
 </span><span class="line">Total                                                  5,028.6
 </span></code></pre></td></tr></table></div></figure></notextile></div>
-<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span>Comprobante de Importación  (Importación.txt)</span> <a href="http://j2deme.github.io/downloads/code/Importación.txt">download</a></figcaption>
+<div class="bogus-wrapper"><notextile><figure class="code"><figcaption><span>Comprobante de Importación  (Importación.txt)</span> <a href="http://j2deme.github.com/downloads/code/Importación.txt">download</a></figcaption>
  <div class="highlight"><table><tr> <td class="code"><pre><code class="text"><span class="line">**** Compurama S.A. de C.V. ****
 </span><span class="line">       RFC: CRSACV2013AB
 </span><span class="line">********************************
@@ -594,15 +642,15 @@
 <p>Sin más por el momento, espero esten próximos a acabar sus proyectos de vacaciones y nos vemos sin falta el día Lunes 8 de Abril 2013 en clase.</p>
 ]]></content>
     
-    <category scheme="http://j2deme.github.io/categories/" term="poo" />
+    <category scheme="http://j2deme.github.com/categories/" term="poo" />
     
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Mapas en Android]]></title>
-    <link href="http://j2deme.github.io/2013/04/05/mapas-en-android/"/>
+    <link href="http://j2deme.github.com/2013/04/05/mapas-en-android/"/>
     <updated>2013-04-05T18:37:00-06:00</updated>
-    <id>http://j2deme.github.io/2013/04/05/mapas-en-android</id>
+    <id>http://j2deme.github.com/2013/04/05/mapas-en-android</id>
     <content type="html"><![CDATA[<p>Saludos alumnos de móvil.</p>
 
 <p>En consideración a que los últimos tres laboratorios han contenido como parte de su desarrollo el uso de mapas en Android (sugerido no obligatorio) y especialmente para aquellos que estarán realizando el proyecto de <em>transporte urbano</em>, aquí les pongo los pasos necesarios para poder utilizar el mapa, esta publicación es complementaria al código que ya esta disponible en el <a href="https://github.com/j2deme/AndroidApps">repositorio</a> de aplicaciones.</p>
@@ -676,7 +724,7 @@
 </ol>
 
 <p>En cualquier caso, nos encontraremos con una pantalla donde observaremos una barra similar a la siguiente:
-<img class="left" src="http://j2deme.github.io/images/posts/console1.png" title="Barra Lateral" alt="Barra Lateral" /></p>
+<img class="left" src="http://j2deme.github.com/images/posts/console1.png" title="Barra Lateral" alt="Barra Lateral" /></p>
 
 <p>Desde la cual podremos renombrar, borrar, abrir o crear, o eliminar el borrado de algún proyecto.</p>
 
@@ -685,7 +733,7 @@
 <h2 id="paso-3-activar-el-api">Paso 3: Activar el API</h2>
 
 <p>Una vez dado click en <em>Services</em>, se desplegara una lista de todas las APIs disponibles por parte de Google, de donde deberemos buscar <strong>Google Maps Android API v2</strong> y activarla, tal como se ve en la imagen:
-<img class="left" src="http://j2deme.github.io/images/posts/console2.png" title="Google Maps Android API v2" alt="Google Maps Android API v2" /></p>
+<img class="left" src="http://j2deme.github.com/images/posts/console2.png" title="Google Maps Android API v2" alt="Google Maps Android API v2" /></p>
 
 <p>Una vez hecho esto, si es la primera vez que hacemos uso de esta API, se nos mostrara la licencia de uso, la cual tendremos que aceptar, en caso contrario no podremos utilizar el API elegida, esto solo se realiza una vez.</p>
 
@@ -696,10 +744,10 @@
 <p>Una vez que activamos el servicio, el siguiente paso es solicitar el API key para poderla usar en nuestra aplicación, para lo cual, dentro de la misma Google API Console, daremos click en la opción <strong>API Access</strong>.</p>
 
 <p>Ahi veremos algo más o menos similar a la siguiente imagen:
-<img class="left" src="http://j2deme.github.io/images/posts/console3.png" title="API Access" alt="API Access" /></p>
+<img class="left" src="http://j2deme.github.com/images/posts/console3.png" title="API Access" alt="API Access" /></p>
 
 <p>Una vez en esta pantalla, daremos click, en el botón que marcado con <strong>Create new Android key…</strong>, y se nos abrira un diálogo similar a este:
-<img class="left" src="http://j2deme.github.io/images/posts/console4.png" title="Configurar API Key" alt="Configurar API Key" /></p>
+<img class="left" src="http://j2deme.github.com/images/posts/console4.png" title="Configurar API Key" alt="Configurar API Key" /></p>
 
 <p>Aquí ingresaremos en el cuadro de texto, los datos de nuestra firma digital SHA1 (que obtuvimos en el paso 1), y separado con un punto y coma (;), el nombre del paquete de nuestra aplicación, de esta manera:</p>
 
@@ -708,7 +756,7 @@
 <p>Donde la parte de <code>com.j2deme.mapdemo</code> se refiere al nombre del paquete de nuestra aplicación al crearla, generalmente inicia con el <code>com.</code>, seguido del nombre de la empresa o alias del desarrollador(<code>j2deme.</code> en mi caso) y finalmente el nombre de la aplicación sin espacios y en minúsculas (<code>mapdemo</code> en el caso de la aplicación que esta en el repositorio).</p>
 
 <p>Una vez ingresados los datos necesarios, damos click en el botón <strong>Create</strong> y se nos generara nuestra llave para hacer uso de los mapas de Google en Android:
-<img class="left" src="http://j2deme.github.io/images/posts/console5.png" title="API Key para Android" alt="API Key para Android" /></p>
+<img class="left" src="http://j2deme.github.com/images/posts/console5.png" title="API Key para Android" alt="API Key para Android" /></p>
 
 <p>Con esto ya tendremos generada nuestra llave y podremos hacer uso de ella en nuestras aplicación, si requerimos usar el mapa en otra aplicación daremos click en la opción <em>Edit allowed Android apps</em>, en donde en una nueva línea añadiremos la misma llave SHA1, y el nombre del paquete de nuestra nueva aplicación, así tantas veces necesitemos.</p>
 
@@ -825,18 +873,18 @@
 </ul>
 ]]></content>
     
-    <category scheme="http://j2deme.github.io/categories/" term="movil" />
+    <category scheme="http://j2deme.github.com/categories/" term="movil" />
     
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Avance en vacaciones]]></title>
-    <link href="http://j2deme.github.io/2013/04/04/avance-en-vacaciones/"/>
+    <link href="http://j2deme.github.com/2013/04/04/avance-en-vacaciones/"/>
     <updated>2013-04-04T13:00:00-06:00</updated>
-    <id>http://j2deme.github.io/2013/04/04/avance-en-vacaciones</id>
+    <id>http://j2deme.github.com/2013/04/04/avance-en-vacaciones</id>
     <content type="html"><![CDATA[<p>Saludos a todos.</p>
 
-<p>Ya faltan pocos días para el regreso a clases. Y espero que esten trabajando en sus tareas, recuerden que son para entregar el día Lunes 8 de Abril de 2013 tal como se los indique <a href="http://j2deme.github.io/2013/03/14/proximas-fechas-importantes/">aquí</a> y <a href="http://j2deme.github.io/2013/03/21/tareas-y-laboratorios-4-y-5/">aquí</a>.</p>
+<p>Ya faltan pocos días para el regreso a clases. Y espero que esten trabajando en sus tareas, recuerden que son para entregar el día Lunes 8 de Abril de 2013 tal como se los indique <a href="http://j2deme.github.com/2013/03/14/proximas-fechas-importantes/">aquí</a> y <a href="http://j2deme.github.com/2013/03/21/tareas-y-laboratorios-4-y-5/">aquí</a>.</p>
 
 <p>En consideración a aquellos que <strong>si</strong> estan trabajando en este período de descanso, les publico algunos ejemplos que les serviran de ayuda y referencia.</p>
 
@@ -885,17 +933,17 @@
 <p>Revisen también la sección de <em>Diapositivas</em> donde encontraran la información de los temas para el próximo examen.</p>
 ]]></content>
     
-    <category scheme="http://j2deme.github.io/categories/" term="movil" />
+    <category scheme="http://j2deme.github.com/categories/" term="movil" />
     
-    <category scheme="http://j2deme.github.io/categories/" term="poo" />
+    <category scheme="http://j2deme.github.com/categories/" term="poo" />
     
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Libros de apoyo]]></title>
-    <link href="http://j2deme.github.io/2013/03/27/libros-de-apoyo/"/>
+    <link href="http://j2deme.github.com/2013/03/27/libros-de-apoyo/"/>
     <updated>2013-03-27T17:49:00-06:00</updated>
-    <id>http://j2deme.github.io/2013/03/27/libros-de-apoyo</id>
+    <id>http://j2deme.github.com/2013/03/27/libros-de-apoyo</id>
     <content type="html"><![CDATA[<p>Saludos a todos.</p>
 
 <p><span class="pullquote-right" data-pullquote="para todo pretexto existe una solución">
@@ -905,7 +953,7 @@ En primer instancia una disculpa por la tardanza, se que soy el primero en decir
 <!-- more -->
 
 <h2 id="una-pequea-nota">Una pequeña nota</h2>
-<p><img class="left" src="http://j2deme.github.io/images/posts/semana-santa.jpg" title="Semana Santa" alt="Semana Santa" /></p>
+<p><img class="left" src="http://j2deme.github.com/images/posts/semana-santa.jpg" title="Semana Santa" alt="Semana Santa" /></p>
 
 <p>Se que la mayoría estara pensando en cosas como:</p>
 
@@ -946,22 +994,22 @@ Les recuerdo que es mil veces preferible dar un solo paso, que quedarse parado v
 <p>Espero que tomen en serio esta oportunidad y entreguen las tareas faltantes a la brevedad, <strong>SIN PRETEXTOS</strong>, para que ustedes mismos puedan mejorar su calificación, o en su defecto, serán ustedes mismos los que se reprobaran por no entregar trabajos.</p>
 ]]></content>
     
-    <category scheme="http://j2deme.github.io/categories/" term="movil" />
+    <category scheme="http://j2deme.github.com/categories/" term="movil" />
     
-    <category scheme="http://j2deme.github.io/categories/" term="poo" />
+    <category scheme="http://j2deme.github.com/categories/" term="poo" />
     
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Tareas y Laboratorios 4 y 5]]></title>
-    <link href="http://j2deme.github.io/2013/03/21/tareas-y-laboratorios-4-y-5/"/>
+    <link href="http://j2deme.github.com/2013/03/21/tareas-y-laboratorios-4-y-5/"/>
     <updated>2013-03-21T20:08:00-06:00</updated>
-    <id>http://j2deme.github.io/2013/03/21/tareas-y-laboratorios-4-y-5</id>
+    <id>http://j2deme.github.com/2013/03/21/tareas-y-laboratorios-4-y-5</id>
     <content type="html"><![CDATA[<p>Saludos a todos.</p>
 
 <p>Primero que nada una disculpa por encargar tarea para vacaciones, pero como ya lo platicamos en clase, esta acción fue necesaria y votada a favor por la mayoría.</p>
 
-<p>Si tienen dudas sobre el porque se asignaron tareas para vacaciones les recomiendo revisar los porcentajes asignados en las respectivas instrumentaciones disponibles <a href="http://j2deme.github.io/2013/01/29/instrumentaciones-y-planeaciones-ene-jun-2013/">aquí</a>.</p>
+<p>Si tienen dudas sobre el porque se asignaron tareas para vacaciones les recomiendo revisar los porcentajes asignados en las respectivas instrumentaciones disponibles <a href="http://j2deme.github.com/2013/01/29/instrumentaciones-y-planeaciones-ene-jun-2013/">aquí</a>.</p>
 
 <!-- more -->
 
@@ -978,17 +1026,17 @@ Les recuerdo que es mil veces preferible dar un solo paso, que quedarse parado v
 <div class="countdown">April 8, 2013 23:59:59</div>
 ]]></content>
     
-    <category scheme="http://j2deme.github.io/categories/" term="movil" />
+    <category scheme="http://j2deme.github.com/categories/" term="movil" />
     
-    <category scheme="http://j2deme.github.io/categories/" term="poo" />
+    <category scheme="http://j2deme.github.com/categories/" term="poo" />
     
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Instalación de Qt]]></title>
-    <link href="http://j2deme.github.io/2013/03/21/instalacion-de-qt/"/>
+    <link href="http://j2deme.github.com/2013/03/21/instalacion-de-qt/"/>
     <updated>2013-03-21T08:57:00-06:00</updated>
-    <id>http://j2deme.github.io/2013/03/21/instalacion-de-qt</id>
+    <id>http://j2deme.github.com/2013/03/21/instalacion-de-qt</id>
     <content type="html"><![CDATA[<p>Alumnos de POO:</p>
 
 <p>En este post encontraran algunos tutoriales que les serviran para verificar que la instalación de Qt en Windows sea correcta.</p>
@@ -1005,7 +1053,7 @@ Les recuerdo que es mil veces preferible dar un solo paso, que quedarse parado v
 
 <p>En cuanto lo que respecta al tutorial en español, el más completo que encontre, y que es para una versión más o menos promedio (Windows 7), esta disponible <a href="http://www.zonaqt.com/content/instalacion-de-qt-creator-en-windows-actualizado" title="Instalación Qt Creator">aquí</a>, en este caso a comparación de los 2 anteriores, este tutorial esta enfocado a la instalación de Qt Creator y la librería Qt5.</p>
 
-<p>Lo que pude observar de los 3 tutoriales es que básicamente el paso que nadie hizo fue añadir el binario de Qt al <strong>Path</strong> del sistema para que al compilar desde el Qt Creator detecte las librerías de Qt (muy similar a lo que sucedió con la librería <a href="http://j2deme.github.io/2013/02/21/solucion-al-problema-de-iostream/">Iostream</a> que en su momento también les recomendé que instalaran).</p>
+<p>Lo que pude observar de los 3 tutoriales es que básicamente el paso que nadie hizo fue añadir el binario de Qt al <strong>Path</strong> del sistema para que al compilar desde el Qt Creator detecte las librerías de Qt (muy similar a lo que sucedió con la librería <a href="http://j2deme.github.com/2013/02/21/solucion-al-problema-de-iostream/">Iostream</a> que en su momento también les recomendé que instalaran).</p>
 
 <p>Entonces aquí tienen la información <strong>general</strong>, pero tal como les dije en clase, cualquier caso especial en sus equipos:</p>
 
@@ -1021,15 +1069,15 @@ Les recuerdo que es mil veces preferible dar un solo paso, que quedarse parado v
 
 ]]></content>
     
-    <category scheme="http://j2deme.github.io/categories/" term="poo" />
+    <category scheme="http://j2deme.github.com/categories/" term="poo" />
     
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Tarea y Laboratorio 3]]></title>
-    <link href="http://j2deme.github.io/2013/03/17/tarea-y-laboratorio-3/"/>
+    <link href="http://j2deme.github.com/2013/03/17/tarea-y-laboratorio-3/"/>
     <updated>2013-03-17T01:17:00-06:00</updated>
-    <id>http://j2deme.github.io/2013/03/17/tarea-y-laboratorio-3</id>
+    <id>http://j2deme.github.com/2013/03/17/tarea-y-laboratorio-3</id>
     <content type="html"><![CDATA[<p>Saludos alumnos.</p>
 
 <p>En este ocasión publico ambos documentos juntos, y es muy posible que así lo haga para las próximas tareas, aunque creo que en realidad no afecta en nada para su visualización u organización. Aprovecho que me dirijo a todos mis alumnos para poner en claro algunos puntos importantes.</p>
@@ -1055,7 +1103,7 @@ Les recuerdo que es mil veces preferible dar un solo paso, que quedarse parado v
 
 <h3 id="una-aclaracin">Una aclaración</h3>
 
-<p>No se que suceda con los demás, especialmente con los alumnos de <strong>Móvil</strong> de los cuales no he recibido ni la más mínima señal. Solo quiero recordarles que si bien es temporada de Feria y Vacaciones como bien les dije <a href="http://j2deme.github.io/2013/03/14/proximas-fechas-importantes/">anteriormente</a>, eso no significa que no entreguen las tareas.</p>
+<p>No se que suceda con los demás, especialmente con los alumnos de <strong>Móvil</strong> de los cuales no he recibido ni la más mínima señal. Solo quiero recordarles que si bien es temporada de Feria y Vacaciones como bien les dije <a href="http://j2deme.github.com/2013/03/14/proximas-fechas-importantes/">anteriormente</a>, eso no significa que no entreguen las tareas.</p>
 
 <p>Especialmente me dirijo a aquellos que se vieron en situación de casi reprobar y sobre todo a aquellos que reprobaron para que entreguen sus trabajos a tiempo, aunque algunos esten trabajando en la Feria o en otros lados de manera temporal o permanente, <strong>NO</strong> es excusa ni razón para descuidar su desempeño académico.</p>
 
@@ -1064,24 +1112,24 @@ Les recuerdo que es mil veces preferible dar un solo paso, que quedarse parado v
 <p>Espero ver un cambio pronto, nuevamente pongo a su disposición mi correo electrónico, la sección de comentarios que pueden encontrar más abajo o en su defecto de forma personal en clase.</p>
 ]]></content>
     
-    <category scheme="http://j2deme.github.io/categories/" term="movil" />
+    <category scheme="http://j2deme.github.com/categories/" term="movil" />
     
-    <category scheme="http://j2deme.github.io/categories/" term="poo" />
+    <category scheme="http://j2deme.github.com/categories/" term="poo" />
     
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Próximas fechas importantes]]></title>
-    <link href="http://j2deme.github.io/2013/03/14/proximas-fechas-importantes/"/>
+    <link href="http://j2deme.github.com/2013/03/14/proximas-fechas-importantes/"/>
     <updated>2013-03-14T10:29:00-06:00</updated>
-    <id>http://j2deme.github.io/2013/03/14/proximas-fechas-importantes</id>
+    <id>http://j2deme.github.com/2013/03/14/proximas-fechas-importantes</id>
     <content type="html"><![CDATA[<p>Saludos alumnos.</p>
 
 <p>Escribo para comentarles sobre las fechas que deben tener en consideración, antes y después de su período vacacional de Semana Santa. Se que es temporada de Feria y de vacaciones, pero es necesario que consideren las siguientes fechas para que puedan distribuir su trabajo.</p>
 
 <!--more-->
 
-<p>Como ya les comente a algunos, sino es que a la mayoría, para disminuir los porcentajes de reprobación (o casi reprobación) de la evaluación pasada, hubo que hacer algunos cambios en los puntos a calificar, y conforme a los porcentajes para este período de evaluación (POO U3 y U4; Móvil U3), tenemos que las prácticas para ambas materias tienen un valor de 50% (para más detalles los documentos estan disponibles <a href="http://j2deme.github.io/2013/01/29/instrumentaciones-y-planeaciones-ene-jun-2013/">aquí</a>).</p>
+<p>Como ya les comente a algunos, sino es que a la mayoría, para disminuir los porcentajes de reprobación (o casi reprobación) de la evaluación pasada, hubo que hacer algunos cambios en los puntos a calificar, y conforme a los porcentajes para este período de evaluación (POO U3 y U4; Móvil U3), tenemos que las prácticas para ambas materias tienen un valor de 50% (para más detalles los documentos estan disponibles <a href="http://j2deme.github.com/2013/01/29/instrumentaciones-y-planeaciones-ene-jun-2013/">aquí</a>).</p>
 
 <p><span class="pullquote-right" data-pullquote="para evitar que una sola práctica equivalga al 50% de su calificación, he planeado la siguiente calendarización">
 Por lo tanto, y para evitar que una sola práctica equivalga al 50% de su calificación, he planeado la siguiente calendarización que espero en lo posible, se pueda cumplir punto por punto, principalmente para que ustedes no se vean sobrepasados por los trabajos que deban entregar.
@@ -1132,17 +1180,17 @@ Por lo tanto, y para evitar que una sola práctica equivalga al 50% de su califi
 <p>Cualquier pregunta o comentario relacionado con las tareas o clases, no duden en dejar un comentario en la página, en el post correspondiente, a mi correo o directamente en clase.</p>
 ]]></content>
     
-    <category scheme="http://j2deme.github.io/categories/" term="movil" />
+    <category scheme="http://j2deme.github.com/categories/" term="movil" />
     
-    <category scheme="http://j2deme.github.io/categories/" term="poo" />
+    <category scheme="http://j2deme.github.com/categories/" term="poo" />
     
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Tarea 2]]></title>
-    <link href="http://j2deme.github.io/2013/03/10/tarea-2/"/>
+    <link href="http://j2deme.github.com/2013/03/10/tarea-2/"/>
     <updated>2013-03-10T02:25:00-06:00</updated>
-    <id>http://j2deme.github.io/2013/03/10/tarea-2</id>
+    <id>http://j2deme.github.com/2013/03/10/tarea-2</id>
     <content type="html"><![CDATA[<p>Saludos alumnos de POO.</p>
 
 <p>Les pongo disponible su segunda tarea, la cual se compone de 2 partes:</p>
@@ -1161,15 +1209,15 @@ Por lo tanto, y para evitar que una sola práctica equivalga al 50% de su califi
 <p>En el documento considere casi cualquier duda que se les pudiera ocurrir, pero si tienen alguna duda en particular pueden dejar un comentario en este blog, enviarme un mail al correo de la materia: j2deme(mas)poo(arroba)gmail(punto)com o directamente conmigo en clase.</p>
 ]]></content>
     
-    <category scheme="http://j2deme.github.io/categories/" term="poo" />
+    <category scheme="http://j2deme.github.com/categories/" term="poo" />
     
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Bienvenidos de nuevo]]></title>
-    <link href="http://j2deme.github.io/2013/03/09/bienvenidos-de-nuevo/"/>
+    <link href="http://j2deme.github.com/2013/03/09/bienvenidos-de-nuevo/"/>
     <updated>2013-03-09T17:00:00-06:00</updated>
-    <id>http://j2deme.github.io/2013/03/09/bienvenidos-de-nuevo</id>
+    <id>http://j2deme.github.com/2013/03/09/bienvenidos-de-nuevo</id>
     <content type="html"><![CDATA[<p>Saludos alumnos.</p>
 
 <p>En primer instancia disculpen los inconvenientes que esta migración pudiera haberles causado. La idea de mover el blog a una plataforma diferente es principalmente para tener un medio de publicación más estable, esto debido a una serie de problemas de funcionamiento que se presentaron en <a href="http://jaimedm.wordpress.com">Worpress</a> y sobre todo, la poca capacidad de adaptación de la plataforma a mis necesidades específicas.</p>
@@ -1184,20 +1232,20 @@ Por lo tanto, y para evitar que una sola práctica equivalga al 50% de su califi
 
 ]]></content>
     
-    <category scheme="http://j2deme.github.io/categories/" term="general" />
+    <category scheme="http://j2deme.github.com/categories/" term="general" />
     
   </entry>
   
   <entry>
     <title type="html"><![CDATA[Laboratorio 2]]></title>
-    <link href="http://j2deme.github.io/2013/03/08/laboratorio-2/"/>
+    <link href="http://j2deme.github.com/2013/03/08/laboratorio-2/"/>
     <updated>2013-03-08T23:00:00-06:00</updated>
-    <id>http://j2deme.github.io/2013/03/08/laboratorio-2</id>
+    <id>http://j2deme.github.com/2013/03/08/laboratorio-2</id>
     <content type="html"><![CDATA[<p>Saludos alumnos de móvil.</p>
 
 <p>Aqui les publico el laboratorio 2, como ya les comente en clase, consiste en utilizar el <strong>dado</strong> que estuvimos desarrollando como parte de una aplicación más elaborada, en el documento pdf, disponible <a href="http://dl.dropbox.com/u/1131727/Octopress/Lab2.pdf">aquí</a> podran encontrar más a detalle la descripción de la tarea a entregar.</p>
 
-<p>En lo que respecta al formato, se considera lo ya indicado para el <a href="http://j2deme.github.io/2013/02/10/laboratorio-1/">laboratorio 1</a> e igualmente se menciona en el interior del documento.</p>
+<p>En lo que respecta al formato, se considera lo ya indicado para el <a href="http://j2deme.github.com/2013/02/10/laboratorio-1/">laboratorio 1</a> e igualmente se menciona en el interior del documento.</p>
 
 <!--more-->
 
@@ -1208,39 +1256,23 @@ Por lo tanto, y para evitar que una sola práctica equivalga al 50% de su califi
 <p>Mi correo esta disponible para cualquier duda, igualmente pueden dejar un comentario en esta misma página, o personalmente en clase.</p>
 ]]></content>
     
-    <category scheme="http://j2deme.github.io/categories/" term="movil" />
+    <category scheme="http://j2deme.github.com/categories/" term="movil" />
     
   </entry>
   
   <entry>
     <title type="html"><![CDATA[En espera de proyectos]]></title>
-    <link href="http://j2deme.github.io/2013/03/03/en-espera-de-proyectos/"/>
+    <link href="http://j2deme.github.com/2013/03/03/en-espera-de-proyectos/"/>
     <updated>2013-03-03T19:00:00-06:00</updated>
-    <id>http://j2deme.github.io/2013/03/03/en-espera-de-proyectos</id>
+    <id>http://j2deme.github.com/2013/03/03/en-espera-de-proyectos</id>
     <content type="html"><![CDATA[<p>Saludos.</p>
 
 <p>Solo para recordarles que la fecha de entrega es a más tardar el día de hoy, y hasta el momento solo he recibido 4 proyectos de móvil y 1 de orientado a objetos del grupo B.</p>
 ]]></content>
     
-    <category scheme="http://j2deme.github.io/categories/" term="movil" />
+    <category scheme="http://j2deme.github.com/categories/" term="movil" />
     
-    <category scheme="http://j2deme.github.io/categories/" term="poo" />
-    
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Recordatorio]]></title>
-    <link href="http://j2deme.github.io/2013/03/02/recordatorio/"/>
-    <updated>2013-03-02T14:00:00-06:00</updated>
-    <id>http://j2deme.github.io/2013/03/02/recordatorio</id>
-    <content type="html"><![CDATA[<p>La fecha límite de entrega para los proyectos de recuperación es el día <strong>Domingo 3 de Marzo de 2013</strong>, ni un día más.</p>
-
-<p>En esta situación no aplica el descargo de 10% por día de retraso, es <strong>todo o nada</strong>. Por lo tanto espero sus trabajos a más tardar mañana.</p>
-]]></content>
-    
-    <category scheme="http://j2deme.github.io/categories/" term="movil" />
-    
-    <category scheme="http://j2deme.github.io/categories/" term="poo" />
+    <category scheme="http://j2deme.github.com/categories/" term="poo" />
     
   </entry>
   

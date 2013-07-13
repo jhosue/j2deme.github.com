@@ -2,10 +2,10 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
 
   <title><![CDATA[Categoria &rArr; Movil | Jaime Delgado Meraz]]></title>
-  <link href="http://j2deme.github.io/categorias/movil/atom.xml" rel="self"/>
-  <link href="http://j2deme.github.io/"/>
-  <updated>2013-05-27T12:12:14-05:00</updated>
-  <id>http://j2deme.github.io/</id>
+  <link href="http://j2deme.github.com/categorias/movil/atom.xml" rel="self"/>
+  <link href="http://j2deme.github.com/"/>
+  <updated>2013-07-13T15:56:46-05:00</updated>
+  <id>http://j2deme.github.com/</id>
   <author>
     <name><![CDATA[Jaime Jesús Delgado Meraz]]></name>
     <email><![CDATA[j2deme@gmail.com]]></email>
@@ -14,10 +14,53 @@
 
   
   <entry>
+    <title type="html"><![CDATA[Calificaciones finales]]></title>
+    <link href="http://j2deme.github.com/2013/06/18/calificaciones-finales/"/>
+    <updated>2013-06-18T18:32:00-05:00</updated>
+    <id>http://j2deme.github.com/2013/06/18/calificaciones-finales</id>
+    <content type="html"><![CDATA[<p>Saludos alumnos.</p>
+
+<p>En esta última publicación les pongo disponibles sus calificaciones finales, las cuales ya fueron entregadas en las actas oficiales al departamento de control escolar, por lo que <strong>no</strong> estan sujetas a cambios de ninguna índole, si presentaron algún examen de recuperación en las semanas anteriores, ya esta considerado en su calificación.</p>
+
+<p>Recuerden que por la nueva modalidad de evaluación por competencias, solamente se permitió una segunda oportunidad, esto en contraposición a otras retículas que todavía se manejan mediante la aplicación de 2 exámenes de recuperación (regularización y extraordinario).</p>
+
+<p>Lo anterior lo aclaro para aquellos que pudieran tener dudas o que esperaban que se les aplicaran otros exámenes.</p>
+
+<!-- more -->
+
+<h1 id="programacin-orientada-a-objetos">Programación Orientada a Objetos</h1>
+
+<p>En los siguiente enlaces podrán encontrar su promedio final, y les reitero que estas calificaciones ya no cambian. Quiero comentarles que durante los exámenes de recuperación observe algunas anomalías que fueron penalizadas, y que espero no se repitan si les vuelvo a dar clases.</p>
+
+<p>Aquellos que no acreditaron fue debido a una de 2 simples razones:</p>
+
+<ul>
+  <li>No se presentaron a realizar sus exámenes, o</li>
+  <li>No se tomaron el tiempo suficiente para prepararse para sus exámenes.</li>
+</ul>
+
+<p>Sin más, les dejo los enlaces a continuación para que revisen sus calificaciones.</p>
+
+<ul>
+  <li><a href="https://docs.google.com/spreadsheet/pub?key=0AlL0Gs47MupYdDFYbnRzakcyeU9hbFlVaFduR25GTVE&amp;single=true&amp;gid=0&amp;output=html">Grupo B</a></li>
+  <li><a href="https://docs.google.com/spreadsheet/pub?key=0AlL0Gs47MupYdDFYbnRzakcyeU9hbFlVaFduR25GTVE&amp;single=true&amp;gid=1&amp;output=html">Grupo C</a></li>
+</ul>
+
+<h1 id="programacin-mvil">Programación Móvil</h1>
+
+<p>Al igual que sus compañeros de Programación Orientada a Objetos, las calificaciones que les pongo en línea son las finales y ya no podran cambiarse con otro examen o trabajo. Pueden checar sus calificaciones <a href="https://docs.google.com/spreadsheet/pub?key=0AlL0Gs47MupYdDFYbnRzakcyeU9hbFlVaFduR25GTVE&amp;single=true&amp;gid=2&amp;output=html">aquí</a>.</p>
+
+<h1 id="notas-finales">Notas finales</h1>
+
+<p>Espero todos auqellos que hayan hecho sus respectivos esfuerzos esten conformes con las calificaciones obtenidas, y en caso de que no, les recomiendo que para cursos próximos apliquen algo más de sus capacidades para lograr una mejor calificación o una calificación aprobatoria, según sea el caso.</p>
+]]></content>
+  </entry>
+  
+  <entry>
     <title type="html"><![CDATA[Webview en Android y más]]></title>
-    <link href="http://j2deme.github.io/2013/05/24/webview-en-android-y-mas/"/>
+    <link href="http://j2deme.github.com/2013/05/24/webview-en-android-y-mas/"/>
     <updated>2013-05-24T18:33:00-05:00</updated>
-    <id>http://j2deme.github.io/2013/05/24/webview-en-android-y-mas</id>
+    <id>http://j2deme.github.com/2013/05/24/webview-en-android-y-mas</id>
     <content type="html"><![CDATA[<p>Saludos alumnos.</p>
 
 <p>A un día de su evento, espero les haya ido muy bien. Se que hubieron altas y bajas en cuanto a las opiniones, que causaron puntos muy críticos en el evento, pero se que esto les servira como una experiencia académica, profesional y de vida.</p>
@@ -68,9 +111,9 @@
   
   <entry>
     <title type="html"><![CDATA[Práctica Móvil]]></title>
-    <link href="http://j2deme.github.io/2013/05/22/practica-movil/"/>
+    <link href="http://j2deme.github.com/2013/05/22/practica-movil/"/>
     <updated>2013-05-22T18:45:00-05:00</updated>
-    <id>http://j2deme.github.io/2013/05/22/practica-movil</id>
+    <id>http://j2deme.github.com/2013/05/22/practica-movil</id>
     <content type="html"><![CDATA[<p>Saludos alumnos.</p>
 
 <p>A poco menos de un día para el evento de la Feria Tecnológica, les pongo disponible, la que será su última práctica del semestre.</p>
@@ -99,9 +142,9 @@
   
   <entry>
     <title type="html"><![CDATA[Entregas Finales y Recuperación]]></title>
-    <link href="http://j2deme.github.io/2013/05/22/entregas-finales-y-recuperacion/"/>
+    <link href="http://j2deme.github.com/2013/05/22/entregas-finales-y-recuperacion/"/>
     <updated>2013-05-22T10:00:00-05:00</updated>
-    <id>http://j2deme.github.io/2013/05/22/entregas-finales-y-recuperacion</id>
+    <id>http://j2deme.github.com/2013/05/22/entregas-finales-y-recuperacion</id>
     <content type="html"><![CDATA[<ul id="markdown-toc">
   <li><a href="#programacin-orientada-a-objetos">Programación Orientada a Objetos</a>    <ul>
       <li><a href="#grupo-b">Grupo B</a></li>
@@ -266,9 +309,9 @@
   
   <entry>
     <title type="html"><![CDATA[Ajuste de fechas]]></title>
-    <link href="http://j2deme.github.io/2013/04/26/ajuste-de-fechas/"/>
+    <link href="http://j2deme.github.com/2013/04/26/ajuste-de-fechas/"/>
     <updated>2013-04-26T15:39:00-05:00</updated>
-    <id>http://j2deme.github.io/2013/04/26/ajuste-de-fechas</id>
+    <id>http://j2deme.github.com/2013/04/26/ajuste-de-fechas</id>
     <content type="html"><![CDATA[<p>Saludos a todos.</p>
 
 <p>Les pongo disponibles algunos avisos relacionados con las fechas de entrega para los trabajos de la segunda evaluación, les recomiendo revisar cuidadosamente la sección que corresponda a su materia para que no vayan a entregar en fechas que no correspondan, o se confundan con las especificaciones de otros trabajos.</p>
@@ -309,82 +352,6 @@
   <li>Aprovechen todo el tiempo disponible para ponerse al corriente con sus pendientes, y si es posible adelantar trabajo.</li>
   <li>No dejen para el final todo el trabajo pues es casi seguro que se les saldrá de las manos, al juntarse con trabajos de otras materias.</li>
   <li>Cualquier duda esta disponible la sección de comentarios de este blog, pueden seguirme en <a href="http://twitter.com/j2deme">twitter</a>, enviarme un correo o personalmente en clase.</li>
-</ul>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Entrega de Tareas]]></title>
-    <link href="http://j2deme.github.io/2013/04/20/entrega-de-tareas/"/>
-    <updated>2013-04-20T10:53:00-05:00</updated>
-    <id>http://j2deme.github.io/2013/04/20/entrega-de-tareas</id>
-    <content type="html"><![CDATA[<p>Saludos alumnos.</p>
-
-<p>Tengo algunas noticias que creo serán de interes para todos.</p>
-
-<p>Como ya les comenté el día Jueves 18, aplaze la fecha de entrega de las tareas para el día Domingo 21 de Abril, pero lo estuve pensando un poco más y voy a mover nuevamente la fecha, especialmente considerando que para ambas materias, las tareas representan un gran porcentaje de su calificación (50% para POO y 30% Móvil).</p>
-
-<!-- more -->
-
-<p>Una vez dicho lo anterior, la nueva fecha de entrega será el día <strong>Miércoles 24 de Abril</strong>, considerenlo como un regalo adelantado del día del niño.</p>
-
-<div class="countdown">April 24, 2013 23:59:59</div>
-
-<p>Les recomiendo altamente que aprovechen el tiempo extra que les estoy dando para poder terminar correctamente, o por lo menos lograr algo semi-funcional, evitando en todo momento pretextos como: problemas de instalación de los programas necesarios, descarga de APIs, importación de librerías, solicitud de API Keys o cualquier cosa relacionada.</p>
-
-<h3 id="programacin-orientada-a-objetos">Programación Orientada a Objetos</h3>
-
-<p>El día de ayer actualice el ejemplo de uso de clases con Qt que les mostré en clase, ahora permite comunicar las ventanas en ambas direcciones, es decir, de la ventana padre al hijo y viceversa.</p>
-
-<p><img class="left" src="/images/posts/QtUsingClasses.png" title="‘Comunicación de Objetos’ ‘Comunicación de Objetos’" ></p>
-
-<p>El ejemplo esta disponible en <a href="https://github.com/j2deme/POO_Cpp/tree/master/Qt/QtUsingClasses">QtUsingClasses</a> (deberán descargar todo el repositorio para tenerlo actualizado).</p>
-
-<p>Si ponen atención, observarán que hice algunos cambios en la clase <code>Perro</code>, que en este ejemplo es el tipo de objeto que se esta enviando entre los formularios, les recomiendo que la revisen y la utilicen como plantilla para las clases de su programas, ya que deriva de la clase <code>QObject</code> y utliza <code>QString</code> en lugar de <code>String</code> para simplificar algunas asignaciones de datos desde el formulario al objeto.</p>
-
-<h3 id="programacin-mvil">Programación Móvil</h3>
-
-<p>Recuerden que deben hacer el reporte de diseño de sus respectivas aplicaciones, con respecto al documento disponible <a href="/2013/04/06/proyecto-final-movil/">aquí</a>, puesto que deberán entregar su respectivo documento para el día Viernes 26 de Abril de 2013, es decir, dentro de:</p>
-
-<div class="countdown">April 26, 2013 23:59:59</div>
-<p><strong>Nota:</strong> Esta fecha es para la entrega del <strong>documento</strong>, no para las tareas, para que no se confundan.</p>
-
-<p>Como les comente en clase, la presentación de los prototipos será el día 24 de Mayo de 2013, en lugar y hora por definir, por lo que deben (sino lo han hecho), comenzar a la brevedad con el desarrollo de sus proyectos en ambas modalidades (web y móvil), solicitando la información necesaria al docente. En el caso de este grupo, la persona encargada de realizar las gestiones y cotizaciones será su compañero <em>Erick Ivan Martínez Netro</em>.</p>
-
-<h4 id="asignacin-de-proyectos">Asignación de Proyectos</h4>
-
-<p>Para los que aún no esten enterados la asignación de equipos quedo de la siguiente forma:</p>
-
-<p><strong>Evaluación Docente</strong></p>
-
-<p><em>Equipo 1:</em> Erick Ivan, Nereyda, María Fernanda, Jessica Velazquez, Jorge Augusto, Pepé (?)</p>
-
-<p><em>Equipo 2:</em> Victor Gerardo, Nestor Alberto, Uriel Osornio, Carlo Eduardo, Erick</p>
-
-<p><strong>Transporte Urbano</strong></p>
-
-<p><em>Equipo 1:</em> Jaime, Isacar Itiel, José Humberto, Efraín Omar, Gerardo, Edgar</p>
-
-<p><em>Equipo 2:</em> Antonio, Beatriz, David, María Guadalupe, Santos, Joel Samuel</p>
-
-<p><strong>Comisiones</strong></p>
-
-<p><em>Equipo 1:</em> Cindy, Janeth Carolina, Eduardo Israel, Eulalia, Oscar</p>
-
-<p><em>Equipo 2:</em> Carmen Lizbeth, Carmen Santiago, José Miguel, Concepción, Jessica Valle, Víctor Manuel</p>
-
-<p><em>Equipo 3:</em> Delia, Adrián Salas, Dulce Gabriela, Jorge Luis, Eder Israel, Joel Infante</p>
-
-<p>El orden de los equipos es meramente visual, no indica ningúna precedencia o ventaja en ningún sentido.</p>
-
-<h3 id="notas-finales">Notas finales</h3>
-
-<ul>
-  <li>Aprovechen el tiempo extra que se les esta dando.</li>
-  <li>Lean cuidadosamente lo relacionado a las fechas para que no se “confundan”.</li>
-  <li>Espero tener revisados sus examenes para el día martes 23, en lo posible.</li>
-  <li>Aquellos que <strong>no</strong> hayan realizado el examen en la fecha programada, favor de presentarse a la brevedad en la hora de clase más próxima, de lo contrario ya <strong>no</strong> se les aplicará la evaluación.</li>
-  <li>Agradecería pudieran informar al resto de sus compañeros compartiendo este post en Twitter y Facebook, para que todos esten informados de los cambios.</li>
 </ul>
 ]]></content>
   </entry>
