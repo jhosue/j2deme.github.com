@@ -4,7 +4,7 @@
   <title><![CDATA[Jaime Delgado Meraz]]></title>
   <link href="http://j2deme.github.com/atom.xml" rel="self"/>
   <link href="http://j2deme.github.com/"/>
-  <updated>2013-07-13T15:56:46-05:00</updated>
+  <updated>2013-07-13T15:57:41-05:00</updated>
   <id>http://j2deme.github.com/</id>
   <author>
     <name><![CDATA[Jaime Jesús Delgado Meraz]]></name>
@@ -12,6 +12,52 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Bienvenido Verano 2013]]></title>
+    <link href="http://j2deme.github.com/2013/07/13/bienvenido-verano-2013/"/>
+    <updated>2013-07-13T15:07:00-05:00</updated>
+    <id>http://j2deme.github.com/2013/07/13/bienvenido-verano-2013</id>
+    <content type="html"><![CDATA[<p>Saludos a todos.</p>
+
+<p>A una semana de iniciado el curso de verano 2013, y poniendome al corriente con los pendientes les pongo disponible la información correspondiente a las primeras 2 unidades de IA y el material actualizado de todo el curso de Móvil (que afortunadamente ya había tenido la oportunidad de realizar el semestre pasado).</p>
+
+<!-- more -->
+
+<h2 id="inteligencia-artificial">Inteligencia Artificial</h2>
+
+<p>También les pongo disponible para los alumnos de IA, un zip donde podran encontrar el código necesario para poder utilizar grafos no dirigidos en Java. Dentro del archivo <code>Graph.java</code> encontraran un ejemplo de como se lee un grafo desde un archivo, también les anexo un ejemplo de un pequeño grafo (que podrán encontrar en <code>Grafo1.txt</code>).</p>
+
+<p>Sin embargo, tal como vimos en clase, no debe ser mayor problema el diseñar sus propios grafos, recuerden que la estructura es la siguiente:</p>
+
+<ul>
+  <li>En la primer línea el número de <strong>nodos</strong>, es decir, el número máximo que podrán usar al dar de alta las aristas.</li>
+  <li>El número de líneas a leer, donde cada línea representa a cada nodo con sus respectivas <strong>aristas</strong>.</li>
+  <li>Las diversas aristas que parten de un nodo, recordando que son cero (0) basados.</li>
+</ul>
+
+<p>Espero esta última parte quede clara. Recuerden que deben generar los algoritmos DFS y BFS, que deberan devolver los resultados correctos en cada caso.</p>
+
+<h2 id="programacin-mvil">Programación Móvil</h2>
+
+<p>Recuerden que aquellos que no lo han hecho, deben enviar el código fuente y el documento correspondiente a su primer laboratorio en cuanto les sea posible, preferentemente antes del día lunes, para poderlo revisar y asignar la calificación correspondiente.</p>
+
+<p>También es importante que para el mismo día tengan terminada o por lo menos avanzada en un buen porcentaje la aplicación (por equipos) del servicio bancario con las características mínimas que definimos en clase.</p>
+
+<h2 id="generales">Generales</h2>
+
+<p>Recuerden que para ambos cursos el examen será el día Lunes 15 en sus respectivas horas, por lo que los invito y les recomiendo que lleguen temprano a cada curso.</p>
+
+<p>El material esta disponible como siempre en la sección de diapositivas, y les agradecería cualquier comentario sobre errores de ortografía o errores de dislexia (que como han logrado observar me suceden a menudo) para realizar las debidas correciones y hacer que el material mejore día a día.</p>
+
+<p>Saludos y espero que el ritmo de publicación del material y avisos se regularice a partir de hoy.</p>
+]]></content>
+    
+    <category scheme="http://j2deme.github.com/categories/" term="ia" />
+    
+    <category scheme="http://j2deme.github.com/categories/" term="móvil" />
+    
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Calificaciones finales]]></title>
@@ -1257,22 +1303,6 @@ Por lo tanto, y para evitar que una sola práctica equivalga al 50% de su califi
 ]]></content>
     
     <category scheme="http://j2deme.github.com/categories/" term="movil" />
-    
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[En espera de proyectos]]></title>
-    <link href="http://j2deme.github.com/2013/03/03/en-espera-de-proyectos/"/>
-    <updated>2013-03-03T19:00:00-06:00</updated>
-    <id>http://j2deme.github.com/2013/03/03/en-espera-de-proyectos</id>
-    <content type="html"><![CDATA[<p>Saludos.</p>
-
-<p>Solo para recordarles que la fecha de entrega es a más tardar el día de hoy, y hasta el momento solo he recibido 4 proyectos de móvil y 1 de orientado a objetos del grupo B.</p>
-]]></content>
-    
-    <category scheme="http://j2deme.github.com/categories/" term="movil" />
-    
-    <category scheme="http://j2deme.github.com/categories/" term="poo" />
     
   </entry>
   
