@@ -4,7 +4,7 @@
   <title><![CDATA[Categoria &rArr; IA | Jaime Delgado Meraz]]></title>
   <link href="http://j2deme.github.com/categorias/ia/atom.xml" rel="self"/>
   <link href="http://j2deme.github.com/"/>
-  <updated>2013-07-13T16:00:46-05:00</updated>
+  <updated>2013-07-17T21:41:49-05:00</updated>
   <id>http://j2deme.github.com/</id>
   <author>
     <name><![CDATA[Jaime Jesús Delgado Meraz]]></name>
@@ -12,6 +12,39 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Verano 1a Evaluacion]]></title>
+    <link href="http://j2deme.github.com/2013/07/17/verano-1a-evaluacion/"/>
+    <updated>2013-07-17T21:23:00-05:00</updated>
+    <id>http://j2deme.github.com/2013/07/17/verano-1a-evaluacion</id>
+    <content type="html"><![CDATA[<p>Saludos a todos.</p>
+
+<p>Les pongo disponibles sus calificaciones respectivas a las unidades 1 y 2 para ambas materias.</p>
+
+<!-- more -->
+
+<p>En el caso de los alumnos de <strong>Móvil</strong>, no hay problema con sus calificaciones, ya que todos aprobaron, únicamente recordarles que le sigan echando ganas a la materia.</p>
+
+<p>Por otro lado alumnos de IA, verán en la lista que fueron pocos los que pasaron las unidades, así que tienen que aplicarse para que en las unidades siguientes puedan pasar sin problemas.</p>
+
+<p>Recuerden que la forma de evaluar la 2a oportunidad sera en dos etapas:</p>
+
+<ul>
+  <li>Los que quedaron en el rango de 60 a 69: deben entregar los algoritmos funcionales de DFS y BFS implementados en Java.</li>
+  <li>Los que quedaron en el rango de 50 a 59: deben entregar lo anterior y además realizarán una evaluación al final del curso en el período complementario.</li>
+</ul>
+
+<p>Para la entrega de los algoritmos tienen como plazo máximo el día <strong>Domingo 21 de Julio de 2013</strong>, en caso de no entregarlo a esa fecha, ya no se tomarán en cuenta, y deberán realizar el examen a final del curso.</p>
+
+<p><strong>Alumnos de IA</strong>: Ya esta disponible el material de la unidad 3 en la sección de diapostivas.</p>
+
+<ul>
+  <li><a href="https://dl.dropboxusercontent.com/u/1131727/Octopress/Calificaciones/Movil_1y2.pdf">Calificaciones Móvil</a></li>
+  <li><a href="https://dl.dropboxusercontent.com/u/1131727/Octopress/Calificaciones/IA_1y2.pdf">Calificaciones IA</a></li>
+</ul>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Bienvenido Verano 2013]]></title>
