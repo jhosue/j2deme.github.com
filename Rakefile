@@ -114,7 +114,7 @@ task :new_post, :title do |t, args|
     post.puts "categories: "
     post.puts "---"
   end
-  system "sublime \"#{filename}\""
+  #system "subl \"#{filename}\""
 end
 
 desc "Rename files in the posts directory if the filename does not match the post date in the YAML front matter"
