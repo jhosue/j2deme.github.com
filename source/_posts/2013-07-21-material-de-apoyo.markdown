@@ -9,6 +9,8 @@ categories: [Movil, IA]
 
 Saludos a todos.
 
+<!-- more -->
+
 ## Programación Móvil
 
 En el caso de ustedes no debería haber ningún problema, puesto que ya definimos los pendientes desde la semana pasada, y de igual manera, el material necesario para estudiar para el examen ya esta disponible desde hace algún tiempo.
