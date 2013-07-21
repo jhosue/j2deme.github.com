@@ -17,3 +17,4 @@ footer: false
 - [Unidad 1: Fundamentos de la Inteligencia Artificial](https://dl.dropboxusercontent.com/u/1131727/Octopress/Slides/IA/U1.pdf)
 - [Unidad 2: Técnicas de Búsqueda](https://dl.dropboxusercontent.com/u/1131727/Octopress/Slides/IA/U2.pdf)
 - [Unidad 3: Representación del conocimiento y razonamiento](https://dl.dropboxusercontent.com/u/1131727/Octopress/Slides/IA/U3.pdf)
+- [Unidad 4: Sistemas de Producción](https://dl.dropboxusercontent.com/u/1131727/Octopress/Slides/IA/U4%20Sistemas_de_produccion.pdf)
