@@ -28,14 +28,22 @@ Les pongo disponbile la asignación de temas para exposición de la unidad 5 de 
 6. Sistemas Expertos
 
 ## Asignaciones
-Equipo|Tema
----|---
-1|4
-2|6
-3|1
-4|3
-5|5
-6|2
+<table>
+<thead>
+<tr>
+<th>Equipo</th>
+<th>Tema</th>
+</tr>
+</thead>
+<tbody>
+<tr><td>1</td><td>4</td></tr>
+<tr><td>2</td><td>6</td></tr>
+<tr><td>3</td><td>1</td></tr>
+<tr><td>4</td><td>3</td></tr>
+<tr><td>5</td><td>5</td></tr>
+<tr><td>6</td><td>2</td></tr>
+</tbody>
+</table>
 
 ## Requerimientos
 Las exposiciones deben contener como mínimo:
