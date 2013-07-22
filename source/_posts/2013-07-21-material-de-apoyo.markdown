@@ -15,7 +15,7 @@ Saludos a todos.
 
 En el caso de ustedes no debería haber ningún problema, puesto que ya definimos los pendientes desde la semana pasada, y de igual manera, el material necesario para estudiar para el examen ya esta disponible desde hace algún tiempo.
 
-En lo que respecta a la descripción del proyecto final, la podrán encontrar [aquí](https://dl.dropboxusercontent.com/u/1131727/Octopress/Slides/IA/ProyectoFinal.pdf).
+En lo que respecta a la descripción del proyecto final, la podrán encontrar [aquí](https://dl.dropboxusercontent.com/u/1131727/Octopress/Slides/M%C3%B3vil/ProyectoFinal.pdf).
 
 ## Inteligencia Artificial
 
