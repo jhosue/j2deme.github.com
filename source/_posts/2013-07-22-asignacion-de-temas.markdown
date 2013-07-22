@@ -59,4 +59,4 @@ En lo que refiere a los desarrollos actuales, busquen los más actuales, y si as
 Todo el equipo debe participar de manera activa y equitativa,de lo contrario la calificación obtenida se repartira entre el resto de los integrantes.
 
 ## Nota Final
-La mayoría ya debe estar a punto de acabar las formalizaciones (puesto que fueron asignadas desde hace algunos dias), de cualquier manera para aquellos que no las tengan, o que quieran corrobar la redacción de los ejercicios, les pongo disponible el [pdf]().
+La mayoría ya debe estar a punto de acabar las formalizaciones (puesto que fueron asignadas desde hace algunos dias), de cualquier manera para aquellos que no las tengan, o que quieran corrobar la redacción de los ejercicios, les pongo disponible el [pdf](https://dl.dropboxusercontent.com/u/1131727/Octopress/2013/Verano/Assignments/Formalizacion.pdf).

@@ -15,7 +15,7 @@ Saludos a todos.
 
 En el caso de ustedes no debería haber ningún problema, puesto que ya definimos los pendientes desde la semana pasada, y de igual manera, el material necesario para estudiar para el examen ya esta disponible desde hace algún tiempo.
 
-En lo que respecta a la descripción del proyecto final, la podrán encontrar [aquí](/home/j2deme/Dropbox/Public/Octopress/Slides/Móvil/ProyectoFinal.pdf).
+En lo que respecta a la descripción del proyecto final, la podrán encontrar [aquí](https://dl.dropboxusercontent.com/u/1131727/Octopress/Slides/IA/ProyectoFinal.pdf).
 
 ## Inteligencia Artificial
 
@@ -25,7 +25,7 @@ En su caso, solo queda recapitular las tareas pendientes, como son:
 - Investigación de problemas con sistemas de producción (descripción, reglas y ejemplo de aplicación).
 - Diseño de su proyecto final.
 
-La descripción general de su proyecto final la podrán encontrar [aquí](/home/j2deme/Dropbox/Public/Octopress/Slides/IA/ProyectoFinal.pdf).
+La descripción general de su proyecto final la podrán encontrar [aquí](https://dl.dropboxusercontent.com/u/1131727/Octopress/Slides/IA/ProyectoFinal.pdf).
 
 Además les informo que ya esta disponible la información de la unidad 4, en la sección de diapositivas.
 
