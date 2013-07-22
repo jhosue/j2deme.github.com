@@ -4,7 +4,7 @@
   <title><![CDATA[Categoria &rArr; IA | Jaime Delgado Meraz]]></title>
   <link href="http://j2deme.github.com/categorias/ia/atom.xml" rel="self"/>
   <link href="http://j2deme.github.com/"/>
-  <updated>2013-07-21T11:30:39-05:00</updated>
+  <updated>2013-07-22T11:03:52-05:00</updated>
   <id>http://j2deme.github.com/</id>
   <author>
     <name><![CDATA[Jaime Jesús Delgado Meraz]]></name>
@@ -12,6 +12,65 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Asignación de temas]]></title>
+    <link href="http://j2deme.github.com/2013/07/22/asignacion-de-temas/"/>
+    <updated>2013-07-22T09:08:00-05:00</updated>
+    <id>http://j2deme.github.com/2013/07/22/asignacion-de-temas</id>
+    <content type="html"><![CDATA[<p>Les pongo disponbile la asignación de temas para exposición de la unidad 5 de Inteligencia Artificial.</p>
+
+<!-- more -->
+
+<h2 id="equipos">Equipos</h2>
+<ol>
+  <li>Oscar, Erick, Carlos, Irving, Uriel y David.</li>
+  <li>Jessica, Nereyda, Fernanda, Yael, Erick y Humberto.</li>
+  <li>Anna, Miguel, David, Cinthya, Edson y Juan.</li>
+  <li>Doris, Yazmín, Daniela, Adelina, Lala e Isabel.</li>
+  <li>Jose Miguel, Carmen Lizbeth, Ma. del Carmen, Adrián y Nestor.</li>
+  <li>Lenin, Juan Carlos, Cipriano, Bianca y Dalio</li>
+</ol>
+
+<h2 id="temas">Temas</h2>
+<ol>
+  <li>Robótica</li>
+  <li>Redes Neuronales</li>
+  <li>Visión Artificial</li>
+  <li>Lógica Difusa</li>
+  <li>Procesamiento de Lenguaje Natural</li>
+  <li>Sistemas Expertos</li>
+</ol>
+
+<h2 id="asignaciones">Asignaciones</h2>
+<p>Equipo|Tema
+—|—
+1|4
+2|6
+3|1
+4|3
+5|5
+6|2</p>
+
+<h2 id="requerimientos">Requerimientos</h2>
+<p>Las exposiciones deben contener como mínimo:</p>
+
+<ul>
+  <li>Conceptos Básicos.</li>
+  <li>Clasificación (Subramas).</li>
+  <li>Desarrollos Actuales y Aplicaciones.</li>
+</ul>
+
+<p>Eviten en lo posible el sobrellenar las diapositivas con información, ya que se calificará la calidad de la información, no la cantidad. Tienen un máximo de <strong>15 mínutos</strong> para su exposición.</p>
+
+<p>En lo que refiere a los desarrollos actuales, busquen los más actuales, y si así lo desean pueden agregar imágenes ilustrativas y videos no mayores a 5 minutos.</p>
+
+<p>Todo el equipo debe participar de manera activa y equitativa,de lo contrario la calificación obtenida se repartira entre el resto de los integrantes.</p>
+
+<h2 id="nota-final">Nota Final</h2>
+<p>La mayoría ya debe estar a punto de acabar las formalizaciones (puesto que fueron asignadas desde hace algunos dias), de cualquier manera para aquellos que no las tengan, o que quieran corrobar la redacción de los ejercicios, les pongo disponible el <a href="">pdf</a>.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Material de apoyo]]></title>
