@@ -17,13 +17,13 @@ before_script:
   # Set deployment target to github pages
   - rake setup_github_pages[$REPO]
   # To reset the 'url' to the custom domain in '_config.yml'
-  - git checkout -- _config.yml
+  #- git checkout -- _config.yml
 script:
   # Generate site
   - rake generate
 after_script:
   # Deploy!
-  - rake deploy
+  - rake gen_deploy
 #script: bundle exec rake install; bundle exec rake generate
 
 env:
