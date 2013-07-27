@@ -111,7 +111,7 @@ task :new_post, :title do |t, args|
     post.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
     post.puts "published: false"
     post.puts "comments: true"
-    post.puts "categories: "
+    post.puts "categories: []"
     post.puts "---"
   end
   #system "subl \"#{filename}\""
@@ -177,7 +177,7 @@ task :new_page, :filename do |t, args|
       page.puts "date: #{Time.now.strftime('%Y-%m-%d %H:%M')}"
       page.puts "comments: true"
       page.puts "sharing: true"
-      page.puts "footer: true"
+      page.puts "footer: false"
       page.puts "---"
     end
   else
@@ -286,7 +286,8 @@ multitask :push do
     system "git add ."
     system "git add -u"
     puts "\n## Commiting: Site updated at #{Time.now.utc}"
-    message = "Site updated at #{Time.now.utc}"
+#    message = "Site updated at #{Time.now.utc}"
+    message = "Site updated at #{Time.now.utc} [ci skip]"
     system "git commit -m \"#{message}\""
     puts "\n## Pushing generated #{deploy_dir} website"
     system "git push origin #{deploy_branch} --force"

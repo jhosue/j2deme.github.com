@@ -3,8 +3,8 @@
 # ----------------------- #
 
 url: http://j2deme.github.com
-title: Jaime Delgado Meraz
-subtitle: Docente de día, desarrollador de noche.
+title: Jaime J. Delgado Meraz
+subtitle: Profesor, Developer, Tesista, Padre de Familia y Superheroe.
 author: Jaime Jesús Delgado Meraz
 simple_search: http://google.com/search
 description:
@@ -16,9 +16,10 @@ description:
 date_format: "%d/%m/%Y"
 
 # RSS / Email (optional) subscription links (change if using something like Feedburner)
-#/atom.xml
-subscribe_rss: http://feeds.feedburner.com/JaimeDelgadoMeraz
-subscribe_email: http://feedburner.google.com/fb/a/mailverify?uri=JaimeDelgadoMeraz&amp;loc=es_ES
+subscribe_rss: /atom.xml
+#http://feeds.feedburner.com/JaimeDelgadoMeraz
+subscribe_email:
+# http://feedburner.google.com/fb/a/mailverify?uri=JaimeDelgadoMeraz&amp;loc=es_ES
 # RSS feeds can list your email address if you like
 email: j2deme@gmail.com
 
@@ -101,3 +102,14 @@ google_analytics_tracking_id: UA-39058698-1
 
 # Facebook Like
 facebook_like: true
+
+#prose.io settings
+prose:
+  rooturl: "source"
+  metadata:
+    "source/_posts": |
+      layout: post
+      title: "Untitled"
+      comments: true
+      categories: [technical]
+      published: true
