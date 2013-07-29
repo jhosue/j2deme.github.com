@@ -1,22 +1,19 @@
+---
+branches:
+  only:
+  - source
 language: ruby
 rvm:
 - 1.9.3
 - 1.9.2
 before_script:
-- git config --global user.name "Jaime Jesús Delgado Meraz (via Travis-CI)"
-- git config --global user.email "j2deme@gmail.com"
-- git remote set-url origin $REPO.git
-- echo -n $id_rsa_{00..30} >> ~/.ssh/id_rsa_base64
-- base64 --decode --ignore-garbage ~/.ssh/id_rsa_base64 > ~/.ssh/id_rsa
-- chmod 600 ~/.ssh/id_rsa
-- echo -e "Host github.com\n\tStrictHostKeyChecking no\n" >> ~/.ssh/config
-- rake setup_github_pages[$REPO]
+- export REPO_URL="https://$GH_TOKEN@github.com/$GH_REPO.git"
+- rake setup_github_pages[$REPO_URL]
 script:
 - rake generate
 after_script:
-- rake gen_deploy
+- rake deploy
 env:
   global:
-    secure: QrtOt+9556Sa4IRLP5vE+Ji54j712qfH7ZiX7QbmAb7tjnNIbZibwrdJ9ervdrUsnMDlSqVpxoN4/GKTwKmmwjakLfhjKV1/Sc5RRfajeQFBZgbcJgZIE1fWg+Mzw0vr+EdoC764tpro4iXdkEgQuy3p9gjECwzFTVwJsZ8PgAA=
-global:
-- REPO="git@github.com:j2deme/j2deme.github.com"
+  - GH_REPO="j2deme/j2deme.github.com"
+  - secure: QrtOt+9556Sa4IRLP5vE+Ji54j712qfH7ZiX7QbmAb7tjnNIbZibwrdJ9ervdrUsnMDlSqVpxoN4/GKTwKmmwjakLfhjKV1/Sc5RRfajeQFBZgbcJgZIE1fWg+Mzw0vr+EdoC764tpro4iXdkEgQuy3p9gjECwzFTVwJsZ8PgAA=
