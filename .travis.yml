@@ -14,7 +14,7 @@ before_script:
 script:
 - rake generate
 after_script:
-- rake deploy
+- rake gen_deploy
 env:
   global:
   - GH_REPO="j2deme/j2deme.github.com"

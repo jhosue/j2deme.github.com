@@ -287,7 +287,7 @@ multitask :push do
     system "git add -u"
     puts "\n## Commiting: Site updated at #{Time.now.utc}"
 #    message = "Site updated at #{Time.now.utc}"
-    message = "Site updated at #{Time.now.utc}\n\n[ci skip]"
+    message = "Site updated at #{Time.now.utc} via Travis-CI"
     system "git commit -m \"#{message}\""
     puts "\n## Pushing generated #{deploy_dir} website"
 #    system "git push origin #{deploy_branch} --force"
