@@ -111,5 +111,5 @@ prose:
       layout: post
       title: "Untitled"
       comments: true
-      categories: [technical]
+      categories: []
       published: true
