@@ -4,7 +4,7 @@ title: "Asignación de temas"
 date: 2013-07-22 09:08
 published: true
 comments: true
-categories: [IA]
+categories: IA
 ---
 
 Les pongo disponbile la asignación de temas para exposición de la unidad 5 de Inteligencia Artificial.

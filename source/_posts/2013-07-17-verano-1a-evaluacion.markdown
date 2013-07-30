@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Verano 1a Evaluacion"
+title: "Verano 1a Evaluación"
 date: 2013-07-17 21:23
 published: true
 comments: true
-categories: [Movil,IA]
+categories: [Movil, IA]
 ---
 
 Saludos a todos.
