@@ -7,13 +7,13 @@ rvm:
 #- 1.9.3
 - 1.9.2
 before_script:
-- git config --global user.name "Jaime Jesús Delgado Meraz (via Travis-CI)"
-- git config --global user.email "j2deme@gmail.com"
 #- export REPO_URL="https://$GH_TOKEN@github.com/$GH_REPO.git"
 #- rake setup_github_pages[$REPO_URL]
 script:
 - rake generate
 after_script:
+- git config user.name "Jaime Jesús Delgado Meraz (via Travis-CI)"
+- git config user.email "j2deme@gmail.com"
 - rake gen_deploy
 env:
   global:
