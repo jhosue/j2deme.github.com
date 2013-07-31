@@ -43,5 +43,5 @@ Les recuerdo, que se hará una evaluación escrita el día _Jueves 1 de Agosto 2
 ## Nota Final
 Y recuerden:
 {% blockquote %}
-Cursar verano __no__ es garantía de acreditar la materia.
+Cursar verano no es garantía de acreditar la materia.
 {% endblockquote %}
