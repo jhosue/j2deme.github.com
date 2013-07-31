@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Jaime Delgado Meraz]]></title>
+  <title><![CDATA[Jaime J. Delgado Meraz]]></title>
   <link href="http://j2deme.github.com/atom.xml" rel="self"/>
   <link href="http://j2deme.github.com/"/>
-  <updated>2013-07-22T13:40:42-05:00</updated>
+  <updated>2013-07-31T08:53:30-05:00</updated>
   <id>http://j2deme.github.com/</id>
   <author>
     <name><![CDATA[Jaime Jesús Delgado Meraz]]></name>
@@ -12,6 +12,58 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Verano 2a Evaluación]]></title>
+    <link href="http://j2deme.github.com/2013/07/30/verano-2a-evaluacion/"/>
+    <updated>2013-07-30T09:12:00-05:00</updated>
+    <id>http://j2deme.github.com/2013/07/30/verano-2a-evaluacion</id>
+    <content type="html"><![CDATA[<p>Saludos a todos.</p>
+
+<p>Ya transcurrido algo de tiempo desde que hicieron sus evaluaciones, pero afortunadamente con buenas noticias para la mayoría, les pongo disponibles sus calificaciones.</p>
+
+<!-- more -->
+
+<h2 id="programacin-mvil">Programación Móvil</h2>
+
+<p>Al igual que en la evaluación anterior, afortunadamente no hubo ningún reprobado, sin embargo es importante que recuerden que ya estamos en los últimos días del curso, y el proyecto final se deberá de terminar en tiempo y forma para concretar una calicación aprobatoria.</p>
+
+<p>Les pongo disponibles <a href="https://dl.dropboxusercontent.com/u/1131727/Octopress/Calificaciones/Movil_3.pdf">calificaciones de su 2a evaluación</a> para que las revisen y esten enterados de ellas.</p>
+
+<h2 id="inteligencia-artificial">Inteligencia Artificial</h2>
+
+<p>En contraste con la evaluación anterior, en la que el índice de aprobación fue de casi 75%, en esta ocasión no hubo reprobados, lo que me alegra, y debo suponer que a ustedes también.</p>
+
+<p>Al igual que en la evaluación anterior, les pongo disponibles sus <a href="https://dl.dropboxusercontent.com/u/1131727/Octopress/Calificaciones/IA_3y4.pdf">calificaciones de la 2a evaluación</a>, para que verifiquen que no hubo reprobados.</p>
+
+<p>En un apartado diferente, pero relacionado, aquellos que siguen pendientes de una evaluación de segunda oportunidad son:</p>
+
+<ul>
+  <li>Nestor Alberto Alonso Ibarra</li>
+  <li>Lenin Javier Avila Santiago</li>
+  <li>Carmen Lizbeth Castillo Reyes</li>
+  <li>Jose Miguel Hernández Pizaño</li>
+  <li>Bianca Nayelli Jaraleño Alvizu</li>
+  <li>Adrián Salas Salinas</li>
+  <li>María del Carmen Santiago Lucas</li>
+</ul>
+
+<p>Todos aquellos que no esten en la lista, son aquellos que ya habían aprobado, o que aprobaron con la entrega de los algoritmos DFS y BFS.</p>
+
+<p>Les recuerdo, que se hará una evaluación escrita el día <em>Jueves 1 de Agosto 2013</em>, sobre los temas vistos en las unidades 1 y 2 , y como siempre <strong>NO</strong> se permitirá el uso de ningún medio digital o análogo como auxiliar para el examen.</p>
+
+<p>Así que aquellos que hacen uso de las diapositivas en formato digital en sus teléfonos, que ya tengo bien identificados por cierto, les recomiendo que se pongan a estudiar, sin dejar de lado, claro esta, su proyecto final.</p>
+
+<h2 id="nota-final">Nota Final</h2>
+<p>Y recuerden:</p>
+<blockquote><p>Cursar verano __no__ es garantía de acreditar la materia.</p></blockquote>
+]]></content>
+    
+    <category scheme="http://j2deme.github.com/categories/" term="ia" />
+    
+    <category scheme="http://j2deme.github.com/categories/" term="movil" />
+    
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Asignación de temas]]></title>
@@ -135,7 +187,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Verano 1a Evaluacion]]></title>
+    <title type="html"><![CDATA[Verano 1a Evaluación]]></title>
     <link href="http://j2deme.github.com/2013/07/17/verano-1a-evaluacion/"/>
     <updated>2013-07-17T21:23:00-05:00</updated>
     <id>http://j2deme.github.com/2013/07/17/verano-1a-evaluacion</id>
@@ -1315,74 +1367,6 @@ Les recuerdo que es mil veces preferible dar un solo paso, que quedarse parado v
 <p>Los invito a que se pongan al corriente con las tareas, y que comiencen a la brevedad las tareas que asigno el día de hoy, para que no se les empalmen más, puesto que como ya lo comente en clase, asignare algunas tareas para el período vacacional, esperando organicen su tiempo para realizarlas en algún momento de las 2 semanas que tendrán disponibles.</p>
 
 <p>Espero ver un cambio pronto, nuevamente pongo a su disposición mi correo electrónico, la sección de comentarios que pueden encontrar más abajo o en su defecto de forma personal en clase.</p>
-]]></content>
-    
-    <category scheme="http://j2deme.github.com/categories/" term="movil" />
-    
-    <category scheme="http://j2deme.github.com/categories/" term="poo" />
-    
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Próximas fechas importantes]]></title>
-    <link href="http://j2deme.github.com/2013/03/14/proximas-fechas-importantes/"/>
-    <updated>2013-03-14T10:29:00-06:00</updated>
-    <id>http://j2deme.github.com/2013/03/14/proximas-fechas-importantes</id>
-    <content type="html"><![CDATA[<p>Saludos alumnos.</p>
-
-<p>Escribo para comentarles sobre las fechas que deben tener en consideración, antes y después de su período vacacional de Semana Santa. Se que es temporada de Feria y de vacaciones, pero es necesario que consideren las siguientes fechas para que puedan distribuir su trabajo.</p>
-
-<!--more-->
-
-<p>Como ya les comente a algunos, sino es que a la mayoría, para disminuir los porcentajes de reprobación (o casi reprobación) de la evaluación pasada, hubo que hacer algunos cambios en los puntos a calificar, y conforme a los porcentajes para este período de evaluación (POO U3 y U4; Móvil U3), tenemos que las prácticas para ambas materias tienen un valor de 50% (para más detalles los documentos estan disponibles <a href="http://j2deme.github.com/2013/01/29/instrumentaciones-y-planeaciones-ene-jun-2013/">aquí</a>).</p>
-
-<p><span class="pullquote-right" data-pullquote="para evitar que una sola práctica equivalga al 50% de su calificación, he planeado la siguiente calendarización">
-Por lo tanto, y para evitar que una sola práctica equivalga al 50% de su calificación, he planeado la siguiente calendarización que espero en lo posible, se pueda cumplir punto por punto, principalmente para que ustedes no se vean sobrepasados por los trabajos que deban entregar.
-</span></p>
-
-<table class="table table-striped table-bordered">
-    <thead>
-        <tr>
-            <th colspan="4">Calendario Entregas y Examen</th>
-        </tr>
-        <tr>
-            <th>Fecha</th>
-            <th>Móvil</th>
-            <th>POO</th>
-            <th>Contador</th>
-        </tr>
-    </thead>
-    <tbody>
-        <tr>
-            <td><strong>Viernes 15 Marzo, 2013</strong></td>
-            <td>Laboratorio 2</td>
-            <td>Tarea 2 (Investigación)</td>
-            <td><div class="countdown">March 15, 2013 23:59:59</div></td>
-        </tr>
-        <tr>
-            <td><strong>Sábado 23 Marzo, 2013</strong></td>
-            <td>Laboratorio 3</td>
-            <td>Tarea 3</td>
-            <td><div class="countdown">March 23, 2013 23:59:59</div></td>
-        </tr>
-        <tr>
-            <td><strong>Lunes 8 Abril, 2013</strong></td>
-            <td>Laboratorios 4 y 5</td>
-            <td>Tareas 4 y 5</td>
-            <td><div class="countdown">April 8, 2013 23:59:59</div></td>
-        </tr>
-        <tr>
-            <td><strong>Jueves 18 Abril, 2013</strong></td>
-            <td>Examen U3</td>
-            <td>Examen U3 y U4</td>
-            <td><div class="countdown">April 18, 2013 11:59:59</div></td>
-        </tr>
-    </tbody>
-</table>
-
-<p>El día de mañana viernes 15 de Marzo (en lo posible), estare publicando las especificaciones para las tarea 3 y el laboratorio 3, de POO y Móvil respectivamente. Les recomiendo que tengan mucho cuidado con la organización de su tiempo para evitar la <strong>no</strong> entrega o entrega <strong>tardía</strong> de los trabajos.</p>
-
-<p>Cualquier pregunta o comentario relacionado con las tareas o clases, no duden en dejar un comentario en la página, en el post correspondiente, a mi correo o directamente en clase.</p>
 ]]></content>
     
     <category scheme="http://j2deme.github.com/categories/" term="movil" />

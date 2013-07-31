@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
 
-  <title><![CDATA[Categoria &rArr; IA | Jaime Delgado Meraz]]></title>
+  <title><![CDATA[Categoria &rArr; IA | Jaime J. Delgado Meraz]]></title>
   <link href="http://j2deme.github.com/categorias/ia/atom.xml" rel="self"/>
   <link href="http://j2deme.github.com/"/>
-  <updated>2013-07-22T13:40:42-05:00</updated>
+  <updated>2013-07-31T08:53:30-05:00</updated>
   <id>http://j2deme.github.com/</id>
   <author>
     <name><![CDATA[Jaime Jesús Delgado Meraz]]></name>
@@ -12,6 +12,53 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Verano 2a Evaluación]]></title>
+    <link href="http://j2deme.github.com/2013/07/30/verano-2a-evaluacion/"/>
+    <updated>2013-07-30T09:12:00-05:00</updated>
+    <id>http://j2deme.github.com/2013/07/30/verano-2a-evaluacion</id>
+    <content type="html"><![CDATA[<p>Saludos a todos.</p>
+
+<p>Ya transcurrido algo de tiempo desde que hicieron sus evaluaciones, pero afortunadamente con buenas noticias para la mayoría, les pongo disponibles sus calificaciones.</p>
+
+<!-- more -->
+
+<h2 id="programacin-mvil">Programación Móvil</h2>
+
+<p>Al igual que en la evaluación anterior, afortunadamente no hubo ningún reprobado, sin embargo es importante que recuerden que ya estamos en los últimos días del curso, y el proyecto final se deberá de terminar en tiempo y forma para concretar una calicación aprobatoria.</p>
+
+<p>Les pongo disponibles <a href="https://dl.dropboxusercontent.com/u/1131727/Octopress/Calificaciones/Movil_3.pdf">calificaciones de su 2a evaluación</a> para que las revisen y esten enterados de ellas.</p>
+
+<h2 id="inteligencia-artificial">Inteligencia Artificial</h2>
+
+<p>En contraste con la evaluación anterior, en la que el índice de aprobación fue de casi 75%, en esta ocasión no hubo reprobados, lo que me alegra, y debo suponer que a ustedes también.</p>
+
+<p>Al igual que en la evaluación anterior, les pongo disponibles sus <a href="https://dl.dropboxusercontent.com/u/1131727/Octopress/Calificaciones/IA_3y4.pdf">calificaciones de la 2a evaluación</a>, para que verifiquen que no hubo reprobados.</p>
+
+<p>En un apartado diferente, pero relacionado, aquellos que siguen pendientes de una evaluación de segunda oportunidad son:</p>
+
+<ul>
+  <li>Nestor Alberto Alonso Ibarra</li>
+  <li>Lenin Javier Avila Santiago</li>
+  <li>Carmen Lizbeth Castillo Reyes</li>
+  <li>Jose Miguel Hernández Pizaño</li>
+  <li>Bianca Nayelli Jaraleño Alvizu</li>
+  <li>Adrián Salas Salinas</li>
+  <li>María del Carmen Santiago Lucas</li>
+</ul>
+
+<p>Todos aquellos que no esten en la lista, son aquellos que ya habían aprobado, o que aprobaron con la entrega de los algoritmos DFS y BFS.</p>
+
+<p>Les recuerdo, que se hará una evaluación escrita el día <em>Jueves 1 de Agosto 2013</em>, sobre los temas vistos en las unidades 1 y 2 , y como siempre <strong>NO</strong> se permitirá el uso de ningún medio digital o análogo como auxiliar para el examen.</p>
+
+<p>Así que aquellos que hacen uso de las diapositivas en formato digital en sus teléfonos, que ya tengo bien identificados por cierto, les recomiendo que se pongan a estudiar, sin dejar de lado, claro esta, su proyecto final.</p>
+
+<h2 id="nota-final">Nota Final</h2>
+<p>Y recuerden:
+<blockquote><p>Cursar verano <strong>no</strong> es garantía de acreditar la materia.</p></blockquote></p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Asignación de temas]]></title>
@@ -127,7 +174,7 @@
   </entry>
   
   <entry>
-    <title type="html"><![CDATA[Verano 1a Evaluacion]]></title>
+    <title type="html"><![CDATA[Verano 1a Evaluación]]></title>
     <link href="http://j2deme.github.com/2013/07/17/verano-1a-evaluacion/"/>
     <updated>2013-07-17T21:23:00-05:00</updated>
     <id>http://j2deme.github.com/2013/07/17/verano-1a-evaluacion</id>
