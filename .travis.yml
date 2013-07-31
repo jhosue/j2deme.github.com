@@ -2,18 +2,20 @@
 branches:
   only:
   - source
+  except:
+  - master
 language: ruby
 rvm:
-#- 1.9.3
+- 1.9.3
 - 1.9.2
 before_script:
-#- export REPO_URL="https://$GH_TOKEN@github.com/$GH_REPO.git"
-#- rake setup_github_pages[$REPO_URL]
+- git config user.name "Jaime Jesús Delgado Meraz (via Travis-CI)"
+- git config user.email "j2deme@gmail.com"
+- export REPO_URL="https://$GH_TOKEN@github.com/$GH_REPO.git"
+- rake setup_github_pages[$REPO_URL]
 script:
 - rake generate
 after_script:
-#- git config user.name "Jaime Jesús Delgado Meraz (via Travis-CI)"
-#- git config user.email "j2deme@gmail.com"
 - rake deploy
 env:
   global:
