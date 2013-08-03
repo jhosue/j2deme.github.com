@@ -4,7 +4,7 @@
   <title><![CDATA[Jaime J. Delgado Meraz]]></title>
   <link href="http://j2deme.github.com/atom.xml" rel="self"/>
   <link href="http://j2deme.github.com/"/>
-  <updated>2013-07-31T09:47:48-05:00</updated>
+  <updated>2013-08-02T19:17:48-05:00</updated>
   <id>http://j2deme.github.com/</id>
   <author>
     <name><![CDATA[Jaime Jesús Delgado Meraz]]></name>
@@ -12,6 +12,39 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Fin del Verano 2013]]></title>
+    <link href="http://j2deme.github.com/2013/08/02/fin-del-verano-2013/"/>
+    <updated>2013-08-02T19:00:00-05:00</updated>
+    <id>http://j2deme.github.com/2013/08/02/fin-del-verano-2013</id>
+    <content type="html"><![CDATA[<p>Saludos a todos.</p>
+
+<p>Les publico las calificaciones finales para ambas materias, debo recordarles que estas calificaciones son <strong>inapelables</strong>, puesto que ya han sido entregadas en coordinación, y podrán verlas reflejadas en el SII y en sus respectivos kardex a partir del día <strong>Lunes 5 de Agosto de 2013</strong>.</p>
+
+<blockquote><p>La paciencia recompensa&#8230; pero el esfuerzo honesto más.</p></blockquote>
+
+<!-- more -->
+
+<h2 id="programacin-mvil">Programación Móvil</h2>
+<p>Sus calificaciones estan disponibles <a href="https://dl.dropboxusercontent.com/u/1131727/Octopress/Calificaciones/Movil_Finales.pdf">aquí</a>.</p>
+
+<h2 id="inteligencia-artificial">Inteligencia Artificial</h2>
+<p>Sus calificaciones estan disponibles <a href="https://dl.dropboxusercontent.com/u/1131727/Octopress/Calificaciones/IA_Finales.pdf">aquí</a>.</p>
+
+<h2 id="nota-final">Nota Final</h2>
+<p>Espero que todos esten satisfechos con sus calificaciones, y que esten conformes con el resultado de sus esfuerzos, en caso de que no, les recomiendo cambiar algunas actitudes y aplicar sus habilidades para obtener un mejor resultado.</p>
+
+<p>Sin más por agregar, con esta publicación se dan por concluidos, los cursos de Inteligencia Artificial y Programación Móvil del período de Verano 2013.</p>
+
+<p>Saludos y suerte.</p>
+]]></content>
+    
+    <category scheme="http://j2deme.github.com/categories/" term="ia" />
+    
+    <category scheme="http://j2deme.github.com/categories/" term="movil" />
+    
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Verano 2a Evaluación]]></title>
@@ -1325,51 +1358,6 @@ Les recuerdo que es mil veces preferible dar un solo paso, que quedarse parado v
 <p>Espero sus tareas para el día Sábado 23 de Marzo, tal como lo indique en la publicación respectiva y en la calendarización.</p>
 
 ]]></content>
-    
-    <category scheme="http://j2deme.github.com/categories/" term="poo" />
-    
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Tarea y Laboratorio 3]]></title>
-    <link href="http://j2deme.github.com/2013/03/17/tarea-y-laboratorio-3/"/>
-    <updated>2013-03-17T01:17:00-06:00</updated>
-    <id>http://j2deme.github.com/2013/03/17/tarea-y-laboratorio-3</id>
-    <content type="html"><![CDATA[<p>Saludos alumnos.</p>
-
-<p>En este ocasión publico ambos documentos juntos, y es muy posible que así lo haga para las próximas tareas, aunque creo que en realidad no afecta en nada para su visualización u organización. Aprovecho que me dirijo a todos mis alumnos para poner en claro algunos puntos importantes.</p>
-
-<!--more-->
-
-<p>En <strong>primera instancia</strong>, una disculpa por la hora y día de publicación, pero sin más los documentos estan disponibles en <a href="http://dl.dropbox.com/u/1131727/Octopress/Tarea3.pdf">Tarea 3</a> y <a href="http://dl.dropbox.com/u/1131727/Octopress/Lab3.pdf">Laboratorio 3</a>, para POO y Móvil respectivamente.</p>
-
-<p>En cada uno de los documentos describo el propósito de la práctica, trabajo previo a realizar, el problema a resolver y consideraciones finales, con tanto detalle como consideré necesario. Sin embargo cualquier duda les recuerdo que mi correo y la sección de comentarios de cada publicación, estan disponibles para mantenernos en comunicación.</p>
-
-<p>En <strong>segunda instancia</strong>, quiero informarles que hasta el momento de redactar este post (Domingo 17, Marzo 1:25 AM) solo he recibido tareas de los alumnos de POO que pongo a continuación:</p>
-
-<ul>
-  <li>Juan Antonio Miranda</li>
-  <li>Luis Armando Sarazua</li>
-  <li>Yesica Palmira</li>
-  <li>Jose Martínez</li>
-  <li>Brenda Yazmín</li>
-  <li>Keila Abigail</li>
-</ul>
-
-<p>E igualmente solo he recibido dudas por parte de: Natalia y Cecilia, también de POO, y espero próximanente sus tareas.</p>
-
-<h3 id="una-aclaracin">Una aclaración</h3>
-
-<p>No se que suceda con los demás, especialmente con los alumnos de <strong>Móvil</strong> de los cuales no he recibido ni la más mínima señal. Solo quiero recordarles que si bien es temporada de Feria y Vacaciones como bien les dije <a href="http://j2deme.github.com/2013/03/14/proximas-fechas-importantes/">anteriormente</a>, eso no significa que no entreguen las tareas.</p>
-
-<p>Especialmente me dirijo a aquellos que se vieron en situación de casi reprobar y sobre todo a aquellos que reprobaron para que entreguen sus trabajos a tiempo, aunque algunos esten trabajando en la Feria o en otros lados de manera temporal o permanente, <strong>NO</strong> es excusa ni razón para descuidar su desempeño académico.</p>
-
-<p>Los invito a que se pongan al corriente con las tareas, y que comiencen a la brevedad las tareas que asigno el día de hoy, para que no se les empalmen más, puesto que como ya lo comente en clase, asignare algunas tareas para el período vacacional, esperando organicen su tiempo para realizarlas en algún momento de las 2 semanas que tendrán disponibles.</p>
-
-<p>Espero ver un cambio pronto, nuevamente pongo a su disposición mi correo electrónico, la sección de comentarios que pueden encontrar más abajo o en su defecto de forma personal en clase.</p>
-]]></content>
-    
-    <category scheme="http://j2deme.github.com/categories/" term="movil" />
     
     <category scheme="http://j2deme.github.com/categories/" term="poo" />
     

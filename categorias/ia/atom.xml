@@ -4,7 +4,7 @@
   <title><![CDATA[Categoria &rArr; IA | Jaime J. Delgado Meraz]]></title>
   <link href="http://j2deme.github.com/categorias/ia/atom.xml" rel="self"/>
   <link href="http://j2deme.github.com/"/>
-  <updated>2013-07-31T09:47:48-05:00</updated>
+  <updated>2013-08-02T19:17:48-05:00</updated>
   <id>http://j2deme.github.com/</id>
   <author>
     <name><![CDATA[Jaime Jesús Delgado Meraz]]></name>
@@ -12,6 +12,34 @@
   </author>
   <generator uri="http://octopress.org/">Octopress</generator>
 
+  
+  <entry>
+    <title type="html"><![CDATA[Fin del Verano 2013]]></title>
+    <link href="http://j2deme.github.com/2013/08/02/fin-del-verano-2013/"/>
+    <updated>2013-08-02T19:00:00-05:00</updated>
+    <id>http://j2deme.github.com/2013/08/02/fin-del-verano-2013</id>
+    <content type="html"><![CDATA[<p>Saludos a todos.</p>
+
+<p>Les publico las calificaciones finales para ambas materias, debo recordarles que estas calificaciones son <strong>inapelables</strong>, puesto que ya han sido entregadas en coordinación, y podrán verlas reflejadas en el SII y en sus respectivos kardex a partir del día <strong>Lunes 5 de Agosto de 2013</strong>.</p>
+
+<p><blockquote><p>La paciencia recompensa… pero el esfuerzo honesto más.</p></blockquote></p>
+
+<!-- more -->
+
+<h2 id="programacin-mvil">Programación Móvil</h2>
+<p>Sus calificaciones estan disponibles <a href="https://dl.dropboxusercontent.com/u/1131727/Octopress/Calificaciones/Movil_Finales.pdf">aquí</a>.</p>
+
+<h2 id="inteligencia-artificial">Inteligencia Artificial</h2>
+<p>Sus calificaciones estan disponibles <a href="https://dl.dropboxusercontent.com/u/1131727/Octopress/Calificaciones/IA_Finales.pdf">aquí</a>.</p>
+
+<h2 id="nota-final">Nota Final</h2>
+<p>Espero que todos esten satisfechos con sus calificaciones, y que esten conformes con el resultado de sus esfuerzos, en caso de que no, les recomiendo cambiar algunas actitudes y aplicar sus habilidades para obtener un mejor resultado.</p>
+
+<p>Sin más por agregar, con esta publicación se dan por concluidos, los cursos de Inteligencia Artificial y Programación Móvil del período de Verano 2013.</p>
+
+<p>Saludos y suerte.</p>
+]]></content>
+  </entry>
   
   <entry>
     <title type="html"><![CDATA[Verano 2a Evaluación]]></title>
@@ -203,47 +231,6 @@
   <li><a href="https://dl.dropboxusercontent.com/u/1131727/Octopress/Calificaciones/Movil_1y2.pdf">Calificaciones Móvil</a></li>
   <li><a href="https://dl.dropboxusercontent.com/u/1131727/Octopress/Calificaciones/IA_1y2.pdf">Calificaciones IA</a></li>
 </ul>
-]]></content>
-  </entry>
-  
-  <entry>
-    <title type="html"><![CDATA[Bienvenido Verano 2013]]></title>
-    <link href="http://j2deme.github.com/2013/07/13/bienvenido-verano-2013/"/>
-    <updated>2013-07-13T15:07:00-05:00</updated>
-    <id>http://j2deme.github.com/2013/07/13/bienvenido-verano-2013</id>
-    <content type="html"><![CDATA[<p>Saludos a todos.</p>
-
-<p>A una semana de iniciado el curso de verano 2013, y poniendome al corriente con los pendientes les pongo disponible la información correspondiente a las primeras 2 unidades de IA y el material actualizado de todo el curso de Móvil (que afortunadamente ya había tenido la oportunidad de realizar el semestre pasado).</p>
-
-<!-- more -->
-
-<h2 id="inteligencia-artificial">Inteligencia Artificial</h2>
-
-<p>También les pongo disponible para los alumnos de IA, un <a href="https://dl.dropboxusercontent.com/u/1131727/Octopress/SearchAlgorithms.zip">zip</a> donde podran encontrar el código necesario para poder utilizar grafos no dirigidos en Java. Dentro del archivo <code>Graph.java</code> encontraran un ejemplo de como se lee un grafo desde un archivo, también les anexo un ejemplo de un pequeño grafo (que podrán encontrar en <code>Grafo1.txt</code>).</p>
-
-<p>Sin embargo, tal como vimos en clase, no debe ser mayor problema el diseñar sus propios grafos, recuerden que la estructura es la siguiente:</p>
-
-<ul>
-  <li>En la primer línea el número de <strong>nodos</strong>, es decir, el número máximo que podrán usar al dar de alta las aristas.</li>
-  <li>El número de líneas a leer, donde cada línea representa a cada nodo con sus respectivas <strong>aristas</strong>.</li>
-  <li>Las diversas aristas que parten de un nodo, recordando que son cero (0) basados.</li>
-</ul>
-
-<p>Espero esta última parte quede clara. Recuerden que deben generar los algoritmos DFS y BFS, que deberan devolver los resultados correctos en cada caso.</p>
-
-<h2 id="programacin-mvil">Programación Móvil</h2>
-
-<p>Recuerden que aquellos que no lo han hecho, deben enviar el código fuente y el documento correspondiente a su primer laboratorio en cuanto les sea posible, preferentemente antes del día lunes, para poderlo revisar y asignar la calificación correspondiente.</p>
-
-<p>También es importante que para el mismo día tengan terminada o por lo menos avanzada en un buen porcentaje la aplicación (por equipos) del servicio bancario con las características mínimas que definimos en clase.</p>
-
-<h2 id="generales">Generales</h2>
-
-<p>Recuerden que para ambos cursos el examen será el día Lunes 15 en sus respectivas horas, por lo que los invito y les recomiendo que lleguen temprano a cada curso.</p>
-
-<p>El material esta disponible como siempre en la sección de diapositivas, y les agradecería cualquier comentario sobre errores de ortografía o errores de dislexia (que como han logrado observar me suceden a menudo) para realizar las debidas correciones y hacer que el material mejore día a día.</p>
-
-<p>Saludos y espero que el ritmo de publicación del material y avisos se regularice a partir de hoy.</p>
 ]]></content>
   </entry>
   
