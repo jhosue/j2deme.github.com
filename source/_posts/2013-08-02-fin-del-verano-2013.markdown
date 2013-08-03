@@ -1,0 +1,31 @@
+---
+layout: post
+title: "Fin del Verano 2013"
+date: 2013-08-02 19:00
+published: true
+comments: true
+categories: [IA, Movil]
+---
+
+Saludos a todos.
+
+Les publico las calificaciones finales para ambas materias, debo recordarles que estas calificaciones son __inapelables__, puesto que ya han sido entregadas en coordinación, y podrán verlas reflejadas en el SII y en sus respectivos kardex a partir del día __Lunes 5 de Agosto de 2013__.
+
+{% blockquote %}
+La paciencia recompensa... pero el esfuerzo honesto más.
+{% endblockquote %}
+
+<!-- more -->
+
+## Programación Móvil
+Sus calificaciones estan disponibles [aquí](https://dl.dropboxusercontent.com/u/1131727/Octopress/Calificaciones/Movil_Finales.pdf).
+
+## Inteligencia Artificial
+Sus calificaciones estan disponibles [aquí](https://dl.dropboxusercontent.com/u/1131727/Octopress/Calificaciones/IA_Finales.pdf).
+
+## Nota Final
+Espero que todos esten satisfechos con sus calificaciones, y que esten conformes con el resultado de sus esfuerzos, en caso de que no, les recomiendo cambiar algunas actitudes y aplicar sus habilidades para obtener un mejor resultado.
+
+Sin más por agregar, con esta publicación se dan por concluidos, los cursos de Inteligencia Artificial y Programación Móvil del período de Verano 2013.
+
+Saludos y suerte.
