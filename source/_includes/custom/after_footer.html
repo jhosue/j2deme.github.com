@@ -1,8 +1,13 @@
 {% comment %}
   Add content to be output at the bottom of each page. (You might use this for analytics scripts, for example)
 {% endcomment %}
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<!--<script src="//code.jquery.com/jquery.js"></script>-->
 <script src="{{ root_url }}/javascripts/jquery-1.9.1.min.js"></script>
 <script src="{{ root_url }}/javascripts/jquery.countdown.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="{{ root_url }}/javascripts/bootstrap.min.js"></script>
+
 <script>
 $(function() {
     $('.countdown').each(function(i){

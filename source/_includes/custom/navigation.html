@@ -1,6 +1,14 @@
-<ul class="main-navigation">
-  <li><a href="{{ root_url }}/">Blog</a></li>
-  <li><a href="{{ root_url }}/archivo">Archivo</a></li>
-  <li><a href="{{ root_url }}/clases">Clases</a></li>
-  <li><a href="{{ root_url }}/acerca">Acerca de</a></li>
-</ul>
+<li class="active"><a href="{{ root_url }}/">Blog</a></li>
+<li><a href="{{ root_url }}/archivo">Archivo</a></li>
+<li class="dropdown">
+  <a href="#" class="dropdown-toggle" data-toogle="dropdown">Clases <b class="caret"></b></a>
+  <ul class="dropdown-menu" role="menu">
+    <li class="dropdown-header">Materias</li>
+    <li><a href="{{ root_url }}/clases/BDD/">Bases de Datos Distribuidas</a></li>
+    <li><a href="{{ root_url }}/clases/FP/">Fundamentos de Programación</a></li>
+    <li><a href="{{ root_url }}/clases/TDB/">Taller de Base de Datos</a></li>
+    <li class="divider"></li>
+    <li><a href="{{ root_url }}/clases">Todas</a></li>
+  </ul>
+</li>
+<li><a href="{{ root_url }}/acerca">Acerca de</a></li>
