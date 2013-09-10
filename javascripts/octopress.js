@@ -42,11 +42,11 @@ function addSidebarToggler() {
 function testFeatures() {
   var features = ['maskImage'];
   $(features).map(function(feature) {
-    if (Modernizr.testAllProps(feature)) {
+    /*if (Modernizr.testAllProps(feature)) {
       $('html').addClass(feature);
     } else {
       $('html').addClass('no-'+feature);
-    }
+    }*/
   });
   if ("placeholder" in document.createElement("input")) {
     $('html').addClass('placeholder');
@@ -118,11 +118,11 @@ function renderDeliciousLinks(items) {
 }
 
 $.domReady(function() {
-  testFeatures();
+//  testFeatures();
   wrapFlashVideos();
   flashVideoFallback();
   addCodeLineNumbers();
-  getNav();
+//  getNav();
   addSidebarToggler();
 });
 
