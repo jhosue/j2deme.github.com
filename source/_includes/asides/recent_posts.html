@@ -1,5 +1,16 @@
+{% if site.simple_search %}
 <section>
-  <h1>Publicaciones recientes</h1>
+<form class="form-inline" role="search" action="{{ site.simple_search }}" method="get">
+  <div class="form-group">
+      <input type="hidden" name="q" value="site:{{ site.url | shorthand_url }}" />
+      <input type="text" name="q" results="10" class="form-control input-sm" placeholder="Buscar"/>
+  </div>
+  <button type="submit" class="btn btn-default btn-sm"><i class="glyphicon glyphicon-search"></i></button>
+</form>
+</section>
+{% endif %}
+<section>
+  <h3>Publicaciones recientes</h3>
   <ul id="recent_posts">
     {% for post in site.posts limit: site.recent_posts %}
       <li class="post">
