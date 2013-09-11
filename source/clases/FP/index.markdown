@@ -11,11 +11,61 @@ footer: false
 
 <h3>Material del Curso</h3>
 <h4>Diapositivas</h4>
-- [Unidad 1: Conceptos Básicos](https://dl.dropboxusercontent.com/u/1131727/Octopress/Clases/FP/Slides/U1.pdf)
+- [Unidad 1: Conceptos Básicos.](https://dl.dropboxusercontent.com/u/1131727/Octopress/Clases/FP/Slides/U1.pdf)
+- Unidad 2: Algoritmos.
+- Unidad 3: Introducción a la programación.
+- Unidad 4: Control de Flujo.
+- Unidad 5: Arreglos.
+
 
 <h3>Tareas y Prácticas</h3>
-<h4>Unidad 1 y 2</h4>
-- [Tarea 1](https://dl.dropboxusercontent.com/u/1131727/Octopress/Clases/FP/HW/Tarea1.txt)
+<dl class="dl-horizontal">
+  <dt>Unidad 1</dt>
+  <dd>
+    <ul class="list-inline">
+      <li><a href="https://dl.dropboxusercontent.com/u/1131727/Octopress/Clases/FP/HW/Tarea1.txt">Tarea 1</a></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </dd>
+  <dt>Unidad 2</dt>
+  <dd>
+    <ul class="list-inline">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </dd>
+  <dt>Unidad 3</dt>
+  <dd>
+    <ul class="list-inline">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </dd>
+  <dt>Unidad 4</dt>
+  <dd>
+    <ul class="list-inline">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </dd>
+  <dt>Unidad 5</dt>
+  <dd>
+    <ul class="list-inline">
+      <li></li>
+      <li></li>
+      <li></li>
+      <li></li>
+    </ul>
+  </dd>
+</dl>
 
 <h3>Enlaces Recomendados</h3>
 - [DevC++](http://www.bloodshed.net/devcpp.html)

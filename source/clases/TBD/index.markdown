@@ -14,12 +14,12 @@ footer: false
 <h3>Material del Curso</h3>
 <h4>Diapositivas</h4>
 - Unidad 1: Instalación y configuración de un SGBD.
-- [Unidad 2: Lenguaje de Definición de Datos (DDL)]()
-- [Unidad 3: Lenguaje de Manipulación de Datos (DML)]()
-- [Unidad 4: Seguridad]()
-- [Unidad 5: Transacciones]()
-- [Unidad 6: SQL Procedural]()
-- [Unidad 7: Conectividad de Bases de Datos]()
+- Unidad 2: Lenguaje de Definición de Datos (DDL).
+- Unidad 3: Lenguaje de Manipulación de Datos (DML).
+- Unidad 4: Seguridad.
+- Unidad 5: Transacciones.
+- Unidad 6: SQL Procedural.
+- Unidad 7: Conectividad de Bases de Datos.
 
 <h4>Libros</h4>
 
@@ -32,9 +32,58 @@ footer: false
   <ul class="list-inline">
       <li><a href="https://dl.dropboxusercontent.com/u/1131727/Octopress/Clases/TBD/HW/Tarea1.txt">Tarea 1</a></li>
       <li><a href="https://dl.dropboxusercontent.com/u/1131727/Octopress/Clases/TBD/HW/Tarea2.txt">Tarea 2</a></li>
-      <li><a href="https://dl.dropboxusercontent.com/u/1131727/Octopress/Clases/TBD/HW/Pr%C3%A1ctica1.txt">Práctica 1</a></li>
+      <li><a href="https://dl.dropboxusercontent.com/u/1131727/Octopress/Clases/TBD/HW/Pr%C3%A1ctica1.txt">Prácticas 1</a></li>
       <li><a href="https://dl.dropboxusercontent.com/u/1131727/Octopress/Clases/TBD/HW/Expo1.txt">Exposición</a></li>
   </ul>
+  </dd>
+  <dt>Unidad 2</dt>
+  <dd>
+    <ul class="list-inline">
+      <li><a href="https://dl.dropboxusercontent.com/u/1131727/Octopress/Clases/TBD/HW/Tarea3.txt">Tarea 3</a></li>
+      <li>Prácticas 2</li>
+      <li>Reporte de Prácticas</li>
+    </ul>
+  </dd>
+  <dt>Unidad 3</dt>
+  <dd>
+    <ul class="list-inline">
+      <li><a href="https://dl.dropboxusercontent.com/u/1131727/Octopress/Clases/TBD/HW/Tarea4.txt">Tarea 4</a></li>
+      <li>Prácticas 3</li>
+      <li>Reporte de Prácticas</li>
+    </ul>
+  </dd>
+  <dt>Unidad 4</dt>
+  <dd>
+    <ul class="list-inline">
+      <li>Tarea 5</li>
+      <li>Prácticas 4</li>
+      <li>Reporte de Prácticas</li>
+    </ul>
+  </dd>
+  <dt>Unidad 5</dt>
+  <dd>
+    <ul class="list-inline">
+      <li>Tarea 6</li>
+      <li>Prácticas 5</li>
+      <li>Reporte de Prácticas</li>
+    </ul>
+  </dd>
+  <dt>Unidad 6</dt>
+  <dd>
+    <ul class="list-inline">
+      <li>Tarea 7</li>
+      <li>Prácticas 6</li>
+      <li>Reporte de Prácticas</li>
+    </ul>
+  </dd>
+  <dt>Unidad 7</dt>
+  <dd>
+    <ul class="list-inline">
+      <li>Tarea 8</li>
+      <li>Prácticas 7</li>
+      <li>Proyecto Final</li>
+      <li>Exposición Final</li>
+    </ul>
   </dd>
 </dl>
 

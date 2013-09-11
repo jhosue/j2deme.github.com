@@ -14,9 +14,12 @@ footer: false
 <h3>Material del Curso</h3>
 <h4>Diapositivas</h4>
 - [Unidad 1: Fundamentos de Bases de Datos Distribuidas](https://dl.dropboxusercontent.com/u/1131727/Octopress/Clases/BDD/Slides/U1.pdf)
-- [Unidad 2: Diseño de Bases de Datos Distribuidas]()
-- [Unidad 3: Procesamiento de Consultas Distribuidas]()
-- [Unidad 4: Manejo de Transacciones]()
+- Unidad 2: Diseño de Bases de Datos Distribuidas
+- Unidad 3: Procesamiento de Consultas Distribuidas
+- Unidad 4: Manejo de Transacciones
+
+<h4>Ejemplos</h4>
+- Problema de las Emisoras [[png](https://dl.dropboxusercontent.com/u/1131727/Octopress/Clases/BDD/Slides/Ejemplos/P1BD.png)] [[dia](https://dl.dropboxusercontent.com/u/1131727/Octopress/Clases/BDD/Slides/Ejemplos/P1BD.dia)]
 
 <h4>Libros</h4>
 
@@ -28,33 +31,33 @@ footer: false
   <dd>
   <ul class="list-inline">
       <li><a href="https://dl.dropboxusercontent.com/u/1131727/Octopress/Clases/BDD/HW/Tarea1.txt">Tarea 1</a></li>
-      <li><a href="">Tarea 2</a></li>
-      <li><a href="">Tarea 3</a></li>
-      <li><a href="">Prácticas 1</a></li>
+      <li><a href="https://dl.dropboxusercontent.com/u/1131727/Octopress/Clases/BDD/HW/Tarea2.txt">Tarea 2</a></li>
+      <li><a href="https://dl.dropboxusercontent.com/u/1131727/Octopress/Clases/BDD/HW/Tarea3.txt">Tarea 3</a></li>
+      <li>Prácticas 1</li>
   </ul>
   </dd>
   <dt>Unidad 2</dt>
   <dd>
     <ul class="list-inline">
-      <li><a href="">Tarea 4</a></li>
-      <li><a href="">Expo</a></li>
-      <li><a href="">Prácticas 2</a></li>
+      <li>Tarea 4</li>
+      <li>Expo</li>
+      <li>Prácticas 2</li>
     </ul>
   </dd>
   <dt>Unidad 3</dt>
   <dd>
     <ul class="list-inline">
-      <li><a href="">Tarea 5</a></li>
-      <li><a href="">Prácticas 3</a></li>
-      <li><a href="">Reporte de Diseño</a></li>
+      <li>Tarea 5</li>
+      <li>Prácticas 3</li>
+      <li>Reporte de Diseño</li>
     </ul>
   </dd>
   <dt>Unidad 4</dt>
   <dd>
     <ul class="list-inline">
-      <li><a href="">Tarea 6</a></li>
-      <li><a href="">Prácticas 4</a></li>
-      <li><a href="">Proyecto Final</a></li>
+      <li>Tarea 6</li>
+      <li>Prácticas 4</li>
+      <li>Proyecto Final</li>
     </ul>
   </dd>
 </dl>
