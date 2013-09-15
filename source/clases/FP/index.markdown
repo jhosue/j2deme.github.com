@@ -12,7 +12,7 @@ footer: false
 <h3>Material del Curso</h3>
 <h4>Diapositivas</h4>
 - [Unidad 1: Conceptos Básicos.](https://dl.dropboxusercontent.com/u/1131727/Octopress/Clases/FP/Slides/U1.pdf)
-- Unidad 2: Algoritmos.
+- [Unidad 2: Algoritmos](https://dl.dropboxusercontent.com/u/1131727/Octopress/Clases/FP/Slides/U2.pdf). <span class="label label-danger">Incompleta</span>
 - Unidad 3: Introducción a la programación.
 - Unidad 4: Control de Flujo.
 - Unidad 5: Arreglos.
