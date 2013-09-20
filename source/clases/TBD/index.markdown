@@ -14,12 +14,12 @@ footer: false
 <h3>Material del Curso</h3>
 <h4>Diapositivas</h4>
 - Unidad 1: Instalación y configuración de un SGBD.
-- Unidad 2: Lenguaje de Definición de Datos (DDL).
-- Unidad 3: Lenguaje de Manipulación de Datos (DML).
-- Unidad 4: Seguridad.
-- Unidad 5: Transacciones.
-- Unidad 6: SQL Procedural.
-- Unidad 7: Conectividad de Bases de Datos.
+- [Unidad 2: Lenguaje de Definición de Datos (DDL)](https://dl.dropboxusercontent.com/u/1131727/Octopress/Clases/TBD/Slides/U2.pdf)
+- Unidad 3: Lenguaje de Manipulación de Datos (DML)
+- Unidad 4: Seguridad
+- Unidad 5: Transacciones
+- Unidad 6: SQL Procedural
+- Unidad 7: Conectividad de Bases de Datos
 
 <h4>Libros</h4>
 

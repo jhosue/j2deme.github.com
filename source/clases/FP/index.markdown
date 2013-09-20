@@ -17,6 +17,9 @@ footer: false
 - Unidad 4: Control de Flujo.
 - Unidad 5: Arreglos.
 
+<h4>Libros y Referencias</h4>
+- [Referencia C](https://dl.dropboxusercontent.com/u/1131727/Octopress/Clases/FP/Extras/C_Reference_Card.pdf)
+- [Referencia C++](https://dl.dropboxusercontent.com/u/1131727/Octopress/Clases/FP/Extras/Cpp_Reference_Card.pdf)
 
 <h3>Tareas y Prácticas</h3>
 <dl class="dl-horizontal">
@@ -24,8 +27,8 @@ footer: false
   <dd>
     <ul class="list-inline">
       <li><a href="https://dl.dropboxusercontent.com/u/1131727/Octopress/Clases/FP/HW/Tarea1.txt">Tarea 1</a></li>
-      <li></li>
-      <li></li>
+      <li>Tarea 2</li>
+      <li>Tarea 3</li>
       <li></li>
     </ul>
   </dd>
