@@ -15,7 +15,7 @@ footer: false
 <h4>Diapositivas</h4>
 - Unidad 1: Instalación y configuración de un SGBD.
 - [Unidad 2: Lenguaje de Definición de Datos (DDL)](https://dl.dropboxusercontent.com/u/1131727/Octopress/Clases/TBD/Slides/U2.pdf)
-- Unidad 3: Lenguaje de Manipulación de Datos (DML)
+- [Unidad 3: Lenguaje de Manipulación de Datos (DML)](https://dl.dropboxusercontent.com/u/1131727/Octopress/Clases/TBD/Slides/U3.pdf)
 - Unidad 4: Seguridad
 - Unidad 5: Transacciones
 - Unidad 6: SQL Procedural
