@@ -27,7 +27,7 @@ footer: false
   <dd>
     <ul class="list-inline">
       <li><a href="https://dl.dropboxusercontent.com/u/1131727/Octopress/Clases/FP/HW/Tarea1.txt">Tarea 1</a></li>
-      <li>Tarea 2</li>
+      <li><a href="https://dl.dropboxusercontent.com/u/1131727/Octopress/Clases/FP/HW/Tarea2.pdf">Tarea 2</a></li>
       <li>Tarea 3</li>
       <li></li>
     </ul>
